@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c52c4896-293e-4704-9ed2-f98c91428a85" name="Default Changelist" comment="" />
+    <list default="true" id="c52c4896-293e-4704-9ed2-f98c91428a85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/component/queryverifycode/GetQuerySendDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/component/queryverifycode/QueryUserPara.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/config/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/dao/impl/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/mapper/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/service/impl/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/util/SmsUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/util/WeChatLoginJsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -31,6 +49,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1eOw2foAIdEXhNSL6cLMIO7WpYM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -38,14 +59,44 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/component" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\391-WHU\AIGOV\backend\cloud-provider-login-8001\src\main\java\cn\edu\whu\ashman\component" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="LoginMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-login-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.whu.ashman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.LoginMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.LoginMain8001" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -59,37 +110,61 @@
       <updated>1594205741128</updated>
       <workItem from="1594205745111" duration="2170000" />
       <workItem from="1594213674904" duration="6195000" />
+      <workItem from="1594260472936" duration="15306000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1594223835842">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1594223835842" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1594224074218">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1594292360925">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594224074218" />
-    <state width="1537" height="282" key="GridCell.Tab.0.bottom" timestamp="1594224491063">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594292360925" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1594291856859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594224491063" />
-    <state width="1537" height="282" key="GridCell.Tab.0.center" timestamp="1594224491063">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594291856859" />
+    <state width="1537" height="451" key="GridCell.Tab.0.bottom" timestamp="1594292547302">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="282" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594224491063" />
-    <state width="1537" height="282" key="GridCell.Tab.0.left" timestamp="1594224491063">
+    <state width="1537" height="451" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594292547302" />
+    <state width="1537" height="451" key="GridCell.Tab.0.center" timestamp="1594292547302">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="282" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594224491063" />
-    <state width="1537" height="282" key="GridCell.Tab.0.right" timestamp="1594224491063">
+    <state width="1537" height="451" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594292547302" />
+    <state width="1537" height="451" key="GridCell.Tab.0.left" timestamp="1594292547302">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="282" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594224491063" />
+    <state width="1537" height="451" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594292547302" />
+    <state width="1537" height="451" key="GridCell.Tab.0.right" timestamp="1594292547302">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="451" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594292547302" />
+    <state width="1537" height="451" key="GridCell.Tab.1.bottom" timestamp="1594292547302">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="451" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594292547302" />
+    <state width="1537" height="451" key="GridCell.Tab.1.center" timestamp="1594292547302">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="451" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594292547302" />
+    <state width="1537" height="451" key="GridCell.Tab.1.left" timestamp="1594292547302">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="451" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594292547302" />
+    <state width="1537" height="451" key="GridCell.Tab.1.right" timestamp="1594292547302">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="451" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594292547302" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1594206083474">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -98,5 +173,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="174" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1594223146698" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594284301014">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594284301014" />
   </component>
 </project>
