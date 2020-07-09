@@ -1,6 +1,6 @@
 package cn.edu.whu.ashman.service;
 
-import cn.edu.whu.ashman.mapper.User;
+import cn.edu.whu.ashman.entities.User;
 import org.springframework.stereotype.Service;
 
 /**

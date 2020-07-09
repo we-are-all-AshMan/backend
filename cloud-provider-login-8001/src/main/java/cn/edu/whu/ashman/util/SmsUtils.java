@@ -20,7 +20,7 @@ public class SmsUtils {
     private static String phoneNumber = "123";
     private static int code;
 
-    public static void setPhoneNumber(String phoneNumber) {
+    private static void setPhoneNumber(String phoneNumber) {
         SmsUtils.phoneNumber = phoneNumber;
     }
 
@@ -28,7 +28,7 @@ public class SmsUtils {
         return code;
     }
 
-    public static void setCode() {
+    private static void setCode() {
         //随机生成一个四位的验证码
         code = (int)(Math.random()*9999)+100;
     }

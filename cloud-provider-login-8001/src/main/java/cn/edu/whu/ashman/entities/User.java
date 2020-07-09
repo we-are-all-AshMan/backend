@@ -1,4 +1,4 @@
-package cn.edu.whu.ashman.mapper;
+package cn.edu.whu.ashman.entities;
 
 /**
  * 用户实体类

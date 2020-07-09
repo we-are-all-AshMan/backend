@@ -1,6 +1,6 @@
 package cn.edu.whu.ashman.dao;
 
-import cn.edu.whu.ashman.mapper.User;
+import cn.edu.whu.ashman.entities.User;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
 
