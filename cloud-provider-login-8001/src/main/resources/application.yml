@@ -1,0 +1,13 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: cloud-login-service
+    datasource:
+       type: com.alibaba.druid.pool.DruidDataSource
+       driver-class-name: com.mysql.jdbc.Driver
+       url: jdbc:mysql://localhost:3306/aigov?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+       username: root
+       password: 123456
+# 准备采用基于注解的mybatis mapper
