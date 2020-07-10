@@ -61,6 +61,7 @@ public class SmsUtils {
         request.putQueryParameter("TemplateParam", "{\"code\":\""+code+"\"}");
         try {
             CommonResponse response = client.getCommonResponse(request);
+            System.out.println("验证码为："+code);
             return code;
             //System.out.println(response.getData());
         } catch (ServerException e) {

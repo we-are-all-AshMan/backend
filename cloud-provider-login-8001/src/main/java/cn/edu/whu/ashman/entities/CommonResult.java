@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
  * @date 2020-07-09 19:48
  */
 @Data
-@AllArgsConstructor
+//@AllArgsConstructor
 @NoArgsConstructor
 public class CommonResult<T> {
     //错误码：404
@@ -24,5 +24,10 @@ public class CommonResult<T> {
         this.code = code;
         this.message = message;
         this.data = null;
+    }
+    public CommonResult(Integer code,String message,T data){
+        this.code = code;
+        this.message = message;
+        this.data = data;
     }
 }

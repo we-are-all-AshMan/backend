@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
  * Created by Zhu yuhan
  * Date:2020/7/9 15:40
  **/
-@Service
 public interface IUserService {
 
     User selectUserByNameService(String userName);
