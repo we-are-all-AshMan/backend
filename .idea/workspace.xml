@@ -126,6 +126,9 @@
       <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+<<<<<<< HEAD
+>>>>>>> parent of bbe5893... 初步实现 问答机器人的框架
+=======
 >>>>>>> parent of bbe5893... 初步实现 问答机器人的框架
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/classes/META-INF/cloud-provider-login-8001.kotlin_module" beforeDir="false" />
@@ -270,6 +273,7 @@
       </method>
     </configuration>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <configuration name="NewsTest.saveNewsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cloud-provider-news-8005" />
       <extension name="coverage">
@@ -286,6 +290,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+=======
+>>>>>>> parent of bbe5893... 初步实现 问答机器人的框架
 =======
 >>>>>>> parent of bbe5893... 初步实现 问答机器人的框架
     <recent_temporary>
@@ -322,6 +328,9 @@
 =======
       <workItem from="1594344111450" duration="4246000" />
       <workItem from="1594365520855" duration="13397000" />
+<<<<<<< HEAD
+>>>>>>> parent of bbe5893... 初步实现 问答机器人的框架
+=======
 >>>>>>> parent of bbe5893... 初步实现 问答机器人的框架
     </task>
     <servers />
@@ -350,6 +359,7 @@
     </state>
     <state x="316" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1594295304523" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1594345715236">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -357,6 +367,8 @@
     <state width="1537" height="2" key="GridCell.Tab.0.bottom" timestamp="1594385866808">
       <screen x="0" y="0" width="1536" height="824" />
 =======
+=======
+>>>>>>> parent of bbe5893... 初步实现 问答机器人的框架
     <state x="549" y="169" key="FileChooserDialogImpl" timestamp="1594382616322">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -416,6 +428,7 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <state x="349" y="74" key="Registry/0.0.1536.824@0.0.1536.824" timestamp="1594363096124" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1594373177521">
       <screen x="0" y="0" width="1536" height="824" />
@@ -428,6 +441,8 @@
     <state x="425" y="187" key="run.anything.popup" timestamp="1594385778889">
       <screen x="0" y="0" width="1536" height="824" />
 =======
+=======
+>>>>>>> parent of bbe5893... 初步实现 问答机器人的框架
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594206083474" />
     <state x="270" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1594382627833" />
     <state x="262" y="126" key="new project wizard" timestamp="1594366309636">
