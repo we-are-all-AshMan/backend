@@ -1,8 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="c52c4896-293e-4704-9ed2-f98c91428a85" name="Default Changelist" comment="">
+=======
+    <list default="true" id="c52c4896-293e-4704-9ed2-f98c91428a85" name="Default Changelist" comment="初步问答机器人框架">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bots/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bots/mydomain/idiom.aiml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bots/splitters.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bots/substitutions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/cloud-provider-aiRobot-8004.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/LoginMain8004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/AliceBot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/AliceBotMother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/AliceBotTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/ChatterBeanException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/ContextPropertyChangeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/ContextRandomSeedChangeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/ContextTopicChangeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/Graphmaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/GraphmasterMother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/GraphmasterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/LoggerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/Match.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/MatchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/TestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/AIMLElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/AIMLHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/AIMLHandlerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/AIMLParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/AIMLParserConfigurationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/AIMLParserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/AIMLParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/AIMLStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Aiml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Bot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Br.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/CategoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Condition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Em.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Formal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Get.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Gossip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Id.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Javascript.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Learn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Li.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Lowercase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Person2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Random.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Sentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Set.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Size.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Sr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Srai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Star.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/System.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/SystemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Template.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/TemplateElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/TemplateElementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/That.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Thatstar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Think.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Topicstar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Uppercase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/aiml/Version.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/config/ConfigException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/config/TokenizerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/config/TokenizerConfigStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/parser/AliceBotParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/parser/AliceBotParserConfigurationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/parser/AliceBotParserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/parser/ContextParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/parser/ContextParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/parser/ReflectionBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/parser/ReflectionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/parser/SplitterHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/parser/SubstitutionBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/parser/TransformationsParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/script/BeanshellInterpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/script/Interpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/script/InterpretingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/text/ChineseSegmenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/text/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/text/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/text/Sentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/text/SentenceSplitter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/text/SentenceSplitterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/text/SentenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/text/Substitution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/text/SubstitutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/text/Tokenizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/text/TokenizerMother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/text/TokenizerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/text/Transformations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/text/TransformationsMother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/text/TransformationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/util/Escaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/util/Searcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/util/SearcherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/util/Sequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/util/SequenceMother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/util/SequenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/config/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/controller/ChatRobotController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/entities/MessageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/service/Chat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/service/Mother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+>>>>>>> parent of bbe5893... 初步实现 问答机器人的框架
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/classes/META-INF/cloud-provider-login-8001.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/classes/cn/edu/whu/ashman/LoginMain8001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/classes/cn/edu/whu/ashman/component/queryverifycode/GetQuerySendDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/classes/cn/edu/whu/ashman/component/queryverifycode/QueryUserPara.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/classes/cn/edu/whu/ashman/config/DruidConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/classes/cn/edu/whu/ashman/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/classes/cn/edu/whu/ashman/dao/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/classes/cn/edu/whu/ashman/entities/CommonResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/classes/cn/edu/whu/ashman/entities/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/classes/cn/edu/whu/ashman/service/IUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/classes/cn/edu/whu/ashman/service/impl/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/classes/cn/edu/whu/ashman/util/SmsUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/classes/cn/edu/whu/ashman/util/WeChatLoginJsonUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/test-classes/cn/edu/whu/ashman/test/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +269,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="NewsTest.saveNewsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cloud-provider-news-8005" />
       <extension name="coverage">
@@ -145,6 +286,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+=======
+>>>>>>> parent of bbe5893... 初步实现 问答机器人的框架
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.NewsTest.saveGlobalTest" />
@@ -170,11 +313,16 @@
       <workItem from="1594260472936" duration="15826000" />
       <workItem from="1594295274976" duration="3678000" />
       <workItem from="1594299053030" duration="45000" />
+<<<<<<< HEAD
       <workItem from="1594344111450" duration="8743000" />
       <workItem from="1594363126848" duration="1477000" />
       <workItem from="1594364632265" duration="6896000" />
       <workItem from="1594373163966" duration="5392000" />
       <workItem from="1594379152149" duration="8580000" />
+=======
+      <workItem from="1594344111450" duration="4246000" />
+      <workItem from="1594365520855" duration="13397000" />
+>>>>>>> parent of bbe5893... 初步实现 问答机器人的框架
     </task>
     <servers />
   </component>
@@ -201,12 +349,32 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="316" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1594295304523" />
+<<<<<<< HEAD
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1594345715236">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594345715236" />
     <state width="1537" height="2" key="GridCell.Tab.0.bottom" timestamp="1594385866808">
       <screen x="0" y="0" width="1536" height="824" />
+=======
+    <state x="549" y="169" key="FileChooserDialogImpl" timestamp="1594382616322">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594345715236" />
+    <state x="549" y="169" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1594382616322" />
+    <state width="1493" height="460" key="GridCell.Tab.0.bottom" timestamp="1594384311450">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1537" height="57" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594351856542" />
+    <state width="1493" height="460" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1594384311450" />
+    <state width="1493" height="460" key="GridCell.Tab.0.center" timestamp="1594384311450">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1537" height="57" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594351856541" />
+    <state width="1493" height="460" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1594384311450" />
+    <state width="1493" height="460" key="GridCell.Tab.0.left" timestamp="1594384311450">
+      <screen x="0" y="0" width="1536" height="834" />
+>>>>>>> parent of bbe5893... 初步实现 问答机器人的框架
     </state>
     <state width="1537" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594385866808" />
     <state width="1537" height="2" key="GridCell.Tab.0.center" timestamp="1594385866808">
@@ -228,6 +396,7 @@
     <state width="1537" height="102" key="GridCell.Tab.1.center" timestamp="1594379134721">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+<<<<<<< HEAD
     <state width="1537" height="102" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594379134721" />
     <state width="1537" height="102" key="GridCell.Tab.1.left" timestamp="1594379134721">
       <screen x="0" y="0" width="1536" height="824" />
@@ -235,11 +404,18 @@
     <state width="1537" height="102" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594379134721" />
     <state width="1537" height="102" key="GridCell.Tab.1.right" timestamp="1594379134721">
       <screen x="0" y="0" width="1536" height="824" />
+=======
+    <state width="1537" height="100" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594293080713" />
+    <state width="746" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1594383331937" />
+    <state x="408" y="121" key="NewModule_or_Project.wizard" timestamp="1594371123062">
+      <screen x="0" y="0" width="1536" height="834" />
+>>>>>>> parent of bbe5893... 初步实现 问答机器人的框架
     </state>
     <state width="1537" height="102" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594379134721" />
     <state x="349" y="74" key="Registry" timestamp="1594363096124">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+<<<<<<< HEAD
     <state x="349" y="74" key="Registry/0.0.1536.824@0.0.1536.824" timestamp="1594363096124" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1594373177521">
       <screen x="0" y="0" width="1536" height="824" />
@@ -251,6 +427,12 @@
     <state x="174" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1594388627025" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1594385778889">
       <screen x="0" y="0" width="1536" height="824" />
+=======
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594206083474" />
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1594382627833" />
+    <state x="262" y="126" key="new project wizard" timestamp="1594366309636">
+      <screen x="0" y="0" width="1536" height="834" />
+>>>>>>> parent of bbe5893... 初步实现 问答机器人的框架
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1594385778889" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594375896103">
