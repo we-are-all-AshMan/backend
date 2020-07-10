@@ -1,5 +1,5 @@
 /*
-Copyleft (C) 2005 Hélio Perroni Filho
+Copyleft (C) 2005 Hï¿½lio Perroni Filho
 xperroni@yahoo.com
 ICQ: 2490863
 
@@ -52,7 +52,7 @@ public class Date extends TemplateElement
 
   public String process(Match match)
   {	  
-	  java.lang.System.out.println("format:" + this.formatStr);
+	  //System.out.println("format:" + this.formatStr);
     try
     {
     	format.applyPattern(formatStr);

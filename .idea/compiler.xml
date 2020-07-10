@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-provider-aiRobot-8004" />
         <module name="cloud-provider-login-8001" />
+        <module name="cloud-provider-news-8005" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -1,5 +1,5 @@
 /*
-Copyleft (C) 2005 Hélio Perroni Filho
+Copyleft (C) 2005 Hï¿½lio Perroni Filho
 xperroni@yahoo.com
 ICQ: 2490863
 
@@ -40,7 +40,7 @@ public class TestSuite extends junit.framework.TestSuite
     suite.addTestSuite(bitoflife.chatterbean.AliceBotTest.class);
     suite.addTestSuite(bitoflife.chatterbean.GraphmasterTest.class);
     suite.addTestSuite(bitoflife.chatterbean.LoggerTest.class);
-    suite.addTestSuite(bitoflife.chatterbean.MatchTest.class);
+    suite.addTestSuite(MatchTest.class);
     suite.addTestSuite(bitoflife.chatterbean.aiml.AIMLHandlerTest.class);
     suite.addTestSuite(bitoflife.chatterbean.aiml.AIMLParserTest.class);
     suite.addTestSuite(bitoflife.chatterbean.aiml.CategoryTest.class);
