@@ -8,6 +8,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+/**
+ * @Author Liu WeiFan
+ * @create 2020年7月11日 20：56
+ */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest
 public class RobotTest {
@@ -32,6 +36,7 @@ public class RobotTest {
          //return bot.respond(input);*/
 
         System.err.println(chat.getRespond("你是谁"));
+        System.err.println(chat.getSimilarQuestion("是谁"));
 
     }
 }

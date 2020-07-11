@@ -12,7 +12,7 @@
 <category><pattern>I CAN NOT *</pattern><template>Why can't you do <set name="it"><person/></set>?</template></category>
 <category><pattern>MY INPUT</pattern> <template> 1:<input index="1"/> 	 2:<input index="2"/> 	 3:<input index="3"/> 	 4:<input index="4"/></template></category>
 <category><pattern>WHO</pattern><template>I AM alice 艾丽斯</template></category>
-<category><pattern>*谁*</pattern><template>我是艾丽斯</template></category>
+<category><pattern>*谁*</pattern><template>我是小艾</template></category>
 
 
 <category><pattern>*</pattern><template>sorry, what?</template></category>                                          

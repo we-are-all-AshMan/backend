@@ -18,6 +18,10 @@ import java.util.Map;
  *
  */
 //配置Druid数据源
+/**
+ * @Author Liu WeiFan
+ * @create 2020年7月11日 20：56
+ */
 @Configuration
 public class DruidConfig {
 
