@@ -4,6 +4,10 @@ server:
 spring:
   application:
     name: cloud-aiRobot-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
   datasource:
     druid:
       username: root

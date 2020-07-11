@@ -2,7 +2,11 @@ server:
   port: 8005
 spring:
   application:
-    name: cloud-news-service
+    name: nacos-provider-news
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
   datasource:
     druid:
       username: root

@@ -78,6 +78,11 @@
             <artifactId>ansj_seg</artifactId>
             <version>0.9</version>
         </dependency>
+        <!--注册服务中心-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
 
 
     </dependencies>

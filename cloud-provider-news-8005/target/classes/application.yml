@@ -3,6 +3,10 @@ server:
 spring:
   application:
     name: cloud-news-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
   datasource:
     druid:
       username: root
