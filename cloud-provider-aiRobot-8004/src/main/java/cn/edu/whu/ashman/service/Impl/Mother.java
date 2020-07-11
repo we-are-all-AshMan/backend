@@ -12,6 +12,10 @@ import cn.edu.whu.ashman.service.IMother;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
+/**
+ * @Author Liu WeiFan
+ * @create 2020年7月11日 20：56
+ */
 @Service
 public class Mother implements IMother {
     private ByteArrayOutputStream gossip;
