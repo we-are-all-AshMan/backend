@@ -34,4 +34,9 @@ public class UserService implements IUserService {
     public void deleteUserService(String userName) {
         userDao.deleteUser(userName);
     }
+
+    @Override
+    public User selectUserByTel(String tel) {
+        return userDao.selectUserByTel(tel);
+    }
 }

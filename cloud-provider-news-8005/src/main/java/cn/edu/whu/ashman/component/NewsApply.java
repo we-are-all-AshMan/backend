@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
  * @date 2020-07-10 18:28
  * 新闻应用组件类
  */
-@Component
+//@Component
 public class NewsApply {
 
     @Autowired
@@ -20,31 +20,31 @@ public class NewsApply {
     /**
      * 读取api并保存新闻进数据库
      */
-    public void saveNews(){
+    public int saveNews(){
         //NewsJsonExplainUtil newsJsonExplainUtil = new NewsJsonExplainUtil();
         //解析json新闻数据存数据库
-        newsJsonExplainUtil.jsonToNews();
+        return newsJsonExplainUtil.jsonToNews();
     }
 
     /**
      * 读取api并保存国内疫情数据进数据库
      */
-    public void saveDescNation(){
+    public int saveDescNation(){
         //解析json国内疫情数据存数据库
-        newsJsonExplainUtil.jsonToDescNation();
+        return newsJsonExplainUtil.jsonToDescNation();
     }
 
     /**
      * 读取api并保存外国疫情数据进数据库
      */
-    public void saveDescForeign(){
-        newsJsonExplainUtil.jsonToDescForeign();
+    public int saveDescForeign(){
+        return newsJsonExplainUtil.jsonToDescForeign();
     }
 
     /**
      * 读取api并保存全球疫情数据进数据库
      */
-    public void saveDescGlobal(){
-        newsJsonExplainUtil.jsonToDescGlobal();
+    public int saveDescGlobal(){
+        return newsJsonExplainUtil.jsonToDescGlobal();
     }
 }

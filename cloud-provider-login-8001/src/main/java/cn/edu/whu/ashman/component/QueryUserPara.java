@@ -1,4 +1,4 @@
-package cn.edu.whu.ashman.component.queryverifycode;
+package cn.edu.whu.ashman.component;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

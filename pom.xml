@@ -9,9 +9,12 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>cloud-provider-login-8001</module>
-    <module>cloud-provider-news</module>
     <module>cloud-provider-news-8005</module>
-      <module>cloud-provider-aiRobot-8004</module>
+    <module>cloud-provider-aiRobot-8004</module>
+    <module>cloud-api-commons</module>
+    <module>cloud-provider-nacos9001</module>
+    <module>cloud-consumer-login-85</module>
+    <module>cloud-config-nacos-client-3333</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -96,33 +99,55 @@
       </plugin>
     </plugins>
   </build>
-<!--  <build>
-    <pluginManagement>&lt;!&ndash; lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) &ndash;&gt;
+  <!--第三方maven私服-->
+  <repositories>
+    <repository>
+      <id>nexus-aliyun</id>
+      <name>Nexus aliyun</name>
+      <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+  <!--<pluginRepositories>
+    <pluginRepository>
+      <id>alimaven spring plugin</id>
+      <name>alimaven spring plugin</name>
+      <url>https://maven.aliyun.com/repository/spring-plugin</url>
+    </pluginRepository>
+  </pluginRepositories>-->
+
+  <!--  <build>
+      <pluginManagement>&lt;!&ndash; lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) &ndash;&gt;
+        <plugins>
+          <plugin>
+            <artifactId>maven-clean-plugin</artifactId>
+            <version>3.1.0</version>
+          </plugin>
+          <plugin>
+            <artifactId>maven-site-plugin</artifactId>
+            <version>3.7.1</version>
+          </plugin>
+          <plugin>
+            <artifactId>maven-project-info-reports-plugin</artifactId>
+            <version>3.0.0</version>
+          </plugin>
+        </plugins>
+      </pluginManagement>
       <plugins>
         <plugin>
-          <artifactId>maven-clean-plugin</artifactId>
-          <version>3.1.0</version>
-        </plugin>
-        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
-          <version>3.7.1</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-project-info-reports-plugin</artifactId>
-          <version>3.0.0</version>
+          <configuration>
+            <locales>en,fr</locales>
+          </configuration>
         </plugin>
       </plugins>
-    </pluginManagement>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-site-plugin</artifactId>
-        <configuration>
-          <locales>en,fr</locales>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>-->
+    </build>-->
 <!--
   <reporting>
     <plugins>

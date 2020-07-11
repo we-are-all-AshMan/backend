@@ -21,6 +21,8 @@ public class News {
      * summary TEXT,
      * infoSource char(50),
      * surl TEXT
+     * date char(20),
+     * tag int
      * );
      */
     private String id;
@@ -28,13 +30,18 @@ public class News {
     private String summary;
     private String infoSource;
     private String sUrl;
+    private String date;
+    private Integer tag;
 
-    public News(String id,String title,String summary, String infoSource,String sUrl){
+    public News(String id,String title,String summary, String infoSource,String sUrl,String date,
+            Integer tag){
         this.id = id;
         this.infoSource = infoSource;
         this.summary = summary;
         this.sUrl = sUrl;
         this.title = title;
+        this.date = date;
+        this.tag = tag;
     }
 
     @Override

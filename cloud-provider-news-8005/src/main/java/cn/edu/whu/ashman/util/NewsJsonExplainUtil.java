@@ -27,7 +27,7 @@ import java.util.Date;
  * 单例对象的深层理解
  * https://www.cnblogs.com/dengguangxue/p/11555453.html
  */
-@Service
+//@Service
 public class NewsJsonExplainUtil {
 
     Date dateNow = new Date();
@@ -70,30 +70,36 @@ public class NewsJsonExplainUtil {
     /**
      * 解析新闻并插入数据库
      */
-    public void jsonToNews(){
+    public int jsonToNews() {
+        Integer insertNews = 1;
         JSONArray newsList = newsJsonExplain().getJSONArray("news");
-        for (int i =0;i<newsList.length();i++) {
+        for (int i = 0; i < newsList.length(); i++) {
             JSONObject newObject = newsList.getJSONObject(i);
             String title = newObject.get("title").toString();
             String id = newObject.get("id").toString();
             String sourceUrl = newObject.get("sourceUrl").toString();
             String summary = newObject.get("summary").toString();
             String infoSource = newObject.get("infoSource").toString();
-            System.out.println("解析新闻"+i+"成功");
-            News news1 = new News(id,title,summary,infoSource,sourceUrl);
+            String date = simpleDateFormat.format(dateNow);
+            System.out.println("解析新闻" + i + "成功");
+            News news1 = new News(id, title, summary, infoSource, sourceUrl, date, 0);
             System.out.println(news1);
             int insert = iNewsService.insert(news1);
             //newsService.insert(news1);
-            if(insert>0) System.out.println("插入新闻"+i+"成功");
-            else System.out.println("插入新闻"+i+"失败");
+            if (insert > 0) System.out.println("插入新闻" + i + "成功");
+            else {
+                System.out.println("插入新闻" + i + "失败");
+                insertNews = -1;
+            }
             //System.out.println(title);
         }
+        return insertNews;
     }
 
     /**
      * 解析国内疫情数据并存数据库
      */
-    public void jsonToDescNation(){
+    public int jsonToDescNation(){
         JSONObject desc = newsJsonExplain().getJSONObject("desc");
         String date = simpleDateFormat.format(dateNow);
         String currentConfirmedCount = desc.get("currentConfirmedCount").toString();
@@ -115,11 +121,12 @@ public class NewsJsonExplainUtil {
         int insert = iDescNationService.insert(descNation);
         if(insert>0) System.out.println("插入国内疫情数据成功");
         else System.out.println("插入国内疫情数据失败");
+        return insert;
     }
     /**
      * 解析外国疫情数据并存数据库
      */
-    public void jsonToDescForeign(){
+    public int jsonToDescForeign(){
         JSONObject desc = newsJsonExplain().getJSONObject("desc");
         JSONObject foreign = desc.getJSONObject("foreignStatistics");
         String date = simpleDateFormat.format(dateNow);
@@ -142,11 +149,12 @@ public class NewsJsonExplainUtil {
         int insert = iDescForeignService.insert(descForeign);
         if(insert>0) System.out.println("插入外国疫情数据成功");
         else System.out.println("插入外国疫情数据失败");
+        return insert;
     }
     /**
      * 解析国际疫情数据并存数据库
      */
-    public void jsonToDescGlobal(){
+    public int jsonToDescGlobal(){
         JSONObject desc = newsJsonExplain().getJSONObject("desc");
         JSONObject global = desc.getJSONObject("globalStatistics");
         String date = simpleDateFormat.format(dateNow);
@@ -169,5 +177,6 @@ public class NewsJsonExplainUtil {
         int insert = iDescGlobalService.insert(descGlobal);
         if(insert>0) System.out.println("插入外国疫情数据成功");
         else System.out.println("插入外国疫情数据失败");
+        return insert;
     }
 }

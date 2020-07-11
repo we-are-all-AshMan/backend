@@ -1,14 +1,13 @@
 package cn.edu.whu.ashman.entities;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * 返回前端json数据和异常的泛型类
+ * 公共json数据返回类
  *
  * @author Zhuyuhan
- * @date 2020-07-09 19:48
+ * @date 2020-07-11 14:30
  */
 @Data
 //@AllArgsConstructor
@@ -20,12 +19,14 @@ public class CommonResult<T> {
     private String message;
     //json数据对象
     private T data;
-    public CommonResult(Integer code,String message){
+
+    public CommonResult(Integer code, String message) {
         this.code = code;
         this.message = message;
         this.data = null;
     }
-    public CommonResult(Integer code,String message,T data){
+
+    public CommonResult(Integer code, String message, T data) {
         this.code = code;
         this.message = message;
         this.data = data;
