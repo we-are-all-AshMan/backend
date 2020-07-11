@@ -19,26 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c52c4896-293e-4704-9ed2-f98c91428a85" name="Default Changelist" comment="初步实现 问答机器人的框架">
-      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/Bots/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/Bots/mydomain/idiom.aiml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/Bots/splitters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/Bots/substitutions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/service/IChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/service/IMother.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bots/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bots/mydomain/idiom.aiml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bots/splitters.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bots/substitutions.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/controller/ChatRobotController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/controller/ChatRobotController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/service/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/service/Impl/Chat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/service/Mother.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/service/Impl/Mother.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/test/java/cn/edu/whu/ashman/RobotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/test/java/cn/edu/whu/ashman/RobotTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/cn/edu/whu/ashman/controller/ChatRobotController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/cn/edu/whu/ashman/controller/ChatRobotController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/cn/edu/whu/ashman/service/Chat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/cn/edu/whu/ashman/service/Mother.class" beforeDir="false" />
-    </list>
+    <list default="true" id="c52c4896-293e-4704-9ed2-f98c91428a85" name="Default Changelist" comment="机器人问题预测，管理员的注册登录" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -257,7 +238,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594387645620</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="机器人问题预测，管理员的注册登录">
+      <created>1594475141080</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594475141080</updated>
+    </task>
+    <task id="LOCAL-00004" summary="机器人问题预测，管理员的注册登录">
+      <created>1594475206073</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594475206073</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +274,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="初步问答机器人框架" />
     <MESSAGE value="初步实现 问答机器人的框架" />
-    <option name="LAST_COMMIT_MESSAGE" value="初步实现 问答机器人的框架" />
+    <MESSAGE value="机器人问题预测，管理员的注册登录" />
+    <option name="LAST_COMMIT_MESSAGE" value="机器人问题预测，管理员的注册登录" />
   </component>
   <component name="WindowStateProjectService">
     <state x="403" y="11" key="#LoginMain8004" timestamp="1594392651181">
