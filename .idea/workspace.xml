@@ -20,7 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c52c4896-293e-4704-9ed2-f98c91428a85" name="Default Changelist" comment="初步实现 问答机器人的框架">
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/Bots/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/Bots/mydomain/idiom.aiml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/Bots/splitters.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/Bots/substitutions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/service/IChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/service/IMother.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bots/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bots/mydomain/idiom.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bots/splitters.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bots/substitutions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/controller/ChatRobotController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/controller/ChatRobotController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/service/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/service/Impl/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/service/Mother.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/service/Impl/Mother.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/test/java/cn/edu/whu/ashman/RobotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/test/java/cn/edu/whu/ashman/RobotTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/cn/edu/whu/ashman/controller/ChatRobotController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/cn/edu/whu/ashman/controller/ChatRobotController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/cn/edu/whu/ashman/service/Chat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/cn/edu/whu/ashman/service/Mother.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,32 +47,24 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\Users\Asus\Desktop\AIGOV\AIGOV\.idea" />
-      </set>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\391-WHU\J2EE\maven-repository\MavenRepository" />
-        <option name="mavenHome" value="C:/Program Files/Java/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="C:\Program Files\Java\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="localRepository" value="D:\maven\3.6.3\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/3.6.3/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\maven\3.6.3\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -78,16 +87,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/service" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="cn.edu.whu.ashman" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java" />
       <recent name="D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004" />
@@ -108,13 +115,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LoginMain8004">
+  <component name="RunManager" selected="JUnit.RobotTest.testRespond">
     <configuration name="Chat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.edu.whu.ashman.service.Chat" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu.whu.ashman.service.Impl.Chat" />
       <module name="cloud-provider-aiRobot-8004" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.edu.whu.ashman.service.*" />
+          <option name="PATTERN" value="cn.edu.whu.ashman.service.Impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,46 +129,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.messageCodeTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.edu.whu.ashman.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="cn.edu.whu.ashman.test.LoginTest" />
-      <option name="METHOD_NAME" value="messageCodeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.messageCodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cloud-provider-login-8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.edu.whu.ashman.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.edu.whu.ashman.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.edu.whu.ashman.test.LoginTest" />
-      <option name="METHOD_NAME" value="messageCodeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-provider-login-8001" />
+    <configuration name="RobotTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu.whu.ashman.RobotTest" />
+      <module name="cloud-provider-aiRobot-8004" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.edu.whu.ashman.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.LoginMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RobotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-aiRobot-8004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.whu.ashman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.edu.whu.ashman" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu.whu.ashman.RobotTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RobotTest.input" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-aiRobot-8004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.whu.ashman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.edu.whu.ashman" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu.whu.ashman.RobotTest" />
+      <option name="METHOD_NAME" value="input" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RobotTest.testRespond" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-aiRobot-8004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.whu.ashman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.edu.whu.ashman" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu.whu.ashman.RobotTest" />
+      <option name="METHOD_NAME" value="testRespond" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,35 +205,13 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RobotTest.testRespond" />
+        <item itemvalue="JUnit.RobotTest" />
+        <item itemvalue="Application.RobotTest" />
+        <item itemvalue="JUnit.RobotTest.input" />
         <item itemvalue="Application.Chat" />
-        <item itemvalue="JUnit.LoginTest.messageCodeTest (1)" />
-        <item itemvalue="JUnit.LoginTest.messageCodeTest" />
-        <item itemvalue="Spring Boot.LoginMain8001" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <option name="contentProportion" value="0.14920424" />
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -232,7 +233,8 @@
       <workItem from="1594389606427" duration="13000" />
       <workItem from="1594389725601" duration="365000" />
       <workItem from="1594390242980" duration="963000" />
-      <workItem from="1594391234342" duration="2269000" />
+      <workItem from="1594391234342" duration="322000" />
+      <workItem from="1594392189446" duration="4200000" />
     </task>
     <task id="LOCAL-00001" summary="初步问答机器人框架">
       <created>1594386612963</created>
@@ -252,20 +254,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -274,6 +275,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="初步实现 问答机器人的框架" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="403" y="11" key="#LoginMain8004" timestamp="1594392651181">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="403" y="11" key="#LoginMain8004/0.0.1536.834@0.0.1536.834" timestamp="1594392651181" />
     <state x="347" y="19" key="#LoginTest.messageCodeTest_(1)" timestamp="1594373407400">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -286,6 +291,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1594223835842" />
+    <state x="499" y="172" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1594393314042">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="172" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1594393314042" />
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1594292360925">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -306,51 +315,51 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="147" y="66" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1594387588162" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1594390229329">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="549" y="169" key="FileChooserDialogImpl" timestamp="1594392732168">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594390229329" />
-    <state x="549" y="169" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1594387456137" />
-    <state width="1282" height="29" key="GridCell.Tab.0.bottom" timestamp="1594394488472">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="549" y="169" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1594392732168" />
+    <state width="1493" height="167" key="GridCell.Tab.0.bottom" timestamp="1594395970656">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1282" height="29" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594394488472" />
-    <state width="746" height="265" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1594389258866" />
-    <state width="1282" height="29" key="GridCell.Tab.0.center" timestamp="1594394488472">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1282" height="48" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594391753650" />
+    <state width="1493" height="167" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1594395970656" />
+    <state width="1493" height="167" key="GridCell.Tab.0.center" timestamp="1594395970656">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1282" height="29" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594394488472" />
-    <state width="746" height="265" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1594389258866" />
-    <state width="1282" height="29" key="GridCell.Tab.0.left" timestamp="1594394488472">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1282" height="48" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594391753650" />
+    <state width="1493" height="167" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1594395970656" />
+    <state width="1493" height="167" key="GridCell.Tab.0.left" timestamp="1594395970655">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1282" height="29" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594394488472" />
-    <state width="746" height="265" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1594389258866" />
-    <state width="1282" height="29" key="GridCell.Tab.0.right" timestamp="1594394488472">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1282" height="48" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594391753650" />
+    <state width="1493" height="167" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1594395970655" />
+    <state width="1493" height="167" key="GridCell.Tab.0.right" timestamp="1594395970656">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1282" height="29" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594394488472" />
-    <state width="746" height="265" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1594389258866" />
-    <state width="1282" height="29" key="GridCell.Tab.1.bottom" timestamp="1594394488472">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1282" height="48" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594391753650" />
+    <state width="1493" height="167" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1594395970656" />
+    <state width="1245" height="646" key="GridCell.Tab.1.bottom" timestamp="1594395678710">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1282" height="29" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594394488472" />
-    <state width="746" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1594389258866" />
-    <state width="1282" height="29" key="GridCell.Tab.1.center" timestamp="1594394488472">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1282" height="48" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594391753650" />
+    <state width="1245" height="646" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1594395678710" />
+    <state width="1245" height="646" key="GridCell.Tab.1.center" timestamp="1594395678709">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1282" height="29" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594394488472" />
-    <state width="746" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1594389258866" />
-    <state width="1282" height="29" key="GridCell.Tab.1.left" timestamp="1594394488472">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1282" height="48" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594391753650" />
+    <state width="1245" height="646" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1594395678709" />
+    <state width="1245" height="646" key="GridCell.Tab.1.left" timestamp="1594395678709">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1282" height="29" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594394488472" />
-    <state width="746" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1594389258866" />
-    <state width="1282" height="29" key="GridCell.Tab.1.right" timestamp="1594394488472">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1282" height="48" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594391753650" />
+    <state width="1245" height="646" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1594395678709" />
+    <state width="1245" height="646" key="GridCell.Tab.1.right" timestamp="1594395678710">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1282" height="29" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594394488472" />
-    <state width="746" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1594389258866" />
+    <state width="1282" height="48" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594391753650" />
+    <state width="1245" height="646" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1594395678710" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1594391077995">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -363,28 +372,43 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="408" y="121" key="NewModule_or_Project.wizard/0.0.1536.834@0.0.1536.834" timestamp="1594371123062" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1594392310934">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594392310934" />
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1594382627833" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1594387674749">
+    <state x="270" y="0" key="SettingsEditor" timestamp="1594392733950">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1594387674749" />
-    <state x="459" y="204" key="git4idea.merge.GitPullDialog" timestamp="1594387461646">
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594389784942" />
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1594392733950" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1594396388847">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="459" y="204" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1594387461646" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1594396388847" />
+    <state x="565" y="195" key="chooseDestDirectoryDialog" timestamp="1594394624680">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="565" y="195" key="chooseDestDirectoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1594394624680" />
+    <state x="459" y="204" key="git4idea.merge.GitPullDialog" timestamp="1594393052110">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="459" y="204" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1594393052110" />
     <state x="174" y="44" key="new project wizard" timestamp="1594390292810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="174" y="44" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1594390292810" />
     <state x="262" y="126" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1594366309636" />
-    <state x="431" y="147" width="672" height="687" key="search.everywhere.popup" timestamp="1594381752823">
+    <state x="431" y="147" width="672" height="687" key="search.everywhere.popup" timestamp="1594392683848">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594344778629" />
-    <state x="431" y="147" width="672" height="687" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1594381752823" />
+    <state x="431" y="147" width="672" height="687" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1594392683848" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/test/java/cn/edu/whu/ashman/RobotTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
