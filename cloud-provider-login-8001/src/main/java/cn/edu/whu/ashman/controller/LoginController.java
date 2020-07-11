@@ -1,5 +1,6 @@
 package cn.edu.whu.ashman.controller;
 
+
 import cn.edu.whu.ashman.entities.CommonResult;
 import cn.edu.whu.ashman.entities.User;
 import cn.edu.whu.ashman.service.IUserService;
@@ -9,7 +10,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.annotation.Resource;
 import java.util.Map;
 
 /**
@@ -103,6 +103,19 @@ public class LoginController {
         CommonResult commonResult = null;
         User user = iUserService.selectUserByNameService(username);
         commonResult = new CommonResult(202,"查询用户成功",user);
+        return commonResult;
+    }
+
+    @PostMapping("/login/signIn")
+    public CommonResult signIn(@RequestParam("tel") String tel,@RequestParam("password") String password){
+        CommonResult commonResult = null;
+        User userByTel = iUserService.selectUserByTel(tel);
+        if(userByTel.getPassword().equals(password)){
+            commonResult = new CommonResult(203,"登录成功",userByTel);
+        }
+        else {
+            commonResult = new CommonResult(400,"手机号或密码不正确",null);
+        }
         return commonResult;
     }
 }

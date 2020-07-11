@@ -11,7 +11,11 @@ public interface INewsService {
 
     Collection<News> getAllNews();
 
+    Collection<News> getNewsByDate(String date);
+
     int insert(News news);
 
     int delete(String id);
+
+    int update(String id);
 }

@@ -19,7 +19,49 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c52c4896-293e-4704-9ed2-f98c91428a85" name="Default Changelist" comment="机器人问题预测，管理员的注册登录" />
+    <list default="true" id="c52c4896-293e-4704-9ed2-f98c91428a85" name="Default Changelist" comment="初步实现 问答机器人的框架">
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/cn/edu/whu/ashman/entities/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-nacos-client-3333/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-nacos-client-3333/src/main/java/cn/edu/whu/ashman/NacosConfigClientMain3333.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-nacos-client-3333/src/main/java/cn/edu/whu/ashman/controller/ConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-nacos-client-3333/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-nacos-client-3333/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-login-85/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-login-85/src/main/java/cn/edu/whu/ashman/ConsumerLoginMain85.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-login-85/src/main/java/cn/edu/whu/ashman/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-login-85/src/main/java/cn/edu/whu/ashman/controller/ConsumerLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-login-85/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/configuration/NewsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/controller/NewsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/component/queryverifycode/GetQuerySendDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/component/GetQuerySendDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/component/queryverifycode/QueryUserPara.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/component/QueryUserPara.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/entities/CommonResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/service/impl/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/service/impl/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/classes/cn/edu/whu/ashman/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/target/classes/cn/edu/whu/ashman/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/classes/cn/edu/whu/ashman/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/target/classes/cn/edu/whu/ashman/dao/IUserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/INewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/INewsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/impl/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/impl/NewsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/component/NewsApply.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/component/NewsApply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/dao/INewsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/dao/INewsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/entities/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/entities/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/util/NewsJsonExplainUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/util/NewsJsonExplainUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/INewsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/INewsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/impl/NewsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/impl/NewsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/component/NewsApply.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/component/NewsApply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/dao/INewsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/dao/INewsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/entities/DescNation.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/entities/DescNation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/entities/News.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/entities/News.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/util/NewsJsonExplainUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/util/NewsJsonExplainUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/test-classes/cn/edu/whu/ashman/NewsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/test-classes/cn/edu/whu/ashman/NewsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,8 +70,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -39,16 +81,20 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\maven\3.6.3\repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/3.6.3/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="D:\maven\3.6.3\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="localRepository" value="D:\391-WHU\J2EE\maven-repository\MavenRepository" />
+        <option name="mavenHome" value="C:/Program Files/Java/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\Program Files\Java\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1eOw2foAIdEXhNSL6cLMIO7WpYM" />
   <component name="ProjectLevelVcsManager">
@@ -69,24 +115,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/service" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../软件工程概论/FinalHomework/TeleBook2.0" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.edu.whu.ashman.entities" />
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java" />
       <recent name="D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004" />
       <recent name="D:\gitForIdea\AIGOV\cloud-provider-aiRobot-8002" />
       <recent name="D:\391-WHU\AIGOV\backend\cloud-provider-login-8001\src\main\java\cn\edu\whu\ashman\component" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -96,20 +143,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RobotTest.testRespond">
-    <configuration name="Chat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.edu.whu.ashman.service.Impl.Chat" />
-      <module name="cloud-provider-aiRobot-8004" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.edu.whu.ashman.service.Impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.ConsumerLoginMain85">
     <configuration name="RobotTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.edu.whu.ashman.RobotTest" />
       <module name="cloud-provider-aiRobot-8004" />
@@ -138,22 +172,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RobotTest.input" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cloud-provider-aiRobot-8004" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.edu.whu.ashman.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.edu.whu.ashman" />
-      <option name="MAIN_CLASS_NAME" value="cn.edu.whu.ashman.RobotTest" />
-      <option name="METHOD_NAME" value="input" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RobotTest.testRespond" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cloud-provider-aiRobot-8004" />
       <extension name="coverage">
@@ -166,6 +184,19 @@
       <option name="MAIN_CLASS_NAME" value="cn.edu.whu.ashman.RobotTest" />
       <option name="METHOD_NAME" value="testRespond" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerLoginMain85" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-login-85" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.whu.ashman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.ConsumerLoginMain85" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -184,6 +215,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NacosMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-nacos-9001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.whu.ashman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.NacosMain9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NewsMain8005" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-news-8005" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.NewsMain8005" />
@@ -193,13 +237,35 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConsumerLoginMain85" />
+        <item itemvalue="Spring Boot.NacosMain9001" />
         <item itemvalue="JUnit.RobotTest.testRespond" />
         <item itemvalue="JUnit.RobotTest" />
         <item itemvalue="Application.RobotTest" />
-        <item itemvalue="JUnit.RobotTest.input" />
-        <item itemvalue="Application.Chat" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -223,6 +289,8 @@
       <workItem from="1594390242980" duration="963000" />
       <workItem from="1594391234342" duration="322000" />
       <workItem from="1594392189446" duration="4200000" />
+      <workItem from="1594428509685" duration="7994000" />
+      <workItem from="1594448199958" duration="12200000" />
     </task>
     <task id="LOCAL-00001" summary="初步问答机器人框架">
       <created>1594386612963</created>
@@ -238,44 +306,30 @@
       <option name="project" value="LOCAL" />
       <updated>1594387645620</updated>
     </task>
-    <task id="LOCAL-00003" summary="机器人问题预测，管理员的注册登录">
-      <created>1594475141080</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1594475141080</updated>
-    </task>
-    <task id="LOCAL-00004" summary="机器人问题预测，管理员的注册登录">
-      <created>1594475206073</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1594475206073</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="初步问答机器人框架" />
     <MESSAGE value="初步实现 问答机器人的框架" />
-    <MESSAGE value="机器人问题预测，管理员的注册登录" />
-    <option name="LAST_COMMIT_MESSAGE" value="机器人问题预测，管理员的注册登录" />
+    <option name="LAST_COMMIT_MESSAGE" value="初步实现 问答机器人的框架" />
   </component>
   <component name="WindowStateProjectService">
     <state x="403" y="11" key="#LoginMain8004" timestamp="1594392651181">
@@ -298,10 +352,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="172" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1594393314042" />
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1594292360925">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1594437284075">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594292360925" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594437284075" />
     <state x="773" y="160" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1594382625467">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -318,50 +372,50 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="147" y="66" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1594387588162" />
-    <state x="549" y="169" key="FileChooserDialogImpl" timestamp="1594392732168">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1594435379794">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594390229329" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594435379794" />
     <state x="549" y="169" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1594392732168" />
-    <state width="1493" height="167" key="GridCell.Tab.0.bottom" timestamp="1594395970656">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1055" height="109" key="GridCell.Tab.0.bottom" timestamp="1594471413355">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1282" height="48" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594391753650" />
+    <state width="1055" height="109" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594471413355" />
     <state width="1493" height="167" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1594395970656" />
-    <state width="1493" height="167" key="GridCell.Tab.0.center" timestamp="1594395970656">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1055" height="109" key="GridCell.Tab.0.center" timestamp="1594471413354">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1282" height="48" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594391753650" />
+    <state width="1055" height="109" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594471413354" />
     <state width="1493" height="167" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1594395970656" />
-    <state width="1493" height="167" key="GridCell.Tab.0.left" timestamp="1594395970655">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1055" height="109" key="GridCell.Tab.0.left" timestamp="1594471413354">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1282" height="48" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594391753650" />
+    <state width="1055" height="109" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594471413354" />
     <state width="1493" height="167" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1594395970655" />
-    <state width="1493" height="167" key="GridCell.Tab.0.right" timestamp="1594395970656">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1055" height="109" key="GridCell.Tab.0.right" timestamp="1594471413355">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1282" height="48" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594391753650" />
+    <state width="1055" height="109" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594471413355" />
     <state width="1493" height="167" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1594395970656" />
-    <state width="1245" height="646" key="GridCell.Tab.1.bottom" timestamp="1594395678710">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1055" height="109" key="GridCell.Tab.1.bottom" timestamp="1594471413356">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1282" height="48" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594391753650" />
+    <state width="1055" height="109" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594471413356" />
     <state width="1245" height="646" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1594395678710" />
-    <state width="1245" height="646" key="GridCell.Tab.1.center" timestamp="1594395678709">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1055" height="109" key="GridCell.Tab.1.center" timestamp="1594471413356">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1282" height="48" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594391753650" />
+    <state width="1055" height="109" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594471413356" />
     <state width="1245" height="646" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1594395678709" />
-    <state width="1245" height="646" key="GridCell.Tab.1.left" timestamp="1594395678709">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1055" height="109" key="GridCell.Tab.1.left" timestamp="1594471413355">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1282" height="48" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594391753650" />
+    <state width="1055" height="109" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594471413355" />
     <state width="1245" height="646" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1594395678709" />
-    <state width="1245" height="646" key="GridCell.Tab.1.right" timestamp="1594395678710">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1055" height="109" key="GridCell.Tab.1.right" timestamp="1594471413356">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1282" height="48" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594391753650" />
+    <state width="1055" height="109" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594471413356" />
     <state width="1245" height="646" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1594395678710" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1594391077995">
       <screen x="0" y="0" width="1536" height="824" />
@@ -375,10 +429,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="408" y="121" key="NewModule_or_Project.wizard/0.0.1536.834@0.0.1536.834" timestamp="1594371123062" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1594392733950">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1594448630314">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594389784942" />
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594448630314" />
     <state x="270" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1594392733950" />
     <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1594396388847">
       <screen x="0" y="0" width="1536" height="834" />
@@ -388,19 +442,19 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="565" y="195" key="chooseDestDirectoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1594394624680" />
-    <state x="459" y="204" key="git4idea.merge.GitPullDialog" timestamp="1594475209713">
+    <state x="459" y="204" key="git4idea.merge.GitPullDialog" timestamp="1594393052110">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="459" y="204" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1594475209713" />
-    <state x="174" y="44" key="new project wizard" timestamp="1594390292810">
+    <state x="459" y="204" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1594393052110" />
+    <state x="134" y="100" key="new project wizard" timestamp="1594471455876">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="174" y="44" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1594390292810" />
+    <state x="134" y="100" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1594471455876" />
     <state x="262" y="126" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1594366309636" />
-    <state x="431" y="147" width="672" height="687" key="search.everywhere.popup" timestamp="1594392683848">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594472355334">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594344778629" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594472355334" />
     <state x="431" y="147" width="672" height="687" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1594392683848" />
   </component>
   <component name="XDebuggerManager">

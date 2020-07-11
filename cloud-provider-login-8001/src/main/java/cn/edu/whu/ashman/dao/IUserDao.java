@@ -23,6 +23,9 @@ public interface IUserDao {
     @Select("select * from users where userName=#{userName}")
     User selectUserByName(String userName);
 
+    @Select("select * from users where tel=#{tel}")
+    User selectUserByTel(String tel);
+
     /**
      * 插入User
      */

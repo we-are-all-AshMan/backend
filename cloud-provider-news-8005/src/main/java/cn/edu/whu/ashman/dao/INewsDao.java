@@ -1,10 +1,7 @@
 package cn.edu.whu.ashman.dao;
 
 import cn.edu.whu.ashman.entities.News;
-import org.apache.ibatis.annotations.Delete;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Repository;
 
@@ -20,9 +17,15 @@ public interface INewsDao {
     @Select("select * from news")
     Collection<News> getAllNews();
 
-    @Insert("insert into news values (#{id},#{title},#{summary},#{infoSource},#{sUrl})")
+    @Select("select * from news where date = #{date}")
+    Collection<News> getNewsByDate(String date);
+
+    @Insert("insert into news values (#{id},#{title},#{summary},#{infoSource},#{sUrl},#{date},#{tag})")
     int insert(News news);
 
     @Delete("delete from news where id = #{id}")
     int delete(String id);
+
+    @Update("update news set tag = tag+1 where id = #{id}")
+    int update(String id);
 }

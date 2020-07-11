@@ -1,7 +1,7 @@
 package cn.edu.whu.ashman.service;
 
+
 import cn.edu.whu.ashman.entities.User;
-import org.springframework.stereotype.Service;
 
 /**
  * Created by Zhu yuhan
@@ -16,4 +16,6 @@ public interface IUserService {
     void updateUserService(User user);
 
     void deleteUserService(String userName);
+
+    User selectUserByTel(String tel);
 }

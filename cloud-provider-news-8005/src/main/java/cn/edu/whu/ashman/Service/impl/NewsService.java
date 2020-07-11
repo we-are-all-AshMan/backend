@@ -25,6 +25,11 @@ public class NewsService implements INewsService {
     }
 
     @Override
+    public Collection<News> getNewsByDate(String date) {
+        return iNewsDao.getNewsByDate(date);
+    }
+
+    @Override
     public int insert(News news) {
         return iNewsDao.insert(news);
     }
@@ -32,5 +37,10 @@ public class NewsService implements INewsService {
     @Override
     public int delete(String id) {
         return iNewsDao.delete(id);
+    }
+
+    @Override
+    public int update(String id) {
+        return iNewsDao.update(id);
     }
 }

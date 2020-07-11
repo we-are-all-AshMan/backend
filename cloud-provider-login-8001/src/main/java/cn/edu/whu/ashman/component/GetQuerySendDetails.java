@@ -1,4 +1,4 @@
-package cn.edu.whu.ashman.component.queryverifycode;
+package cn.edu.whu.ashman.component;
 
 import com.aliyuncs.CommonRequest;
 import com.aliyuncs.CommonResponse;

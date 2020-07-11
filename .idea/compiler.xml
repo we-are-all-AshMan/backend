@@ -7,13 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-provider-aiRobot-8004" />
+        <module name="cloud-api-commons" />
+        <module name="cloud-consumer-login-85" />
         <module name="cloud-provider-login-8001" />
+        <module name="cloud-provider-aiRobot-8004" />
+        <module name="cloud-config-nacos-client-3333" />
         <module name="cloud-provider-news-8005" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cloudproviderlogin8001" target="1.8" />
+      <module name="cloud-provider-nacos-9001" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
