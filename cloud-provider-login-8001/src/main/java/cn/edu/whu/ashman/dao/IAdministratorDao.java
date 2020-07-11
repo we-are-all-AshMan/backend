@@ -40,7 +40,6 @@ public interface IAdministratorDao {
 
     /**
      * 删除administrator
-     * @param administrator
      */
     @Delete("delete from administrator where userName=#{userName}")
     void deleteAdministrator(String userName);

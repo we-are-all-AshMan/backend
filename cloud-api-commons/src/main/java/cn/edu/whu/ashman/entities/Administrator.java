@@ -12,12 +12,15 @@ public class Administrator {
     private String userName;
     private String password;
     private String tel;
-    public Administrator(String username,String password,String tel){
-        this.userName = username;
+    public Administrator(String userName, String password, String tel){
+        this.userName = userName;
         this.password = password;
         this.tel = tel;
     }
-
+    public Administrator(String userName, String password){
+        this.userName = userName;
+        this.password = password;
+    }
     public int getId() {
         return id;
     }

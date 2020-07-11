@@ -8,10 +8,7 @@ import cn.edu.whu.ashman.service.impl.AdministratorService;
 import cn.edu.whu.ashman.util.SmsUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @Author Liu WeiFan
@@ -48,7 +45,7 @@ public class AdministratorLoginController {
      * @return
      */
     @PostMapping("/administrator/login/createByPhone/{code}")
-    public CommonResult createUserByPhone(Administrator administrator, @PathVariable("code") int code){
+    public CommonResult createUserByPhone(@RequestBody Administrator administrator, @PathVariable("code") int code){
         CommonResult commonResult = null;
         if(code==SmsUtils.getCode()) {
             administratorService.insertAdministratorService(administrator);
@@ -62,21 +59,18 @@ public class AdministratorLoginController {
 
     /**
      * 登录
-     * @param userName
-     * @param password
      * @return
      */
     @PostMapping("/administrator/logIn/signIn")
-    public CommonResult signIn(@PathVariable("uerName") String userName,
-                               @PathVariable("password") String password){
+    public CommonResult signIn(@RequestBody Administrator administrator){
         CommonResult commonResult =null;
-        if(administratorService.selectAdministratorByNameService(userName) == null){
+        if(administratorService.selectAdministratorByNameService(administrator.getUserName()) == null){
             commonResult = new CommonResult(202,"该用户不存在");
         }
-        else if(administratorService.selectAdministratorByNameService(userName).getPassword() == password){
-            commonResult = new CommonResult(203,"密码正确");
+        else if(administratorService.selectAdministratorByNameService(administrator.getUserName()).getPassword().equals(administrator.getPassword())){
+            commonResult = new CommonResult(203,"管理员密码正确");
         }else {
-            commonResult =new CommonResult(204,"密码错误");
+            commonResult =new CommonResult(204,"管理员密码错误");
         }
         return commonResult;
     }
@@ -87,9 +81,9 @@ public class AdministratorLoginController {
      * @return
      */
     @PostMapping("/administrator/login/update")
-    public CommonResult updateUser(Administrator administrator){
+    public CommonResult updateUser(@RequestBody Administrator administrator){
         administratorService.updateAdministratorService(administrator);
-        CommonResult commonResult = new CommonResult(201,"密码修改成功");
+        CommonResult commonResult = new CommonResult(201,"管理员密码修改成功");
         return commonResult;
     }
 

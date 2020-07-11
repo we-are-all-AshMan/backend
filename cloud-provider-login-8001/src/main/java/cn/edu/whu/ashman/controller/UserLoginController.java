@@ -20,7 +20,7 @@ import java.util.Map;
  */
 @RestController
 @Slf4j//加日志
-public class LoginController {
+public class UserLoginController {
     @Autowired
     private IUserService iUserService;
 
@@ -46,7 +46,7 @@ public class LoginController {
      * @return
      */
     @PostMapping("/login/createByPhone/{code}")
-    public CommonResult createUserByPhone(User user,@PathVariable("code") int code){
+    public CommonResult createUserByPhone(@RequestBody User user,@PathVariable("code") int code){
         CommonResult commonResult = null;
         if(code==SmsUtils.getCode()) {
             iUserService.insertUserService(user);
@@ -70,7 +70,7 @@ public class LoginController {
      * @return
      */
     @PostMapping("/login/createByWeChat")
-    public CommonResult createUserByWeChat(String userJson){
+    public CommonResult createUserByWeChat(@RequestBody String userJson){
         User user = null;
         Map<String, String> loginData = WeChatLoginJsonUtil.getLoginData(userJson);
         user = new User(null,null,null,loginData.get("openId"),loginData.get("unionId"));
@@ -86,7 +86,7 @@ public class LoginController {
      * @return
      */
     @PostMapping("/login/update")
-    public CommonResult updateUser(User user){
+    public CommonResult updateUser(@RequestBody User user){
         iUserService.updateUserService(user);
         System.out.println("修改用户名或密码为："+user);
         CommonResult commonResult = new CommonResult(201,"用户修改成功");
@@ -107,10 +107,10 @@ public class LoginController {
     }
 
     @PostMapping("/login/signIn")
-    public CommonResult signIn(@RequestParam("tel") String tel,@RequestParam("password") String password){
+    public CommonResult signIn(@RequestBody User user){
         CommonResult commonResult = null;
-        User userByTel = iUserService.selectUserByTel(tel);
-        if(userByTel.getPassword().equals(password)){
+        User userByTel = iUserService.selectUserByTel(user.getTel());
+        if(userByTel.getPassword().equals(user.getPassword())){
             commonResult = new CommonResult(203,"登录成功",userByTel);
         }
         else {

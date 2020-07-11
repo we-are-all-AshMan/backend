@@ -24,6 +24,11 @@ public class User {
         this.unionId = unionId;
         this.tel = tel;
     }
+    public User(String password, String tel){
+        this.password = password;
+        this.tel = tel;
+    }
+
     public int getId() {
         return id;
     }
