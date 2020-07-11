@@ -1,0 +1,14 @@
+server:
+  port: 88
+spring:
+  application:
+    name: nacos-consumer-news
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+#消费者将要访问的微服务名称(注册成功进nacos的微服务提供者）
+service-url:
+  nacos-user-service: http://nacos-provider-news
+  #提供者集群封装

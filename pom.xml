@@ -15,6 +15,7 @@
     <module>cloud-provider-nacos9001</module>
     <module>cloud-consumer-login-85</module>
     <module>cloud-config-nacos-client-3333</module>
+    <module>cloud-consumer-news-88</module>
   </modules>
   <packaging>pom</packaging>
 

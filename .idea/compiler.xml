@@ -11,6 +11,7 @@
         <module name="cloud-consumer-login-85" />
         <module name="cloud-provider-login-8001" />
         <module name="cloud-provider-aiRobot-8004" />
+        <module name="cloud-consumer-news-88" />
         <module name="cloud-config-nacos-client-3333" />
         <module name="cloud-provider-news-8005" />
       </profile>

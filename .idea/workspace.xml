@@ -20,25 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c52c4896-293e-4704-9ed2-f98c91428a85" name="Default Changelist" comment="初步实现 问答机器人的框架">
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/cn/edu/whu/ashman/entities/Administrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-login-85/src/main/java/cn/edu/whu/ashman/controller/ConsumerAdminLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-login-85/src/main/java/cn/edu/whu/ashman/controller/ConsumerUserLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api-commons/src/main/java/cn/edu/whu/ashman/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/cn/edu/whu/ashman/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-login-85/src/main/java/cn/edu/whu/ashman/controller/ConsumerLoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-login-85/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-login-85/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-login-85/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-login-85/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-login-85/target/classes/cn/edu/whu/ashman/controller/ConsumerLoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/cn/edu/whu/ashman/controller/ChatRobotController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/cn/edu/whu/ashman/controller/ChatRobotController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/cn/edu/whu/ashman/entities/MessageResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/cn/edu/whu/ashman/entities/MessageResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/cn/edu/whu/ashman/service/Impl/Chat.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/cn/edu/whu/ashman/service/Impl/Chat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/cn/edu/whu/ashman/service/Impl/Mother.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/cn/edu/whu/ashman/service/Impl/Mother.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/test-classes/cn/edu/whu/ashman/RobotTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/test-classes/cn/edu/whu/ashman/RobotTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/controller/AdministratorLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/controller/AdministratorLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/controller/UserLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/dao/IAdministratorDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/dao/IAdministratorDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/entities/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/entities/Administrator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/classes/cn/edu/whu/ashman/controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-news-88/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-news-88/src/main/java/cn/edu/whu/ashman/ConsumerNewsMain88.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-news-88/src/main/java/cn/edu/whu/ashman/config/NewsRestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-news-88/src/main/java/cn/edu/whu/ashman/controller/ConsumerNewsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-news-88/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-login-85/src/main/java/cn/edu/whu/ashman/config/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-login-85/src/main/java/cn/edu/whu/ashman/config/LoginRestTemplateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,20 +105,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LoginMain8001">
-    <configuration name="Chat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.edu.whu.ashman.service.Impl.Chat" />
-      <module name="cloud-provider-aiRobot-8004" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.edu.whu.ashman.service.Impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.NewsMain8005">
     <configuration name="RobotTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.edu.whu.ashman.RobotTest" />
       <module name="cloud-provider-aiRobot-8004" />
@@ -191,6 +166,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AiRobotMain8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-aiRobot-8004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.AiRobotMain8004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConsumerLoginMain85" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumer-login-85" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.ConsumerLoginMain85" />
@@ -198,9 +180,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConsumerNewsMain88" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-news-88" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.whu.ashman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.ConsumerNewsMain88" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-login-8001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.LoginMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosConfigClientMain3333" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-nacos-client-3333" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.NacosConfigClientMain3333" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConsumerNewsMain88" />
         <item itemvalue="JUnit.RobotTest.testRespond" />
         <item itemvalue="JUnit.RobotTest" />
         <item itemvalue="Application.RobotTest" />
         <item itemvalue="JUnit.RobotTest.input" />
-        <item itemvalue="Application.Chat" />
       </list>
     </recent_temporary>
   </component>
@@ -226,16 +228,12 @@
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.30835545" />
           <treeState>
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -358,45 +356,45 @@
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594390229329" />
     <state x="549" y="169" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1594392732168" />
-    <state width="1055" height="221" key="GridCell.Tab.0.bottom" timestamp="1594482561033">
+    <state width="1042" height="312" key="GridCell.Tab.0.bottom" timestamp="1594486881451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1055" height="221" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594482561033" />
+    <state width="1042" height="312" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594486881451" />
     <state width="746" height="167" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1594474336601" />
-    <state width="1055" height="221" key="GridCell.Tab.0.center" timestamp="1594482561033">
+    <state width="1042" height="312" key="GridCell.Tab.0.center" timestamp="1594486881451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1055" height="221" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594482561033" />
+    <state width="1042" height="312" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594486881451" />
     <state width="746" height="167" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1594474336601" />
-    <state width="1055" height="221" key="GridCell.Tab.0.left" timestamp="1594482561033">
+    <state width="1042" height="312" key="GridCell.Tab.0.left" timestamp="1594486881451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1055" height="221" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594482561033" />
+    <state width="1042" height="312" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594486881451" />
     <state width="746" height="167" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1594474336601" />
-    <state width="1055" height="221" key="GridCell.Tab.0.right" timestamp="1594482561033">
+    <state width="1042" height="312" key="GridCell.Tab.0.right" timestamp="1594486881451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1055" height="221" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594482561033" />
+    <state width="1042" height="312" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594486881451" />
     <state width="746" height="167" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1594474336601" />
-    <state width="1055" height="221" key="GridCell.Tab.1.bottom" timestamp="1594482561033">
+    <state width="1042" height="312" key="GridCell.Tab.1.bottom" timestamp="1594486881451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1055" height="221" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594482561033" />
+    <state width="1042" height="312" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594486881451" />
     <state width="1245" height="646" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1594395678710" />
-    <state width="1055" height="221" key="GridCell.Tab.1.center" timestamp="1594482561033">
+    <state width="1042" height="312" key="GridCell.Tab.1.center" timestamp="1594486881451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1055" height="221" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594482561033" />
+    <state width="1042" height="312" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594486881451" />
     <state width="1245" height="646" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1594395678709" />
-    <state width="1055" height="221" key="GridCell.Tab.1.left" timestamp="1594482561033">
+    <state width="1042" height="312" key="GridCell.Tab.1.left" timestamp="1594486881451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1055" height="221" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594482561033" />
+    <state width="1042" height="312" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594486881451" />
     <state width="1245" height="646" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1594395678709" />
-    <state width="1055" height="221" key="GridCell.Tab.1.right" timestamp="1594482561033">
+    <state width="1042" height="312" key="GridCell.Tab.1.right" timestamp="1594486881451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1055" height="221" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594482561033" />
+    <state width="1042" height="312" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594486881451" />
     <state width="1245" height="646" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1594395678710" />
     <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1594437035952">
       <screen x="0" y="0" width="1536" height="834" />
@@ -428,10 +426,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="459" y="204" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1594474248824" />
-    <state x="174" y="44" key="new project wizard" timestamp="1594390292810">
+    <state x="348" y="111" key="new project wizard" timestamp="1594482908217">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="174" y="44" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1594390292810" />
+    <state x="348" y="111" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1594482908217" />
     <state x="262" y="126" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1594366309636" />
     <state x="430" y="147" width="672" height="687" key="search.everywhere.popup" timestamp="1594471948511">
       <screen x="0" y="0" width="1536" height="834" />

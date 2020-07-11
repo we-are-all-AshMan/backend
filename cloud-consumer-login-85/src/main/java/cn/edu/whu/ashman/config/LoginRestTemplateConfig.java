@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
  * @date 2020-07-11 19:51
  */
 @Configuration
-public class RestTemplateConfig {
+public class LoginRestTemplateConfig {
 
     @Bean
     @LoadBalanced
