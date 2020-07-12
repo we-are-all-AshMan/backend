@@ -12,7 +12,6 @@
     <module>cloud-provider-news-8005</module>
     <module>cloud-provider-aiRobot-8004</module>
     <module>cloud-api-commons</module>
-    <module>cloud-provider-nacos9001</module>
     <module>cloud-consumer-login-85</module>
     <module>cloud-config-nacos-client-3333</module>
     <module>cloud-consumer-news-88</module>
@@ -88,7 +87,7 @@
     </dependencies>
   </dependencyManagement>
   <!--父工程插入下段插件-->
-  <build>
+  <!--<build>
     <plugins>
       <plugin>
         <groupId>org.springframework.boot</groupId>
@@ -99,9 +98,9 @@
         </configuration>
       </plugin>
     </plugins>
-  </build>
+  </build>-->
   <!--第三方maven私服-->
-  <repositories>
+  <!--<repositories>
     <repository>
       <id>nexus-aliyun</id>
       <name>Nexus aliyun</name>
@@ -113,7 +112,7 @@
         <enabled>false</enabled>
       </snapshots>
     </repository>
-  </repositories>
+  </repositories>-->
   <!--<pluginRepositories>
     <pluginRepository>
       <id>alimaven spring plugin</id>

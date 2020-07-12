@@ -3,6 +3,7 @@ package cn.edu.whu.ashman.utils;
 import org.springframework.stereotype.Component;
 
 import java.io.*;
+import java.net.URL;
 import java.util.*;
 
 
@@ -23,8 +24,23 @@ public class CosineSimilar {
     List<String> resultList = new ArrayList<String>();
     int[] tempArray = null;
 
+    private File getFile(String fileName) {
+        ClassLoader classLoader = getClass().getClassLoader();
+        /**
+         getResource()方法会去classpath下找这个文件，获取到url resource, 得到这个资源后，调用url.getFile获取到 文件 的绝对路径
+         */
+        URL url = classLoader.getResource(fileName);
+        /**
+         * url.getFile() 得到这个文件的绝对路径
+         */
+        System.out.println(url.getFile());
+        File file = new File(url.getFile());
+        return file;
+    }
+
     public CosineSimilar() throws Exception {
-        File file = new File("src\\main\\resources\\question.txt");
+        File file = getFile("question.txt");
+        System.out.println(file.getAbsolutePath());
         InputStream in = new FileInputStream(file);
         BufferedReader br = new BufferedReader(new InputStreamReader(in));
         questionList = new ArrayList<String>();
