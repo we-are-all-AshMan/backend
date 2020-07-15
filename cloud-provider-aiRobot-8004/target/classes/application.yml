@@ -1,17 +1,1 @@
-server:
-  port: 8004
-
-spring:
-  application:
-    name: cloud-aiRobot-service
-  cloud:
-    nacos:
-      discovery:
-        server-addr: localhost:8848
-  datasource:
-    druid:
-      username: root
-      password: My-Linux-Mysql123456
-      driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://175.24.57.96:3306/aigov?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&useSSL=false
-# 准备采用基于注解的mybatis mapper
+server:  port: 8004spring:  application:    name: cloud-aiRobot-service  cloud:    nacos:      discovery:        server-addr: localhost:8848  datasource:    druid:      username: root      password: My-Linux-Mysql123456      driver-class-name: com.mysql.cj.jdbc.Driver      url: jdbc:mysql://175.24.57.96:3306/aigov?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&useSSL=false# 准备采用基于注解的mybatis mapper

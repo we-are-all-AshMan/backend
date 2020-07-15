@@ -12,7 +12,7 @@
     <module>cloud-provider-news-8005</module>
     <module>cloud-provider-aiRobot-8004</module>
     <module>cloud-api-commons</module>
-    <module>cloud-provider-nacos9001</module>
+    <!--<module>cloud-provider-nacos9001</module>-->
     <module>cloud-consumer-login-85</module>
     <module>cloud-config-nacos-client-3333</module>
     <module>cloud-consumer-news-88</module>
@@ -93,6 +93,7 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
+        <version>2.2.2.RELEASE</version>
         <configuration>
           <fork>true</fork>
           <addResources>true</addResources>
