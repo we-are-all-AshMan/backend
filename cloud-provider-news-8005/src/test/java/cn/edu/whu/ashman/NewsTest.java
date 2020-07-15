@@ -36,11 +36,11 @@ public class NewsTest {
         System.out.println(news);
     }
 
-    @Test
+   /* @Test
     public void saveNewsTest(){
         //NewsApply newsApply = new NewsApply();
         newsApply.saveNews();
-    }
+    }*/
 
     @Test
     public void saveNationTest(){
