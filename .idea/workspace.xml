@@ -20,75 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c52c4896-293e-4704-9ed2-f98c91428a85" name="Default Changelist" comment="初步实现 问答机器人的框架">
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-login-85/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-news-88/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/component/NewsCharts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/entities/ChartsMapNationCurrent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/util/NewsDateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-nacos-client-3333/src/main/java/cn/edu/whu/ashman/controller/ConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-nacos-client-3333/src/main/java/cn/edu/whu/ashman/controller/ConfigController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-nacos-client-3333/target/classes/cn/edu/whu/ashman/controller/ConfigController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-nacos-client-3333/target/classes/cn/edu/whu/ashman/controller/ConfigController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-login-85/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-login-85/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-login-85/src/main/java/cn/edu/whu/ashman/controller/ConsumerAdminLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-login-85/src/main/java/cn/edu/whu/ashman/controller/ConsumerAdminLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-login-85/src/main/java/cn/edu/whu/ashman/controller/ConsumerUserLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-login-85/src/main/java/cn/edu/whu/ashman/controller/ConsumerUserLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-login-85/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-login-85/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-login-85/target/classes/META-INF/cloud-consumer-login-85.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-login-85/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-login-85/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-login-85/target/classes/cn/edu/whu/ashman/controller/ConsumerAdminLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-login-85/target/classes/cn/edu/whu/ashman/controller/ConsumerAdminLoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-login-85/target/classes/cn/edu/whu/ashman/controller/ConsumerUserLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-login-85/target/classes/cn/edu/whu/ashman/controller/ConsumerUserLoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-login-85/target/cloud-consumer-login-85-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-login-85/target/cloud-consumer-login-85-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-login-85/target/cloud-consumer-login-85-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-login-85/target/cloud-consumer-login-85-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-login-85/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-login-85/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-news-88/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-news-88/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-news-88/src/main/java/cn/edu/whu/ashman/controller/ConsumerNewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-news-88/src/main/java/cn/edu/whu/ashman/controller/ConsumerNewsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-news-88/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-news-88/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-news-88/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-news-88/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-news-88/target/classes/cn/edu/whu/ashman/controller/ConsumerNewsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-news-88/target/classes/cn/edu/whu/ashman/controller/ConsumerNewsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-news-88/target/cloud-consumer-news-88-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-news-88/target/cloud-consumer-news-88-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-news-88/target/cloud-consumer-news-88-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-news-88/target/cloud-consumer-news-88-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-news-88/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-news-88/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/cloud-provider-login-8001-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/target/cloud-provider-login-8001-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/cloud-provider-login-8001-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/target/cloud-provider-login-8001-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/surefire-reports/TEST-cn.edu.whu.ashman.test.LoginTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/surefire-reports/cn.edu.whu.ashman.test.LoginTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/IDescForeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/IDescForeignService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/IDescGlobalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/IDescGlobalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/IDescNationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/IDescNationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/INewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/INewsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/impl/DescForeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/impl/DescForeignService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/impl/DescGlobalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/impl/DescGlobalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/impl/DescNationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/impl/DescNationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/impl/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/impl/NewsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/controller/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/controller/NewsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/dao/IDescForeignDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/dao/IDescForeignDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/dao/IDescGlobalDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/dao/IDescGlobalDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/dao/IDescNationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/dao/IDescNationDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/dao/INewsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/dao/INewsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/util/NewsJsonExplainUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/util/NewsJsonExplainUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/IDescForeignService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/IDescForeignService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/IDescGlobalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/IDescGlobalService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/IDescNationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/IDescNationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/INewsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/INewsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/impl/DescForeignService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/impl/DescForeignService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/impl/DescGlobalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/impl/DescGlobalService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/impl/DescNationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/impl/DescNationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/impl/NewsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/impl/NewsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/controller/NewsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/controller/NewsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/dao/IDescForeignDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/dao/IDescForeignDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/dao/IDescGlobalDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/dao/IDescGlobalDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/dao/IDescNationDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/dao/IDescNationDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/util/NewsJsonExplainUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/util/NewsJsonExplainUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/cloud-provider-news-8005-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/cloud-provider-news-8005-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/cloud-provider-news-8005-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/cloud-provider-news-8005-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/surefire-reports/TEST-cn.edu.whu.ashman.NewsTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/surefire-reports/cn.edu.whu.ashman.NewsTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/Bots/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/resources/static/Bots/context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/Bots/mydomain/idiom.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/resources/static/Bots/mydomain/idiom.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/Bots/splitters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/resources/static/Bots/splitters.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/Bots/substitutions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/resources/static/Bots/substitutions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/service/Impl/Mother.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/service/Impl/Mother.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/utils/CosineSimilar.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/utils/CosineSimilar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +53,6 @@
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -280,29 +216,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <option name="contentProportion" value="0.30835545" />
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -352,20 +265,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
