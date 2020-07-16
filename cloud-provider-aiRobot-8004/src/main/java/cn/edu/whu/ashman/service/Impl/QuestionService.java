@@ -54,7 +54,7 @@ public class QuestionService implements IQuestionService {
      * @throws Exception
      */
     public List<String> getHotQuestion() throws Exception {
-        File file = getFile("static/question.txt");
+        File file = getFile("static/Bots/question.txt");
         System.out.println(file.getAbsolutePath());
         InputStream in = new FileInputStream(file);
         BufferedReader br = new BufferedReader(new InputStreamReader(in));
