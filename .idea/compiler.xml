@@ -16,8 +16,5 @@
         <module name="cloud-provider-news-8005" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="cloud-provider-nacos-9001" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

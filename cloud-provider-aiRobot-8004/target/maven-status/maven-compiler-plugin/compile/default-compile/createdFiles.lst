@@ -40,6 +40,7 @@ bitoflife\chatterbean\aiml\AIMLParserTest.class
 bitoflife\chatterbean\AliceBotMother.class
 bitoflife\chatterbean\aiml\Input.class
 bitoflife\chatterbean\aiml\Topic.class
+cn\edu\whu\ashman\entities\Question.class
 bitoflife\chatterbean\aiml\That.class
 bitoflife\chatterbean\ContextPropertyChangeListener.class
 bitoflife\chatterbean\aiml\Random.class
@@ -54,6 +55,7 @@ bitoflife\chatterbean\aiml\AIMLParserTest$GraphmasterMock.class
 bitoflife\chatterbean\aiml\Br.class
 bitoflife\chatterbean\script\InterpretingException.class
 bitoflife\chatterbean\aiml\B.class
+cn\edu\whu\ashman\dao\IQuestionDao.class
 bitoflife\chatterbean\parser\AliceBotParserException.class
 bitoflife\chatterbean\aiml\AIMLParser.class
 bitoflife\chatterbean\aiml\Gender.class
@@ -93,6 +95,7 @@ bitoflife\chatterbean\config\TokenizerConfig.class
 bitoflife\chatterbean\text\Transformations$Mapper.class
 bitoflife\chatterbean\aiml\Bot.class
 bitoflife\chatterbean\parser\ContextParser.class
+cn\edu\whu\ashman\service\IQuestionService.class
 bitoflife\chatterbean\aiml\Sr.class
 cn\edu\whu\ashman\service\IChat.class
 bitoflife\chatterbean\aiml\Uppercase.class
@@ -105,6 +108,7 @@ bitoflife\chatterbean\text\TransformationsMother.class
 bitoflife\chatterbean\Graphmaster.class
 bitoflife\chatterbean\aiml\Date.class
 cn\edu\whu\ashman\service\Impl\Mother.class
+cn\edu\whu\ashman\service\Impl\QuestionService.class
 bitoflife\chatterbean\aiml\Condition.class
 bitoflife\chatterbean\text\TokenizerMother.class
 bitoflife\chatterbean\text\Substitution$FindReplacePrefix.class
@@ -118,6 +122,7 @@ bitoflife\chatterbean\util\SequenceMother.class
 bitoflife\chatterbean\parser\ReflectionBuilder.class
 bitoflife\chatterbean\aiml\Size.class
 bitoflife\chatterbean\aiml\Formal.class
+cn\edu\whu\ashman\utils\Job.class
 bitoflife\chatterbean\util\Searcher.class
 bitoflife\chatterbean\ChatterBeanException.class
 bitoflife\chatterbean\parser\ReflectionHandler.class
