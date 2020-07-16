@@ -17,9 +17,5 @@
         <module name="cloud-provider-imageurl-5555" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="cloud-provider-imageurl-5555" target="1.8" />
-      <module name="cloud-provider-nacos-9001" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
