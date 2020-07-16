@@ -49,6 +49,8 @@ public class COSUtil {
          * 对象键为 images/picture.jpg，详情请参见 对象键 的说明。
          */
         String key = filename;
+        System.out.println("key:"+filename);
+        System.out.println("我进行到发api请求之前啦");
         GeneratePresignedUrlRequest req =
                 new GeneratePresignedUrlRequest(bucketName, key, HttpMethodName.GET);
         // 设置签名过期时间(可选), 若未进行设置, 则默认使用 ClientConfig 中的签名过期时间(1小时)

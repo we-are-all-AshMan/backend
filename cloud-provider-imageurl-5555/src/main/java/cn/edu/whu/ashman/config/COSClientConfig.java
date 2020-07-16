@@ -17,10 +17,11 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 public class COSClientConfig {
-    public static final String SECRET_ID = "AKIDQguySk3pbBuW2v96TfzVmyuaBai26xLR";
-    public static final String SECRET_KEY = "zmIYz93dssqXyax3rITXNxlKccKm1zhE";
+    public static final String SECRET_ID = null;
+    public static final String SECRET_KEY = null;
     public static final String COS_REGION = "ap-chengdu";
     public static final String APPID = "1301866798";
+    public static final String PREFIX = "https://picturebed-1301866798.cos.ap-chengdu.myqcloud.com/";
 
     @Bean
     public COSClient getCosClient(){
