@@ -43,4 +43,11 @@ public class NewsService implements INewsService {
     public int update(String id) {
         return iNewsDao.update(id);
     }
+
+    @Override
+    public boolean refreshOrNot(String date) {
+        if(getNewsByDate(date)!=null)
+        return true;
+        else return false;
+    }
 }

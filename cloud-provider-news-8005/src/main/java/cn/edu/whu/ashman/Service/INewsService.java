@@ -18,4 +18,6 @@ public interface INewsService {
     int delete(String id);
 
     int update(String id);
+
+    boolean refreshOrNot(String date);
 }

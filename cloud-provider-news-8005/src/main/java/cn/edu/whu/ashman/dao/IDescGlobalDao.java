@@ -2,10 +2,8 @@ package cn.edu.whu.ashman.dao;
 
 import cn.edu.whu.ashman.entities.DescForeign;
 import cn.edu.whu.ashman.entities.DescGlobal;
-import org.apache.ibatis.annotations.Delete;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
+import cn.edu.whu.ashman.entities.DescNation;
+import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
 
 import java.util.Collection;
@@ -18,7 +16,7 @@ import java.util.Collection;
 @Mapper
 public interface IDescGlobalDao {
     @Select("select * from descGlobal where date = #{date}")
-    Collection<DescGlobal> getDescGlobal(String date);
+    DescGlobal getDescGlobal(String date);
 
     @Insert("insert into descGlobal values (#{date},#{currentConfirmedCount},#{confirmedCount}," +
             "#{curedCount},#{deadCount},#{currentConfirmedIncr},#{confirmedIncr}," +
@@ -27,4 +25,10 @@ public interface IDescGlobalDao {
 
     @Delete("delete from descGlobal where date = #{date}")
     int delete(String date);
+
+    @Select("select currentConfirmedCount from descGlobal where date = #{date}")
+    String getCurrentConfirmedCountByDate(String date);
+
+    @Select("select date,currentConfirmedCount from descGlobal limit #{start},#{end}")
+    Collection<DescGlobal> getCurrentConfirmedCounts(@Param("start") Integer start, @Param("end") Integer end);
 }

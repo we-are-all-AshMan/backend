@@ -18,7 +18,7 @@ import java.util.Collection;
 @Mapper
 public interface IDescForeignDao {
     @Select("select * from descForeign where date = #{date}")
-    Collection<DescForeign> getDescForeign(String date);
+    DescForeign getDescForeign(String date);
 
     @Insert("insert into descForeign values (#{date},#{currentConfirmedCount},#{confirmedCount},#{suspectedCount}," +
             "#{curedCount},#{deadCount},#{suspectedIncr},#{currentConfirmedIncr},#{confirmedIncr}," +
@@ -27,4 +27,7 @@ public interface IDescForeignDao {
 
     @Delete("delete from descForeign where date = #{date}")
     int delete(String date);
+
+    @Select("select currentConfirmedCount from descForeign where date = #{date}")
+    String getCurrentConfirmedCountByDate(String date);
 }

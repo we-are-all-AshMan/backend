@@ -6,7 +6,7 @@ import cn.edu.whu.ashman.entities.DescNation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Collection;
+import java.util.*;
 
 /**
  * @author Zhuyuhan
@@ -17,7 +17,7 @@ public class DescNationService implements IDescNationService {
     @Autowired
     IDescNationDao descNationDao = null;
     @Override
-    public Collection<DescNation> getDescNation(String date) {
+    public DescNation getDescNation(String date) {
         return descNationDao.getDescNation(date);
     }
 
@@ -29,5 +29,22 @@ public class DescNationService implements IDescNationService {
     @Override
     public int delete(String date) {
         return descNationDao.delete(date);
+    }
+
+    @Override
+    public String getNationCurrentConfirmedCountByDate(String date) {
+        return descNationDao.getCurrentConfirmedCountByDate(date);
+    }
+
+    @Override
+    public List<Map<String, String>> getCurrentConfirmedCounts(Integer start, Integer end) {
+        List<Map<String,String>> currentConfirmedCountsList = new ArrayList<>();
+        Collection<DescNation> currentConfirmedCounts = descNationDao.getCurrentConfirmedCounts(start, end);
+        for(DescNation descNation:currentConfirmedCounts){
+            Map<String,String> currentConfirmedCount = new HashMap<>();
+            currentConfirmedCount.put(descNation.getDate(),descNation.getCurrentConfirmedCount());
+            currentConfirmedCountsList.add(currentConfirmedCount);
+        }
+        return currentConfirmedCountsList;
     }
 }
