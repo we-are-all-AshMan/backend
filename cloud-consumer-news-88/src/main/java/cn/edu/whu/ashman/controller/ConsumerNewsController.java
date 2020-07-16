@@ -3,6 +3,7 @@ package cn.edu.whu.ashman.controller;
 import cn.edu.whu.ashman.entities.CommonResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,11 +14,12 @@ import org.springframework.web.client.RestTemplate;
  * @date 2020-07-12 0:00
  */
 @RestController
+@RefreshScope
 public class ConsumerNewsController {
     @Autowired
     private RestTemplate restTemplate;
 
-    @Value("${service-url.nacos-user-service}")
+    @Value("${provider.url}")
     private String serverURL;
 
     @GetMapping("/consumer/news/refreshNews")
@@ -67,5 +69,15 @@ public class ConsumerNewsController {
     @GetMapping("/consumer/news/updateNewsTag/{id}")
     public CommonResult updateNewsTagById(@PathVariable("id") String id){
         return restTemplate.getForObject(serverURL+"/news/updateNewsTag/"+id,CommonResult.class);
+    }
+
+    @GetMapping("/consumer/news/getNationCurrentConfirmedCounts")
+    public CommonResult getNationCurrentConfirmedCounts(){
+        return restTemplate.getForObject(serverURL+"/news/getNationCurrentConfirmedCounts",CommonResult.class);
+    }
+
+    @GetMapping("/consumer/news/getGlobalCurrentConfirmedCounts")
+    public CommonResult getGlobalCurrentConfirmedCounts(){
+        return restTemplate.getForObject(serverURL+"/news/getGlobalCurrentConfirmedCounts",CommonResult.class);
     }
 }

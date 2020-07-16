@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Collection;
+import java.util.List;
+import java.util.Map;
 
 /**
  * @author Zhuyuhan
@@ -42,6 +44,9 @@ public class NewsController {
         int i = newsApply.saveNews();
         if(i>0)
         commonResult = new CommonResult(222,"拉取新闻成功",i);
+        else if(i==0){
+            commonResult = new CommonResult(255,"今日新闻已经拉取过",i);
+        }
         else commonResult = new CommonResult(422,"拉取新闻失败",i);
         return commonResult;
     }
@@ -51,6 +56,9 @@ public class NewsController {
         int i = newsApply.saveDescNation();
         if(i>0)
             commonResult = new CommonResult(223,"拉取国内疫情成功",i);
+        else if(i==0){
+            commonResult = new CommonResult(256,"今日国内疫情数据已经拉取过",i);
+        }
         else commonResult = new CommonResult(423,"拉取国内疫情失败",i);
         return commonResult;
     }
@@ -60,6 +68,9 @@ public class NewsController {
         int i = newsApply.saveDescForeign();
         if(i>0)
             commonResult = new CommonResult(224,"拉取外国疫情成功",i);
+        else if(i==0){
+            commonResult = new CommonResult(257,"今日外国疫情数据已经拉取过",i);
+        }
         else commonResult = new CommonResult(424,"拉取外国疫情失败",i);
         return commonResult;
     }
@@ -69,6 +80,9 @@ public class NewsController {
         int i = newsApply.saveDescGlobal();
         if(i>0)
             commonResult = new CommonResult(225,"拉取全球疫情成功",i);
+        else if(i==0){
+            commonResult = new CommonResult(257,"今日全球疫情数据已经拉取过",i);
+        }
         else commonResult = new CommonResult(425,"拉取全球疫情失败",i);
         return commonResult;
     }
@@ -84,34 +98,47 @@ public class NewsController {
     }
 
     @GetMapping("/news/getNewsByDate/{date}")
-    public CommonResult getAllNews(@PathVariable("date") String date){
+    public CommonResult getNewsByDate(@PathVariable("date") String date){
         CommonResult commonResult = null;
         Collection<News> news = iNewsService.getNewsByDate(date);
-        commonResult = new CommonResult(234,"用户成功获取"+date+"新闻",news);
+        //System.out.println(news.isEmpty());
+        if(news.isEmpty()) commonResult = new CommonResult(258,"今日新闻暂未刷新",0);
+        else {
+            commonResult = new CommonResult(234, "用户成功获取" + date + "新闻", news);
+        }
         return commonResult;
     }
 
     @GetMapping("/news/getAllDescNation/{date}")
     public CommonResult getAllDescNation(@PathVariable("date") String date){
         CommonResult commonResult = null;
-        Collection<DescNation> descNation = iDescNationService.getDescNation(date);
-        commonResult = new CommonResult(235,"用户成功获取国内疫情数据",descNation);
+        DescNation descNation = iDescNationService.getDescNation(date);
+        if(descNation==null) commonResult = new CommonResult(259,"今日国内疫情数据暂未刷新",0);
+        else {
+            commonResult = new CommonResult(235, "用户成功获取国内疫情数据", descNation);
+        }
         return commonResult;
     }
 
     @GetMapping("/news/getAllDescForeign/{date}")
     public CommonResult getAllDescForeign(@PathVariable("date") String date){
         CommonResult commonResult = null;
-        Collection<DescForeign> descForeign = iDescForeignService.getDescForeign(date);
-        commonResult = new CommonResult(236,"用户成功获取外国疫情数据",descForeign);
+        DescForeign descForeign = iDescForeignService.getDescForeign(date);
+        if(descForeign==null) commonResult = new CommonResult(260,"今日外国疫情数据暂未刷新",0);
+        else {
+            commonResult = new CommonResult(236, "用户成功获取外国疫情数据", descForeign);
+        }
         return commonResult;
     }
 
     @GetMapping("/news/getAllDescGlobal/{date}")
     public CommonResult getAllDescGlobal(@PathVariable("date") String date){
         CommonResult commonResult = null;
-        Collection<DescGlobal> descGlobal = iDescGlobalService.getDescGlobal(date);
-        commonResult = new CommonResult(237,"用户成功获取全球疫情数据",descGlobal);
+        DescGlobal descGlobal = iDescGlobalService.getDescGlobal(date);
+        if(descGlobal==null) commonResult = new CommonResult(261,"今日全球疫情数据暂未刷新",0);
+        else {
+            commonResult = new CommonResult(237, "用户成功获取全球疫情数据", descGlobal);
+        }
         return commonResult;
     }
 
@@ -122,6 +149,28 @@ public class NewsController {
         if(update>0)
         commonResult = new CommonResult(238,"成功增加该新闻比重",update);
         else commonResult = new CommonResult(438,"增加该新闻比重失败",update);
+        return commonResult;
+    }
+
+    @GetMapping("/news/getNationCurrentConfirmedCounts")
+    public CommonResult getNationCurrentConfirmedCounts(){
+        CommonResult commonResult = null;
+        List<Map<String, String>> currentConfirmedCounts = iDescNationService.getCurrentConfirmedCounts(0, 7);
+        if(currentConfirmedCounts.isEmpty()) commonResult = new CommonResult(462,"获取最近七天国内确诊人数失败",0);
+        else {
+            commonResult = new CommonResult(262,"成功获取最近七天国内确诊人数",currentConfirmedCounts);
+        }
+        return commonResult;
+    }
+
+    @GetMapping("/news/getGlobalCurrentConfirmedCounts")
+    public CommonResult getGlobalCurrentConfirmedCounts(){
+        CommonResult commonResult = null;
+        List<Map<String, String>> currentConfirmedCounts = iDescGlobalService.getCurrentConfirmedCounts(0, 7);
+        if(currentConfirmedCounts.isEmpty()) commonResult = new CommonResult(463,"获取最近七天全球确诊人数失败",0);
+        else {
+            commonResult = new CommonResult(263,"成功获取最近七天全球确诊人数",currentConfirmedCounts);
+        }
         return commonResult;
     }
 }

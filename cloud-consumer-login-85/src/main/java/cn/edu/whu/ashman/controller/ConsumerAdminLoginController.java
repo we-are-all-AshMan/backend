@@ -4,6 +4,7 @@ import cn.edu.whu.ashman.entities.Administrator;
 import cn.edu.whu.ashman.entities.CommonResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
@@ -15,8 +16,9 @@ import java.util.Map;
  * @date 2020-07-11 22:51
  */
 @RestController
+@RefreshScope
 public class ConsumerAdminLoginController {
-    @Value("${service-url.nacos-user-service}")
+    @Value("${provider.url}")
     private String serverURL;
     @Autowired
     private RestTemplate restTemplate;

@@ -4,6 +4,7 @@ import cn.edu.whu.ashman.entities.CommonResult;
 import cn.edu.whu.ashman.entities.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
@@ -15,11 +16,12 @@ import java.util.Map;
  * @date 2020-07-11 19:52
  */
 @RestController
+@RefreshScope
 public class ConsumerUserLoginController {
     @Autowired
     private RestTemplate restTemplate;
 
-    @Value("${service-url.nacos-user-service}")
+    @Value("${provider.url}")
     private String serverURL;
 
     @GetMapping("/consumer/login/sendMessageCode/{phoneNumber}")

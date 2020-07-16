@@ -2,10 +2,7 @@ package cn.edu.whu.ashman.dao;
 
 import cn.edu.whu.ashman.entities.DescNation;
 import cn.edu.whu.ashman.entities.News;
-import org.apache.ibatis.annotations.Delete;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
 
 import java.util.Collection;
@@ -39,7 +36,7 @@ import java.util.Collection;
 @Mapper
 public interface IDescNationDao {
     @Select("select * from descNation where date = #{date}")
-    Collection<DescNation> getDescNation(String date);
+    DescNation getDescNation(String date);
 
     @Insert("insert into descNation values (#{date},#{currentConfirmedCount},#{confirmedCount},#{suspectedCount}," +
             "#{curedCount},#{deadCount},#{seriousCount},#{suspectedIncr},#{currentConfirmedIncr},#{confirmedIncr}," +
@@ -48,4 +45,10 @@ public interface IDescNationDao {
 
     @Delete("delete from descNation where date = #{date}")
     int delete(String date);
+
+    @Select("select currentConfirmedCount from descNation where date = #{date}")
+    String getCurrentConfirmedCountByDate(String date);
+
+    @Select("select date,currentConfirmedCount from descNation limit #{start},#{end}")
+    Collection<DescNation> getCurrentConfirmedCounts(@Param("start") Integer start, @Param("end") Integer end);
 }

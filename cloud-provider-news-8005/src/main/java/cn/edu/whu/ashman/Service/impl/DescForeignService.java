@@ -18,7 +18,7 @@ public class DescForeignService implements IDescForeignService {
     @Autowired
     IDescForeignDao iDescForeignDao = null;
     @Override
-    public Collection<DescForeign> getDescForeign(String date) {
+    public DescForeign getDescForeign(String date) {
         return iDescForeignDao.getDescForeign(date);
     }
 
@@ -30,5 +30,10 @@ public class DescForeignService implements IDescForeignService {
     @Override
     public int delete(String date) {
         return iDescForeignDao.delete(date);
+    }
+
+    @Override
+    public String getForeignCurrentConfirmedCountByDate(String date) {
+        return iDescForeignDao.getCurrentConfirmedCountByDate(date);
     }
 }
