@@ -34,6 +34,7 @@ D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\cha
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\text\TransformationsMother.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\util\Sequence.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\aiml\Gender.java
+D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\cn\edu\whu\ashman\dao\IQuestionDao.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\cn\edu\whu\ashman\service\Impl\Chat.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\cn\edu\whu\ashman\entities\MessageResult.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\GraphmasterMother.java
@@ -47,6 +48,7 @@ D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\cha
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\AliceBotTest.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\text\Response.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\aiml\Lowercase.java
+D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\cn\edu\whu\ashman\entities\Question.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\aiml\Person2.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\ContextTopicChangeListener.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\parser\SplitterHandler.java
@@ -64,6 +66,7 @@ D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\cha
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\aiml\Bot.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\script\Interpreter.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\text\TokenizerMother.java
+D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\cn\edu\whu\ashman\service\IQuestionService.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\aiml\Thatstar.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\aiml\Pattern.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\aiml\Version.java
@@ -74,6 +77,7 @@ D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\cha
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\aiml\B.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\aiml\AIMLParser.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\text\SentenceTest.java
+D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\cn\edu\whu\ashman\utils\Job.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\config\TokenizerConfig.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\text\SubstitutionTest.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\text\Transformations.java
@@ -102,6 +106,7 @@ D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\cn\edu\whu\as
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\aiml\AIMLHandler.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\aiml\Br.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\script\BeanshellInterpreter.java
+D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\cn\edu\whu\ashman\service\Impl\QuestionService.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\aiml\Category.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\text\SentenceSplitter.java
 D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java\bitoflife\chatterbean\aiml\Condition.java

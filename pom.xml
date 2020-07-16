@@ -15,6 +15,7 @@
     <module>cloud-consumer-login-85</module>
     <module>cloud-config-nacos-client-3333</module>
     <module>cloud-consumer-news-88</module>
+      <module>cloud-provider-url-5555</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -84,6 +85,7 @@
         <artifactId>mybatis-spring-boot-starter</artifactId>
         <version>${mybatis.spring.boot.version}</version>
       </dependency>
+
     </dependencies>
   </dependencyManagement>
   <!--父工程插入下段插件-->

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/cloud-api-commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-api-commons/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-config-nacos-client-3333/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-config-nacos-client-3333/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consumer-login-85/src/main/java" charset="UTF-8" />
@@ -11,6 +12,9 @@
     <file url="file://$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/util/Escaper.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/resources/static" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-imageurl-5555/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-imageurl-5555/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-login-8001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-login-8001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-news-8005/src/main/java" charset="UTF-8" />

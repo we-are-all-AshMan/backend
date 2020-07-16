@@ -5,9 +5,7 @@ import cn.edu.whu.ashman.entities.Question;
 import cn.edu.whu.ashman.service.IQuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.InitBinder;
 
-import javax.annotation.PostConstruct;
 import java.io.*;
 import java.net.URL;
 import java.util.*;
@@ -56,7 +54,7 @@ public class QuestionService implements IQuestionService {
      * @throws Exception
      */
     public List<String> getHotQuestion() throws Exception {
-        File file = getFile("question.txt");
+        File file = getFile("static/question.txt");
         System.out.println(file.getAbsolutePath());
         InputStream in = new FileInputStream(file);
         BufferedReader br = new BufferedReader(new InputStreamReader(in));

@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev
+
+
+bucketName: picturebed-1301866798
+bucketLocation: ap-chengdu
+file:
+  uploadPath: /usr/lib/AIGOV/images/

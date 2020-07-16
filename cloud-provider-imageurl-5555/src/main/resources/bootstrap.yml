@@ -1,0 +1,16 @@
+server:
+  port: 5555
+spring:
+  application:
+    name: nacos-provider-imageurl
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.107.110.112:8848
+      config:
+        server-addr: 47.107.110.112:8848
+        file-extension: yaml
+        #指定配置文件格式,即通过3333端口去读Nacos上写好的配置文件.yaml
+        #该bootstrap配置文件优先级高于application
+
+        #yaml文件名：默认为spring.application.name-prefix.yaml对应dataID
