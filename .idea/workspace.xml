@@ -19,261 +19,35 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c52c4896-293e-4704-9ed2-f98c91428a85" name="Default Changelist" comment="机器人问答 找不到文件路径debug">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/parser/AliceBotParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/parser/AliceBotParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/util/Searcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/bitoflife/chatterbean/util/Searcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/controller/ChatRobotController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/controller/ChatRobotController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/service/Impl/Mother.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/service/Impl/Mother.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/utils/CosineSimilar.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/utils/CosineSimilar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/resources/static/Bots/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/resources/static/Bots/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/bitoflife/chatterbean/AliceBotMother.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/bitoflife/chatterbean/AliceBotMother.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/bitoflife/chatterbean/parser/AliceBotParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/bitoflife/chatterbean/parser/AliceBotParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/bitoflife/chatterbean/util/Searcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/bitoflife/chatterbean/util/Searcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/cn/edu/whu/ashman/controller/ChatRobotController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/cn/edu/whu/ashman/controller/ChatRobotController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/cn/edu/whu/ashman/service/Impl/Mother.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/cn/edu/whu/ashman/service/Impl/Mother.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/cn/edu/whu/ashman/service/Impl/QuestionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/cn/edu/whu/ashman/service/Impl/QuestionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/cn/edu/whu/ashman/utils/CosineSimilar.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/cn/edu/whu/ashman/utils/CosineSimilar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/question.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/static/Bots/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/static/Bots/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/SpringbootStarter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/AliceBot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/AliceBotMother.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/AliceBotTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/ChatterBeanException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/Context.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/ContextPropertyChangeListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/ContextRandomSeedChangeListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/ContextTopicChangeListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/Graphmaster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/GraphmasterMother.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/GraphmasterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/Logger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/LoggerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/Match$Section.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/Match.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/MatchTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/TestSuite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/AIMLElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/AIMLHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/AIMLHandlerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/AIMLParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/AIMLParserConfigurationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/AIMLParserException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/AIMLParserTest$GraphmasterMock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/AIMLParserTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/AIMLStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Aiml.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Bot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Br.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/CategoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Condition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Date.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Em.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Formal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Gender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Get.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Gossip.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Id.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Input.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Javascript.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Learn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Li.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Lowercase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Pattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Person2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Random.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Sentence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Set.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Size.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Sr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Srai.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Star.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/System.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/SystemTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Template.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/TemplateElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/TemplateElementTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Text.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/That.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Thatstar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Think.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Topic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Topicstar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Uppercase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/aiml/Version.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/config/ConfigException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/config/TokenizerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/config/TokenizerConfigStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/parser/AliceBotParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/parser/AliceBotParserConfigurationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/parser/AliceBotParserException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/parser/ContextParser$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/parser/ContextParser$ContextHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/parser/ContextParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/parser/ContextParserTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/parser/ReflectionBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/parser/ReflectionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/parser/SplitterHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/parser/SubstitutionBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/parser/TransformationsParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/script/BeanshellInterpreter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/script/Interpreter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/script/InterpretingException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/text/ChineseSegmenter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/text/Request.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/text/Response.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/text/Sentence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/text/SentenceSplitter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/text/SentenceSplitterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/text/SentenceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/text/Substitution$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/text/Substitution$FindReplaceFragment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/text/Substitution$FindReplaceOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/text/Substitution$FindReplacePrefix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/text/Substitution$FindReplaceSuffix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/text/Substitution$FindReplaceWord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/text/Substitution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/text/SubstitutionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/text/Tokenizer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/text/TokenizerMother.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/text/TokenizerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/text/Transformations$Mapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/text/Transformations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/text/TransformationsMother.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/text/TransformationsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/util/Escaper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/util/Searcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/util/SearcherTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/util/Sequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/util/SequenceMother.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/bitoflife/chatterbean/util/SequenceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/cn/edu/whu/ashman/AiRobotMain8004.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/cn/edu/whu/ashman/config/DruidConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/cn/edu/whu/ashman/controller/ChatRobotController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/cn/edu/whu/ashman/dao/IQuestionDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/cn/edu/whu/ashman/entities/MessageResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/cn/edu/whu/ashman/entities/Question.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/cn/edu/whu/ashman/service/IChat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/cn/edu/whu/ashman/service/IMother.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/cn/edu/whu/ashman/service/IQuestionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/cn/edu/whu/ashman/service/Impl/Chat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/cn/edu/whu/ashman/service/Impl/Mother.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/cn/edu/whu/ashman/service/Impl/QuestionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/cn/edu/whu/ashman/utils/CosineSimilar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/cn/edu/whu/ashman/utils/Job.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/classes/question.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/HdrHistogram-2.1.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/HikariCP-3.4.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/LatencyUtils-2.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/ansj_seg-0.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/archaius-core-0.7.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/bcpkix-jdk15on-1.64.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/bcprov-jdk15on-1.64.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/bsh-2.0b4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/commons-collections-3.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/commons-configuration-1.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/commons-lang-2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/druid-1.1.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/druid-spring-boot-starter-1.1.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.47.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/guava-19.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-core-2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/httpclient-4.5.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/httpcore-4.4.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/hystrix-core-1.5.18.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.10.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.10.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.10.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/jackson-datatype-jsr310-2.10.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/jakarta.annotation-api-1.3.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/javax.inject-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/jersey-apache-client4-1.19.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/jersey-client-1.19.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/jersey-core-1.19.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/jsr305-3.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/jsr311-api-1.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.29.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/log4j-api-2.12.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/log4j-to-slf4j-2.12.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/micrometer-core-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-boot-autoconfigure-1.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-boot-starter-1.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.19.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/nacos-api-1.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/nacos-client-1.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/nacos-common-1.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/netflix-commons-util-0.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/netflix-statistics-0.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/ribbon-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/ribbon-core-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/ribbon-httpclient-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/ribbon-loadbalancer-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/ribbon-transport-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/rxjava-1.3.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/rxnetty-0.4.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/rxnetty-contexts-0.4.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/rxnetty-servo-0.4.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/servo-core-0.12.21.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/simpleclient-0.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.29.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/snakeyaml-1.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-2.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-actuator-2.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-actuator-autoconfigure-2.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-2.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-2.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-actuator-2.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-jdbc-2.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-2.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-cloud-alibaba-nacos-discovery-2.1.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-cloud-commons-2.2.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-cloud-context-2.2.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-cloud-netflix-archaius-2.2.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-cloud-netflix-ribbon-2.2.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-cloud-starter-2.2.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-cloud-starter-alibaba-nacos-discovery-2.1.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-cloud-starter-netflix-archaius-2.2.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-cloud-starter-netflix-ribbon-2.2.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-security-crypto-5.2.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-security-rsa-1.0.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT/WEB-INF/lib/tree_split-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/test-classes/cn/edu/whu/ashman/RobotTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/test-classes/cn/edu/whu/ashman/RobotTest.class" afterDir="false" />
+    <list default="true" id="c52c4896-293e-4704-9ed2-f98c91428a85" name="Default Changelist" comment="初步实现 问答机器人的框架">
+      <change afterPath="$PROJECT_DIR$/cloud-imageurl-service-5555/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-nacos-client-3333/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-nacos-client-3333/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-nacos-client-3333/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-nacos-client-3333/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-nacos-client-3333/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-nacos-client-3333/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/static/question.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/src/main/java/cn/edu/whu/ashman/COSUrlMain5555.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-imageurl-service-5555/src/main/java/cn/edu/whu/ashman/COSUrlMain5555.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/src/main/java/cn/edu/whu/ashman/config/COSClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-imageurl-service-5555/src/main/java/cn/edu/whu/ashman/config/COSClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/src/main/java/cn/edu/whu/ashman/controller/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-imageurl-service-5555/src/main/java/cn/edu/whu/ashman/controller/ImageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/src/main/java/cn/edu/whu/ashman/util/COSUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-imageurl-service-5555/src/main/java/cn/edu/whu/ashman/util/COSUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-imageurl-service-5555/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-imageurl-service-5555/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/src/test/java/cn/edu/whu/ashman/COSClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-imageurl-service-5555/src/test/java/cn/edu/whu/ashman/COSClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/classes/cn/edu/whu/ashman/COSUrlMain5555.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/classes/cn/edu/whu/ashman/config/COSClientConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/classes/cn/edu/whu/ashman/controller/ImageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/classes/cn/edu/whu/ashman/util/COSUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/cloud-provider-url-5555-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/cloud-provider-url-5555-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/test-classes/cn/edu/whu/ashman/COSClientTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,13 +68,14 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\maven\3.6.3\repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/3.6.3/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="D:\maven\3.6.3\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="localRepository" value="D:\391-WHU\J2EE\maven-repository\MavenRepository" />
+        <option name="mavenHome" value="C:/Program Files/Java/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\Program Files\Java\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -327,11 +102,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java/cn/edu/whu/ashman/service" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../J2EE/spring/spring_day02/day02_eesy_02account_xmlioc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-imageurl-service-5555" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -344,10 +119,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\391-WHU\AIGOV\backend\cloud-imageurl-service-5555" />
+      <recent name="D:\391-WHU\AIGOV\backend\cloud-provider-imageurl-5525" />
       <recent name="D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java" />
       <recent name="D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004" />
       <recent name="D:\gitForIdea\AIGOV\cloud-provider-aiRobot-8002" />
-      <recent name="D:\391-WHU\AIGOV\backend\cloud-provider-login-8001\src\main\java\cn\edu\whu\ashman\component" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -357,54 +133,49 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AiRobotMain8004">
-    <configuration name="RobotTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.edu.whu.ashman.RobotTest" />
-      <module name="cloud-provider-aiRobot-8004" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.edu.whu.ashman.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RobotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cloud-provider-aiRobot-8004" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.edu.whu.ashman.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.edu.whu.ashman" />
-      <option name="MAIN_CLASS_NAME" value="cn.edu.whu.ashman.RobotTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RobotTest.testRespond" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cloud-provider-aiRobot-8004" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.edu.whu.ashman.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.edu.whu.ashman" />
-      <option name="MAIN_CLASS_NAME" value="cn.edu.whu.ashman.RobotTest" />
-      <option name="METHOD_NAME" value="testRespond" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.COSUrlMain5555 (2)">
     <configuration name="AiRobotMain8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-aiRobot-8004" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.AiRobotMain8004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="COSUrlMain5555 (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-imageurl-5555" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.whu.ashman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.COSUrlMain5555" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="COSUrlMain5555 (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-imageurl-service-5555" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.whu.ashman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.COSUrlMain5555" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="COSUrlMain5555" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-imageurl-5555" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.whu.ashman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.COSUrlMain5555" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -458,13 +229,35 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConsumerNewsMain88" />
+        <item itemvalue="Spring Boot.COSUrlMain5555 (2)" />
         <item itemvalue="Spring Boot.NacosConfigClientMain3333" />
-        <item itemvalue="JUnit.RobotTest.testRespond" />
-        <item itemvalue="JUnit.RobotTest" />
-        <item itemvalue="Application.RobotTest" />
+        <item itemvalue="Spring Boot.ConsumerNewsMain88" />
+        <item itemvalue="Spring Boot.COSUrlMain5555 (1)" />
+        <item itemvalue="Spring Boot.COSUrlMain5555" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -497,6 +290,9 @@
       <workItem from="1594783416392" duration="3106000" />
       <workItem from="1594817438423" duration="8063000" />
       <workItem from="1594892774497" duration="2848000" />
+      <workItem from="1594902397023" duration="210000" />
+      <workItem from="1594902633369" duration="179000" />
+      <workItem from="1594902839232" duration="187000" />
     </task>
     <task id="LOCAL-00001" summary="初步问答机器人框架">
       <created>1594386612963</created>
@@ -523,19 +319,20 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -553,10 +350,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="347" y="19" key="#LoginTest.messageCodeTest_(1)/0.0.1536.834@0.0.1536.834" timestamp="1594373407400" />
-    <state x="361" y="71" key="#Notifications" timestamp="1594389612122">
+    <state x="361" y="71" key="#Notifications" timestamp="1594901660013">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1594389612122" />
+    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1594901660013" />
     <state x="167" y="0" key="#Project_Structure" timestamp="1594897540000">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -595,50 +392,50 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="157" y="51" width="1242" height="834" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1594474574778" />
-    <state x="549" y="169" key="FileChooserDialogImpl" timestamp="1594892862752">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1594902489913">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594527257225" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594902489913" />
     <state x="549" y="169" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1594892862752" />
-    <state width="1245" height="160" key="GridCell.Tab.0.bottom" timestamp="1594898622015">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1055" height="344" key="GridCell.Tab.0.bottom" timestamp="1594903049132">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="223" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594838515879" />
+    <state width="1055" height="344" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594903049132" />
     <state width="1245" height="160" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1594898622015" />
-    <state width="1245" height="160" key="GridCell.Tab.0.center" timestamp="1594898622015">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1055" height="344" key="GridCell.Tab.0.center" timestamp="1594903049131">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="223" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594838515879" />
+    <state width="1055" height="344" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594903049131" />
     <state width="1245" height="160" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1594898622015" />
-    <state width="1245" height="160" key="GridCell.Tab.0.left" timestamp="1594898622014">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1055" height="344" key="GridCell.Tab.0.left" timestamp="1594903049130">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="223" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594838515879" />
+    <state width="1055" height="344" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594903049130" />
     <state width="1245" height="160" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1594898622014" />
-    <state width="1245" height="160" key="GridCell.Tab.0.right" timestamp="1594898622015">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1055" height="344" key="GridCell.Tab.0.right" timestamp="1594903049132">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="223" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594838515879" />
+    <state width="1055" height="344" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594903049132" />
     <state width="1245" height="160" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1594898622015" />
-    <state width="1245" height="160" key="GridCell.Tab.1.bottom" timestamp="1594898622015">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1055" height="344" key="GridCell.Tab.1.bottom" timestamp="1594903049132">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1042" height="94" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594838515873" />
+    <state width="1055" height="344" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594903049132" />
     <state width="1245" height="160" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1594898622015" />
-    <state width="1245" height="160" key="GridCell.Tab.1.center" timestamp="1594898622015">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1055" height="344" key="GridCell.Tab.1.center" timestamp="1594903049132">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1042" height="94" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594838515873" />
+    <state width="1055" height="344" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594903049132" />
     <state width="1245" height="160" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1594898622015" />
-    <state width="1245" height="160" key="GridCell.Tab.1.left" timestamp="1594898622015">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1055" height="344" key="GridCell.Tab.1.left" timestamp="1594903049132">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1042" height="94" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594838515873" />
+    <state width="1055" height="344" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594903049132" />
     <state width="1245" height="160" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1594898622015" />
-    <state width="1245" height="160" key="GridCell.Tab.1.right" timestamp="1594898622015">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1055" height="344" key="GridCell.Tab.1.right" timestamp="1594903049132">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1042" height="94" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594838515873" />
+    <state width="1055" height="344" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594903049132" />
     <state width="1245" height="160" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1594898622015" />
     <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1594437035952">
       <screen x="0" y="0" width="1536" height="834" />
@@ -653,10 +450,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="408" y="121" key="NewModule_or_Project.wizard/0.0.1536.834@0.0.1536.834" timestamp="1594371123062" />
-    <state x="487" y="127" width="996" height="707" key="SettingsEditor" timestamp="1594897384865">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="270" y="0" width="996" height="707" key="SettingsEditor" timestamp="1594902493880">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594490372106" />
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594902493880" />
     <state x="487" y="127" width="996" height="707" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1594897384865" />
     <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1594881632918">
       <screen x="0" y="0" width="1536" height="834" />
@@ -670,10 +467,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="459" y="204" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1594474248824" />
-    <state x="348" y="111" key="new project wizard" timestamp="1594482908217">
+    <state x="348" y="111" key="new project wizard" timestamp="1594902734757">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="348" y="111" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1594482908217" />
+    <state x="348" y="111" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1594902734757" />
     <state x="262" y="126" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1594366309636" />
     <state x="430" y="147" width="672" height="687" key="search.everywhere.popup" timestamp="1594892830010">
       <screen x="0" y="0" width="1536" height="834" />

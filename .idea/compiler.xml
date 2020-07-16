@@ -13,9 +13,12 @@
         <module name="cloud-provider-aiRobot-8004" />
         <module name="cloud-config-nacos-client-3333" />
         <module name="cloud-provider-login-8001" />
+        <module name="cloud-imageurl-service-5555" />
         <module name="cloud-provider-news-8005" />
-        <module name="cloud-provider-imageurl-5555" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-provider-imageurl-5555" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

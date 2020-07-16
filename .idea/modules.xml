@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-aiRobot-8002/cloud-provider-aiRobot-8002.iml" filepath="$PROJECT_DIR$/cloud-provider-aiRobot-8002/cloud-provider-aiRobot-8002.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud-provider-imageurl-5555/cloud-provider-imageurl-5555.iml" filepath="$PROJECT_DIR$/cloud-provider-imageurl-5555/cloud-provider-imageurl-5555.iml" />
     </modules>
   </component>
 </project>
