@@ -16,23 +16,23 @@ public class UserService implements IUserService {
     IUserDao userDao = null;
 
     @Override
-    public User selectUserByNameService(String userName) {
-        return userDao.selectUserByName(userName);
+    public User selectUserOpenIdService(String openId) {
+        return userDao.selectUserByOpenId(openId);
     }
 
     @Override
-    public void insertUserService(User user) {
-        userDao.insertUser(user);
+    public int insertUserService(User user) {
+        return userDao.insertUser(user);
     }
 
     @Override
-    public void updateUserService(User user) {
-        userDao.updateUser(user);
+    public int updateUserService(User user) {
+        return userDao.updateUser(user);
     }
 
     @Override
-    public void deleteUserService(String userName) {
-        userDao.deleteUser(userName);
+    public int deleteUserService(String openId) {
+        return userDao.deleteUser(openId);
     }
 
     @Override

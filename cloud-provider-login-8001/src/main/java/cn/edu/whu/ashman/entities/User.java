@@ -8,21 +8,42 @@ package cn.edu.whu.ashman.entities;
  */
 
 public class User {
+    private Integer id;
     private String tel;
     private String userName;
-    private String identity;
-    private String birth;
-    private String place;
-    private String url;
+    private String openId;
+    private String imageUrl;
 
     public User(){}
-    public User(String userName,String identity, String tel, String birth, String place,String url){
+    public User(String userName,String tel,String openId,String imageUrl){
         //通过手机短信验证码登录或者微信授权登录的用户字段填充有差异
         this.userName = userName;
-        this.birth = birth;
-        this.identity = identity;
-        this.url = url;
-        this.place = place;
+        this.openId = openId;
+        this.tel = tel;
+        this.imageUrl = imageUrl;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getTel() {
+        return tel;
+    }
+
+    public void setTel(String tel) {
         this.tel = tel;
     }
 
@@ -34,55 +55,22 @@ public class User {
         this.userName = userName;
     }
 
-    public String getIdentity() {
-        return identity;
+    public String getOpenId() {
+        return openId;
     }
 
-    public void setIdentity(String identity) {
-        this.identity = identity;
-    }
-
-    public String getTel() {
-        return tel;
-    }
-
-    public void setTel(String tel) {
-        this.tel = tel;
-    }
-
-    public String getBirth() {
-        return birth;
-    }
-
-    public void setBirth(String birth) {
-        this.birth = birth;
-    }
-
-    public String getPlace() {
-        return place;
-    }
-
-    public void setPlace(String place) {
-        this.place = place;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
+    public void setOpenId(String openId) {
+        this.openId = openId;
     }
 
     @Override
     public String toString() {
         return "User{" +
-                "tel='" + tel + '\'' +
+                "id=" + id +
+                ", tel='" + tel + '\'' +
                 ", userName='" + userName + '\'' +
-                ", identity='" + identity + '\'' +
-                ", birth='" + birth + '\'' +
-                ", place='" + place + '\'' +
-                ", url='" + url + '\'' +
+                ", openId='" + openId + '\'' +
+                ", imageUrl='" + imageUrl + '\'' +
                 '}';
     }
 }

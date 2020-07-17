@@ -14,14 +14,23 @@ import org.springframework.stereotype.Repository;
 @Repository
 @Mapper
 public interface IUserDao {
+    /**
+     * create table users(
+     * id int primary key auto_increment,
+     * username char(20),
+     * openId char(100),
+     * tel char(11),
+     * imageUrl TEXT
+     * );
+     */
 
     /**
-     * 根据用户名查询User
-     * @param userName
+     * 根据openId查询User
+     * @param openId
      * @return
      */
-    @Select("select * from users where userName=#{userName}")
-    User selectUserByName(String userName);
+    @Select("select * from users where openId=#{openId}")
+    User selectUserByOpenId(String openId);
 
     @Select("select * from users where tel=#{tel}")
     User selectUserByTel(String tel);
@@ -29,21 +38,21 @@ public interface IUserDao {
     /**
      * 插入User
      */
-    @Insert("insert into users values (#{userName},#{identity},#{tel},#{birth},#{place},#{url})")
-    void insertUser(User user);
+    @Insert("insert into users(userName,openId,tel,imageUrl) values (#{userName},#{openId},#{tel},#{imageUrl})")
+    int insertUser(User user);
 
     /**
      * 更新User
      * @param user
      */
-    @Update("update users set userName=#{userName},identity=#{identity},birth=#{birth},place=#{place},url=#{url} where tel=#{tel}")
-    void updateUser(User user);
+    @Update("update users set userName=#{userName},tel=#{tel},imageUrl=#{imageUrl} where openId=#{openId}")
+    int updateUser(User user);
 
     /**
-     * 根据userName来删除User
-     * @param userName
+     * 根据openId删除user
+     * @param openId
      */
-    @Delete("delete from users where username = #{userName}")
-    void deleteUser(String userName);
+    @Delete("delete from users where openId = #{openId}")
+    int deleteUser(String openId);
 }
 

@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-consumer-identity-89" />
         <module name="cloud-api-commons" />
         <module name="cloud-consumer-login-85" />
         <module name="cloud-consumer-news-88" />
@@ -15,6 +16,7 @@
         <module name="cloud-provider-login-8001" />
         <module name="cloud-imageurl-service-5555" />
         <module name="cloud-provider-news-8005" />
+        <module name="cloud-provider-identity-8008" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

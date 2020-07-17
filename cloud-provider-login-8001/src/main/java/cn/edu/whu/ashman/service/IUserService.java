@@ -9,13 +9,13 @@ import cn.edu.whu.ashman.entities.User;
  **/
 public interface IUserService {
 
-    User selectUserByNameService(String userName);
+    User selectUserOpenIdService(String openId);
 
-    void insertUserService(User user);
+    int insertUserService(User user);
 
-    void updateUserService(User user);
+    int updateUserService(User user);
 
-    void deleteUserService(String userName);
+    int deleteUserService(String openId);
 
     User selectUserByTel(String tel);
 }
