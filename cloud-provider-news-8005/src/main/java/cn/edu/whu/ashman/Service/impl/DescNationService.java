@@ -47,4 +47,9 @@ public class DescNationService implements IDescNationService {
         }
         return currentConfirmedCountsList;
     }
+
+    @Override
+    public int update(DescNation descNation) {
+        return descNationDao.update(descNation);
+    }
 }

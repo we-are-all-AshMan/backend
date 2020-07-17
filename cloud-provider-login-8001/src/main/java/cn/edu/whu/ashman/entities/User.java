@@ -8,28 +8,22 @@ package cn.edu.whu.ashman.entities;
  */
 
 public class User {
-    private int id;
-    private String userName;
-    private String password;
     private String tel;
-    private String openId;
-    private String unionId;
+    private String userName;
+    private String identity;
+    private String birth;
+    private String place;
+    private String url;
 
     public User(){}
-    public User(String userName,String password, String tel, String openId, String unionId){
+    public User(String userName,String identity, String tel, String birth, String place,String url){
         //通过手机短信验证码登录或者微信授权登录的用户字段填充有差异
         this.userName = userName;
-        this.password = password;
-        this.openId = openId;
-        this.unionId = unionId;
+        this.birth = birth;
+        this.identity = identity;
+        this.url = url;
+        this.place = place;
         this.tel = tel;
-    }
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getUserName() {
@@ -40,12 +34,12 @@ public class User {
         this.userName = userName;
     }
 
-    public String getPassword() {
-        return password;
+    public String getIdentity() {
+        return identity;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setIdentity(String identity) {
+        this.identity = identity;
     }
 
     public String getTel() {
@@ -56,31 +50,39 @@ public class User {
         this.tel = tel;
     }
 
-    public String getOpenId() {
-        return openId;
+    public String getBirth() {
+        return birth;
     }
 
-    public void setOpenId(String openId) {
-        this.openId = openId;
+    public void setBirth(String birth) {
+        this.birth = birth;
     }
 
-    public String getUnionId() {
-        return unionId;
+    public String getPlace() {
+        return place;
     }
 
-    public void setUnionId(String unionId) {
-        this.unionId = unionId;
+    public void setPlace(String place) {
+        this.place = place;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
     }
 
     @Override
     public String toString() {
         return "User{" +
-                "id=" + id +
+                "tel='" + tel + '\'' +
                 ", userName='" + userName + '\'' +
-                ", password='" + password + '\'' +
-                ", tel='" + tel + '\'' +
-                ", openId='" + openId + '\'' +
-                ", unionId='" + unionId + '\'' +
+                ", identity='" + identity + '\'' +
+                ", birth='" + birth + '\'' +
+                ", place='" + place + '\'' +
+                ", url='" + url + '\'' +
                 '}';
     }
 }

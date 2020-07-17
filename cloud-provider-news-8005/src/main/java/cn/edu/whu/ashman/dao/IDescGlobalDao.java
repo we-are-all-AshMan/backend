@@ -31,4 +31,10 @@ public interface IDescGlobalDao {
 
     @Select("select date,currentConfirmedCount from descGlobal limit #{start},#{end}")
     Collection<DescGlobal> getCurrentConfirmedCounts(@Param("start") Integer start, @Param("end") Integer end);
+
+    @Update("update descGlobal set currentConfirmedCount=#{currentConfirmedCount},confirmedCount=#{confirmedCount}," +
+            "curedCount=#{curedCount},deadCount=#{deadCount}," +
+            "currentConfirmedIncr=#{currentConfirmedIncr},confirmedIncr=#{confirmedIncr}," +
+            "curedIncr=#{curedIncr},deadIncr=#{deadIncr} where date=#{date}")
+    int update(DescGlobal descGlobal);
 }

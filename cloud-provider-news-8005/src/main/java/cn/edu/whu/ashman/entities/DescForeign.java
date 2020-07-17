@@ -140,4 +140,21 @@ public class DescForeign {
     public void setDeadIncr(String deadIncr) {
         this.deadIncr = deadIncr;
     }
+
+    @Override
+    public String toString() {
+        return "DescForeign{" +
+                "date='" + date + '\'' +
+                ", currentConfirmedCount='" + currentConfirmedCount + '\'' +
+                ", confirmedCount='" + confirmedCount + '\'' +
+                ", suspectedCount='" + suspectedCount + '\'' +
+                ", curedCount='" + curedCount + '\'' +
+                ", deadCount='" + deadCount + '\'' +
+                ", suspectedIncr='" + suspectedIncr + '\'' +
+                ", currentConfirmedIncr='" + currentConfirmedIncr + '\'' +
+                ", confirmedIncr='" + confirmedIncr + '\'' +
+                ", curedIncr='" + curedIncr + '\'' +
+                ", deadIncr='" + deadIncr + '\'' +
+                '}';
+    }
 }

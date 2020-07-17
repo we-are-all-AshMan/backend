@@ -117,4 +117,19 @@ public class DescGlobal {
     public void setDeadIncr(String deadIncr) {
         this.deadIncr = deadIncr;
     }
+
+    @Override
+    public String toString() {
+        return "DescGlobal{" +
+                "date='" + date + '\'' +
+                ", currentConfirmedCount='" + currentConfirmedCount + '\'' +
+                ", confirmedCount='" + confirmedCount + '\'' +
+                ", curedCount='" + curedCount + '\'' +
+                ", deadCount='" + deadCount + '\'' +
+                ", currentConfirmedIncr='" + currentConfirmedIncr + '\'' +
+                ", confirmedIncr='" + confirmedIncr + '\'' +
+                ", curedIncr='" + curedIncr + '\'' +
+                ", deadIncr='" + deadIncr + '\'' +
+                '}';
+    }
 }

@@ -27,6 +27,9 @@ public class NewsTest {
     @Autowired
     NewsApply newsApply;
 
+    @Autowired
+    NewsJsonExplainUtil newsJsonExplainUtil;
+
     /**
      * 底层新闻api请求工具单元测试
      */
@@ -64,5 +67,29 @@ public class NewsTest {
             News news1 = (News)news;
             System.out.println(news1);
         }
+    }
+    @Test
+    public void jsonNewsTest(){
+        System.out.println(newsJsonExplainUtil.jsonToNews());
+    }
+
+    @Test
+    public void refreshDateTest(){
+        System.out.println(iNewsService.refreshOrNot("2020-07-15"));
+    }
+
+    @Test
+    public void jsonDescNationTest(){
+        System.out.println(newsJsonExplainUtil.jsonToDescNation());
+    }
+
+    @Test
+    public void jsonDescForeignTest(){
+        System.out.println(newsJsonExplainUtil.jsonToDescForeign());
+    }
+
+    @Test
+    public void jsonDescGlobalTest(){
+        System.out.println(newsJsonExplainUtil.jsonToDescGlobal());
     }
 }

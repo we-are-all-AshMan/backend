@@ -33,6 +33,9 @@ public class UserLoginController {
     public CommonResult getMessageCode(@PathVariable("phoneNumber") String phoneNumber){
         System.out.println("手机号码为："+phoneNumber);
         CommonResult commonResult = null;
+        if(phoneNumber.length()!=11){
+            return new CommonResult(455,"手机号长度不正确");
+        }
         //发验证码
         SmsUtils.shortMesssageText(phoneNumber);
         commonResult = new CommonResult(299,"成功发送验证码");
@@ -40,7 +43,7 @@ public class UserLoginController {
     }
 
     /**
-     * 手机号注册按钮提交
+     * 手机号绑定提交
      * @param user
      * @param code
      * @return
@@ -51,7 +54,7 @@ public class UserLoginController {
         if(code==SmsUtils.getCode()) {
             iUserService.insertUserService(user);
             System.out.println("注册用户：" + user);
-            commonResult = new CommonResult(200, "新建用户插入数据库成功");
+            commonResult = new CommonResult(200, "新建用户绑定手机号成功");
         }
         /*if(code==3578) {
             iUserService.insertUserService(user);
@@ -68,7 +71,7 @@ public class UserLoginController {
      * 微信授权注册
      * @param userJson
      * @return
-     */
+     *//*
     @PostMapping("/login/createByWeChat")
     public CommonResult createUserByWeChat(@RequestBody String userJson){
         User user = null;
@@ -78,7 +81,7 @@ public class UserLoginController {
         System.out.println("注册用户："+user);
         CommonResult commonResult = new CommonResult(200,"新建用户插入数据库成功");
         return commonResult;
-    }
+    }*/
 
     /**
      * 修改密码可能会用到
@@ -88,25 +91,25 @@ public class UserLoginController {
     @PostMapping("/login/update")
     public CommonResult updateUser(@RequestBody User user){
         iUserService.updateUserService(user);
-        System.out.println("修改用户名或密码为："+user);
+        System.out.println("修改用户名信息为："+user);
         CommonResult commonResult = new CommonResult(201,"用户修改成功");
         return commonResult;
     }
 
     /**
      * 按用户名查询，可用于测试
-     * @param username
+     * @param
      * @return
-     */
+     *//*
     @GetMapping("/login/select/{username}")
     public CommonResult selectUser(@PathVariable("username") String username){
         CommonResult commonResult = null;
         User user = iUserService.selectUserByNameService(username);
         commonResult = new CommonResult(202,"查询用户成功",user);
         return commonResult;
-    }
+    }*/
 
-    @PostMapping("/login/signIn")
+    /*@PostMapping("/login/signIn")
     public CommonResult signIn(@RequestBody User user){
         CommonResult commonResult = null;
         User userByTel = iUserService.selectUserByTel(user.getTel());
@@ -117,5 +120,5 @@ public class UserLoginController {
             commonResult = new CommonResult(400,"手机号或密码不正确",null);
         }
         return commonResult;
-    }
+    }*/
 }

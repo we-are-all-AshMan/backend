@@ -29,14 +29,14 @@ public interface IUserDao {
     /**
      * 插入User
      */
-    @Insert("insert into users(username,password,tel,openId,unionId) values (#{userName},#{password},#{tel},#{openId},#{unionId})")
+    @Insert("insert into users values (#{userName},#{identity},#{tel},#{birth},#{place},#{url})")
     void insertUser(User user);
 
     /**
      * 更新User
      * @param user
      */
-    @Update("update users set password = #{password},tel = #{tel}, openId = #{openId}, unionId = #{unionId} where userName=#{userName}")
+    @Update("update users set userName=#{userName},identity=#{identity},birth=#{birth},place=#{place},url=#{url} where tel=#{tel}")
     void updateUser(User user);
 
     /**

@@ -41,12 +41,12 @@ public class NewsService implements INewsService {
 
     @Override
     public int update(String id) {
-        return iNewsDao.update(id);
+        return iNewsDao.updateNewsTag(id);
     }
 
     @Override
     public boolean refreshOrNot(String date) {
-        if(getNewsByDate(date)!=null)
+        if(!getNewsByDate(date).isEmpty())
         return true;
         else return false;
     }

@@ -20,33 +20,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c52c4896-293e-4704-9ed2-f98c91428a85" name="Default Changelist" comment="初步实现 问答机器人的框架">
-      <change afterPath="$PROJECT_DIR$/cloud-imageurl-service-5555/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-nacos-client-3333/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-nacos-client-3333/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-nacos-client-3333/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-nacos-client-3333/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-nacos-client-3333/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-nacos-client-3333/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/classes/static/question.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/src/main/java/cn/edu/whu/ashman/COSUrlMain5555.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-imageurl-service-5555/src/main/java/cn/edu/whu/ashman/COSUrlMain5555.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/src/main/java/cn/edu/whu/ashman/config/COSClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-imageurl-service-5555/src/main/java/cn/edu/whu/ashman/config/COSClientConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/src/main/java/cn/edu/whu/ashman/controller/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-imageurl-service-5555/src/main/java/cn/edu/whu/ashman/controller/ImageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/src/main/java/cn/edu/whu/ashman/util/COSUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-imageurl-service-5555/src/main/java/cn/edu/whu/ashman/util/COSUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-imageurl-service-5555/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-imageurl-service-5555/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/src/test/java/cn/edu/whu/ashman/COSClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-imageurl-service-5555/src/test/java/cn/edu/whu/ashman/COSClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/classes/cn/edu/whu/ashman/COSUrlMain5555.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/classes/cn/edu/whu/ashman/config/COSClientConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/classes/cn/edu/whu/ashman/controller/ImageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/classes/cn/edu/whu/ashman/util/COSUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/cloud-provider-url-5555-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/cloud-provider-url-5555-1.0-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-imageurl-5555/target/test-classes/cn/edu/whu/ashman/COSClientTest.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/controller/UserIdentityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/controller/UserLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/controller/UserLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/IDescForeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/IDescForeignService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/IDescGlobalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/IDescGlobalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/IDescNationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/IDescNationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/impl/DescForeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/impl/DescForeignService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/impl/DescGlobalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/impl/DescGlobalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/impl/DescNationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/impl/DescNationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/impl/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/Service/impl/NewsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/component/NewsApply.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/component/NewsApply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/component/NewsCharts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/controller/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/controller/NewsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/dao/IDescForeignDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/dao/IDescForeignDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/dao/IDescGlobalDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/dao/IDescGlobalDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/dao/IDescNationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/dao/IDescNationDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/dao/INewsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/dao/INewsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/entities/DescForeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/entities/DescForeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/entities/DescGlobal.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/entities/DescGlobal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/entities/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/entities/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/util/NewsJsonExplainUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/main/java/cn/edu/whu/ashman/util/NewsJsonExplainUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/src/test/java/cn/edu/whu/ashman/NewsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/src/test/java/cn/edu/whu/ashman/NewsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/IDescForeignService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/IDescForeignService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/IDescGlobalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/IDescGlobalService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/IDescNationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/IDescNationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/impl/DescForeignService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/impl/DescForeignService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/impl/DescGlobalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/impl/DescGlobalService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/impl/DescNationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/impl/DescNationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/impl/NewsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/Service/impl/NewsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/component/NewsCharts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/controller/NewsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/controller/NewsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/dao/IDescForeignDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/dao/IDescForeignDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/dao/IDescGlobalDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/dao/IDescGlobalDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/dao/IDescNationDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/dao/IDescNationDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/dao/INewsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/dao/INewsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/entities/DescForeign.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/entities/DescForeign.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/entities/DescGlobal.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/entities/DescGlobal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/entities/News.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/entities/News.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/util/NewsJsonExplainUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/classes/cn/edu/whu/ashman/util/NewsJsonExplainUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/cloud-provider-news-8005-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/cloud-provider-news-8005-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/cloud-provider-news-8005-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/cloud-provider-news-8005-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/test-classes/cn/edu/whu/ashman/NewsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/test-classes/cn/edu/whu/ashman/NewsTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,49 +158,89 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.COSUrlMain5555 (2)">
+  <component name="RunManager" selected="JUnit.NewsTest.jsonDescGlobalTest">
+    <configuration name="NewsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-news-8005" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.whu.ashman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.edu.whu.ashman" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu.whu.ashman.NewsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewsTest.jsonDescForeignTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-news-8005" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.whu.ashman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.edu.whu.ashman" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu.whu.ashman.NewsTest" />
+      <option name="METHOD_NAME" value="jsonDescForeignTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewsTest.jsonDescGlobalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-news-8005" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.whu.ashman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.edu.whu.ashman" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu.whu.ashman.NewsTest" />
+      <option name="METHOD_NAME" value="jsonDescGlobalTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewsTest.jsonDescNationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-news-8005" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.whu.ashman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.edu.whu.ashman" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu.whu.ashman.NewsTest" />
+      <option name="METHOD_NAME" value="jsonDescNationTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewsTest.refreshDateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-news-8005" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.whu.ashman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.edu.whu.ashman" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu.whu.ashman.NewsTest" />
+      <option name="METHOD_NAME" value="refreshDateTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AiRobotMain8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-aiRobot-8004" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.AiRobotMain8004" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="COSUrlMain5555 (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-provider-imageurl-5555" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.edu.whu.ashman.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.COSUrlMain5555" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="COSUrlMain5555 (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-imageurl-service-5555" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.edu.whu.ashman.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.COSUrlMain5555" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="COSUrlMain5555" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-provider-imageurl-5555" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.edu.whu.ashman.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.COSUrlMain5555" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -187,35 +252,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerNewsMain88" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-consumer-news-88" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.edu.whu.ashman.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.ConsumerNewsMain88" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LoginMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-login-8001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.LoginMain8001" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NacosConfigClientMain3333" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-config-nacos-client-3333" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.edu.whu.ashman.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.NacosConfigClientMain3333" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -229,11 +268,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.COSUrlMain5555 (2)" />
-        <item itemvalue="Spring Boot.NacosConfigClientMain3333" />
-        <item itemvalue="Spring Boot.ConsumerNewsMain88" />
-        <item itemvalue="Spring Boot.COSUrlMain5555 (1)" />
-        <item itemvalue="Spring Boot.COSUrlMain5555" />
+        <item itemvalue="JUnit.NewsTest.jsonDescGlobalTest" />
+        <item itemvalue="JUnit.NewsTest.jsonDescForeignTest" />
+        <item itemvalue="JUnit.NewsTest.jsonDescNationTest" />
+        <item itemvalue="JUnit.NewsTest" />
+        <item itemvalue="JUnit.NewsTest.refreshDateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -246,11 +285,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -293,6 +327,7 @@
       <workItem from="1594902397023" duration="210000" />
       <workItem from="1594902633369" duration="179000" />
       <workItem from="1594902839232" duration="187000" />
+      <workItem from="1594946905417" duration="17079000" />
     </task>
     <task id="LOCAL-00001" summary="初步问答机器人框架">
       <created>1594386612963</created>
@@ -367,10 +402,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="0" y="145" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1594448654638" />
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1594726298372">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1594963398018">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594726298372" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594963398018" />
     <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1594440912197" />
     <state x="520" y="195" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1594490360604">
       <screen x="0" y="0" width="1536" height="824" />
@@ -397,25 +432,25 @@
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594902489913" />
     <state x="549" y="169" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1594892862752" />
-    <state width="1055" height="344" key="GridCell.Tab.0.bottom" timestamp="1594903049132">
+    <state width="1537" height="202" key="GridCell.Tab.0.bottom" timestamp="1594963598545">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1055" height="344" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594903049132" />
+    <state width="1537" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594963598545" />
     <state width="1245" height="160" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1594898622015" />
-    <state width="1055" height="344" key="GridCell.Tab.0.center" timestamp="1594903049131">
+    <state width="1537" height="202" key="GridCell.Tab.0.center" timestamp="1594963598545">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1055" height="344" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594903049131" />
+    <state width="1537" height="202" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594963598545" />
     <state width="1245" height="160" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1594898622015" />
-    <state width="1055" height="344" key="GridCell.Tab.0.left" timestamp="1594903049130">
+    <state width="1537" height="202" key="GridCell.Tab.0.left" timestamp="1594963598544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1055" height="344" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594903049130" />
+    <state width="1537" height="202" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594963598544" />
     <state width="1245" height="160" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1594898622014" />
-    <state width="1055" height="344" key="GridCell.Tab.0.right" timestamp="1594903049132">
+    <state width="1537" height="202" key="GridCell.Tab.0.right" timestamp="1594963598545">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1055" height="344" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594903049132" />
+    <state width="1537" height="202" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594963598545" />
     <state width="1245" height="160" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1594898622015" />
     <state width="1055" height="344" key="GridCell.Tab.1.bottom" timestamp="1594903049132">
       <screen x="0" y="0" width="1536" height="824" />
@@ -472,10 +507,10 @@
     </state>
     <state x="348" y="111" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1594902734757" />
     <state x="262" y="126" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1594366309636" />
-    <state x="430" y="147" width="672" height="687" key="search.everywhere.popup" timestamp="1594892830010">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594961114788">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594344778629" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594961114788" />
     <state x="430" y="147" width="672" height="687" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1594892830010" />
   </component>
   <component name="XDebuggerManager">

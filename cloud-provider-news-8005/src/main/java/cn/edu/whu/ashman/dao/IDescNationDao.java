@@ -51,4 +51,10 @@ public interface IDescNationDao {
 
     @Select("select date,currentConfirmedCount from descNation limit #{start},#{end}")
     Collection<DescNation> getCurrentConfirmedCounts(@Param("start") Integer start, @Param("end") Integer end);
+
+    @Update("update descNation set currentConfirmedCount=#{currentConfirmedCount},confirmedCount=#{confirmedCount}," +
+            "suspectedCount=#{suspectedCount},curedCount=#{curedCount},deadCount=#{deadCount},seriousCount=#{seriousCount}," +
+            "suspectedIncr=#{suspectedIncr},currentConfirmedIncr=#{currentConfirmedIncr},confirmedIncr=#{confirmedIncr}," +
+            "curedIncr=#{curedIncr},deadIncr=#{deadIncr},seriousIncr=#{seriousIncr} where date=#{date}")
+    int update(DescNation descNation);
 }

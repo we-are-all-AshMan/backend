@@ -25,4 +25,6 @@ public interface IDescNationService {
     String getNationCurrentConfirmedCountByDate(String date);
 
     List<Map<String,String>> getCurrentConfirmedCounts(Integer start, Integer end);
+
+    int update(DescNation descNation);
 }

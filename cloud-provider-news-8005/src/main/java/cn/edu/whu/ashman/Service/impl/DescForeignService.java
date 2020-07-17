@@ -36,4 +36,9 @@ public class DescForeignService implements IDescForeignService {
     public String getForeignCurrentConfirmedCountByDate(String date) {
         return iDescForeignDao.getCurrentConfirmedCountByDate(date);
     }
+
+    @Override
+    public int update(DescForeign descForeign) {
+        return iDescForeignDao.update(descForeign);
+    }
 }
