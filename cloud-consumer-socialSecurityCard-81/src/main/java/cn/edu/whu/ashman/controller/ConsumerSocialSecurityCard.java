@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
-
+import cn.edu.whu.ashman.entities.SocialSecurityCard;
 /**
  * @Author LiuWeiFan
  * @create 2020/7/18 11:26
@@ -30,8 +30,8 @@ public class ConsumerSocialSecurityCard {
 
 
     @GetMapping("/consumer/socialSecurityCard/create")
-    public CommonResult createIdentity(Identity identity){
-        return restTemplate.postForObject(SERVER_URL+"/socialSecurityCard/create",identity,CommonResult.class);
+    public CommonResult createIdentity(SocialSecurityCard socialSecurityCard){
+        return restTemplate.postForObject(SERVER_URL+"/socialSecurityCard/create",socialSecurityCard,CommonResult.class);
     }
 
     @GetMapping("/consumer/socialSecurityCard/getAll")
