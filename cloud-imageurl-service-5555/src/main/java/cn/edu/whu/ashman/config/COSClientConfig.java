@@ -20,7 +20,7 @@ public class COSClientConfig {
     public static final String SECRET_ID = "123456";
     public static final String SECRET_KEY = "123456";
     public static final String COS_REGION = "ap-chengdu";
-    public static final String APPID = "1301866798";
+    public static final String APPID = "123456";
     public static final String PREFIX = "https://picturebed-1301866798.cos.ap-chengdu.myqcloud.com/";
 
     @Bean
