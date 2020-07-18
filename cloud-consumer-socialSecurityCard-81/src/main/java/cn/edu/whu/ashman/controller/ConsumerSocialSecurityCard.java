@@ -51,11 +51,11 @@ public class ConsumerSocialSecurityCard {
     }
 
     @GetMapping("/consumer/socialSecurityCard/update")
-    public CommonResult update(@RequestBody SocialSecurityCard socialSecurityCard){
+    public CommonResult update(SocialSecurityCard socialSecurityCard){
         return restTemplate.postForObject(SERVER_URL+"/socialSecurityCard/update",socialSecurityCard,CommonResult.class);
     }
 
-    @GetMapping("/consumer/socailSecurityCard/delete/{openId}")
+    @GetMapping("/consumer/socialSecurityCard/delete/{openId}")
     public CommonResult delete(@PathVariable String openId){
         return restTemplate.getForObject(SERVER_URL+"/socialSecurityCard/delete/"+openId,CommonResult.class);
 

@@ -61,6 +61,6 @@ public interface ISocialSecurityCardDao {
     @Select("select * from socialSecurityCards")
     Collection<SocialSecurityCard> getAllSocialSecurityCards();
 
-    @Delete("delete from socialSecurityCard where openId=#{openId}")
+    @Delete("delete from socialSecurityCards where openId=#{openId}")
     int delete(String openId);
 }
