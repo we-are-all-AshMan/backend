@@ -57,7 +57,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <!-- 指定该Main Class为全局的唯一入口 -->
-                    <mainClass>cn.edu.whu.ashman.ConsumerIdentityMain89</mainClass>
+                    <mainClass>cn.edu.whu.ashman.ConsumerSocialSecurityCardMain81</mainClass>
                     <layout>ZIP</layout>
                 </configuration>
                 <executions>

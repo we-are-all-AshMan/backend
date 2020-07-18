@@ -1,7 +1,7 @@
-D:\gitForIdea\back\cloud-provider-identity-8008\src\main\java\cn\edu\whu\ashman\controller\IdentityController.java
-D:\gitForIdea\back\cloud-provider-identity-8008\src\main\java\cn\edu\whu\ashman\service\impl\IdentityService.java
-D:\gitForIdea\back\cloud-provider-identity-8008\src\main\java\cn\edu\whu\ashman\dao\IIdentityDao.java
-D:\gitForIdea\back\cloud-provider-identity-8008\src\main\java\cn\edu\whu\ashman\service\IIdentityService.java
-D:\gitForIdea\back\cloud-provider-identity-8008\src\main\java\cn\edu\whu\ashman\entities\Identity.java
-D:\gitForIdea\back\cloud-provider-identity-8008\src\main\java\cn\edu\whu\ashman\IdentityMain8008.java
-D:\gitForIdea\back\cloud-provider-identity-8008\src\main\java\cn\edu\whu\ashman\util\SmsUtils.java
+D:\391-WHU\AIGOV\backend\cloud-provider-identity-8008\src\main\java\cn\edu\whu\ashman\dao\IIdentityDao.java
+D:\391-WHU\AIGOV\backend\cloud-provider-identity-8008\src\main\java\cn\edu\whu\ashman\controller\IdentityController.java
+D:\391-WHU\AIGOV\backend\cloud-provider-identity-8008\src\main\java\cn\edu\whu\ashman\IdentityMain8008.java
+D:\391-WHU\AIGOV\backend\cloud-provider-identity-8008\src\main\java\cn\edu\whu\ashman\service\impl\IdentityService.java
+D:\391-WHU\AIGOV\backend\cloud-provider-identity-8008\src\main\java\cn\edu\whu\ashman\util\SmsUtils.java
+D:\391-WHU\AIGOV\backend\cloud-provider-identity-8008\src\main\java\cn\edu\whu\ashman\service\IIdentityService.java
+D:\391-WHU\AIGOV\backend\cloud-provider-identity-8008\src\main\java\cn\edu\whu\ashman\entities\Identity.java

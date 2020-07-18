@@ -19,7 +19,9 @@
     <module>cloud-provider-identity-8008</module>
     <module>cloud-consumer-identity-89</module>
     <module>cloud-provider-etc-9001</module>
-      <module>cloud-consumer-etc-90</module>
+    <module>cloud-consumer-etc-90</module>
+    <module>cloud-consumer-socialSecurityCard-81</module>
+    <module>cloud-provider-socialSecurityCard-8010</module>
   </modules>
   <packaging>pom</packaging>
 
