@@ -20,4 +20,6 @@ public interface IDescForeignService {
     int delete(String date);
 
     String getForeignCurrentConfirmedCountByDate(String date);
+
+    int update(DescForeign descForeign);
 }

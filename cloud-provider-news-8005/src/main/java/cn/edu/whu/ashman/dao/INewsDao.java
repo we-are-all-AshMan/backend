@@ -27,6 +27,6 @@ public interface INewsDao {
     int delete(String id);
 
     @Update("update news set tag = tag+1 where id = #{id}")
-    int update(String id);
+    int updateNewsTag(String id);
 
 }

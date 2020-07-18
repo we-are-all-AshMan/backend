@@ -31,27 +31,26 @@ public class ConsumerUserLoginController {
     }
 
     /**
-     * 手机号注册按钮提交
+     * 用户注册按钮提交
      * @param user
-     * @param code
      * @return
      */
-    @GetMapping("/consumer/login/createByPhone/{code}")
-    public CommonResult createUserByPhone(User user, @PathVariable("code") int code){
+    @GetMapping("/consumer/login/createUser")
+    public CommonResult createUser(User user){
         //路径参数这样配置
-        return restTemplate.postForObject(serverURL+"/login/createByPhone/"+code,user,CommonResult.class);
+        return restTemplate.postForObject(serverURL+"/login/createUser",user,CommonResult.class);
     }
 
     /**
      * 微信授权注册
      * @param userJson
      * @return
-     */
+     *//*
     @GetMapping("/consumer/login/createByWeChat")
     public CommonResult createUserByWeChat(String userJson){
         //http请求体这样传
         return restTemplate.postForObject(serverURL+"/login/createByWeChat",userJson,CommonResult.class);
-    }
+    }*/
 
     /**
      * 修改密码可能会用到
@@ -64,24 +63,24 @@ public class ConsumerUserLoginController {
     }
 
     /**
-     * 按用户名查询，可用于测试
-     * @param username
+     * 按openId查询用户有没有绑定手机号
+     * @param openId
      * @return
      */
-    @GetMapping("/consumer/login/select/{username}")
-    public CommonResult selectUser(@PathVariable("username") String username){
-        return restTemplate.getForObject(serverURL+"/login/select/"+username,CommonResult.class);
+    @GetMapping("/consumer/login/select/{openId}")
+    public CommonResult selectUser(@PathVariable("openId") String openId){
+        return restTemplate.getForObject(serverURL+"/login/select/"+openId,CommonResult.class);
     }
 
     /**
      * 登录
      * @return
-     */
+     *//*
     @GetMapping("/consumer/login/signIn")
     public CommonResult signIn(User user){
-       /* Map<String,String> request = new HashMap<>();
+       *//* Map<String,String> request = new HashMap<>();
         request.put("tel",tel);
-        request.put("password",password);*/
+        request.put("password",password);*//*
         return restTemplate.postForObject(serverURL+"/login/signIn",user,CommonResult.class);
-    }
+    }*/
 }

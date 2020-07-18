@@ -48,4 +48,9 @@ public class DescGlobalService implements IDescGlobalService {
         }
         return currentConfirmedCountsList;
     }
+
+    @Override
+    public int update(DescGlobal descGlobal) {
+        return iDescGlobalDao.update(descGlobal);
+    }
 }

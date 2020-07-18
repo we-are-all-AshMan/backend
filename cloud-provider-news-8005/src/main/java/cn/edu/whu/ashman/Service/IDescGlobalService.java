@@ -21,4 +21,6 @@ public interface IDescGlobalService {
     String getGlobalCurrentConfirmedCountByDate(String date);
 
     List<Map<String,String>> getCurrentConfirmedCounts(Integer start, Integer end);
+
+    int update(DescGlobal descGlobal);
 }

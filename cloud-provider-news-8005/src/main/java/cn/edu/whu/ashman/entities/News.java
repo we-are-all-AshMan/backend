@@ -10,7 +10,6 @@ import lombok.NoArgsConstructor;
  * @author Zhuyuhan
  * @date 2020-07-10 16:24
  */
-@Data
 //@AllArgsConstructor
 @NoArgsConstructor
 public class News {
@@ -41,6 +40,62 @@ public class News {
         this.sUrl = sUrl;
         this.title = title;
         this.date = date;
+        this.tag = tag;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getSummary() {
+        return summary;
+    }
+
+    public void setSummary(String summary) {
+        this.summary = summary;
+    }
+
+    public String getInfoSource() {
+        return infoSource;
+    }
+
+    public void setInfoSource(String infoSource) {
+        this.infoSource = infoSource;
+    }
+
+    public String getsUrl() {
+        return sUrl;
+    }
+
+    public void setsUrl(String sUrl) {
+        this.sUrl = sUrl;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public Integer getTag() {
+        return tag;
+    }
+
+    public void setTag(Integer tag) {
         this.tag = tag;
     }
 

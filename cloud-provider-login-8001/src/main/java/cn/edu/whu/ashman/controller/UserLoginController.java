@@ -33,33 +33,35 @@ public class UserLoginController {
     public CommonResult getMessageCode(@PathVariable("phoneNumber") String phoneNumber){
         System.out.println("手机号码为："+phoneNumber);
         CommonResult commonResult = null;
-        //发验证码
-        SmsUtils.shortMesssageText(phoneNumber);
-        commonResult = new CommonResult(299,"成功发送验证码");
+        if(phoneNumber.length()!=11){
+            return new CommonResult(455,"手机号长度不正确");
+        }
+        else if(iUserService.selectUserByTel(phoneNumber)!=null){
+            return new CommonResult(444,"该手机号已被注册过");
+        }
+        else {
+            //发验证码
+            SmsUtils.shortMesssageText(phoneNumber);
+            commonResult = new CommonResult(299, "成功发送验证码:", SmsUtils.getCode());
+        }
         return commonResult;
     }
 
     /**
-     * 手机号注册按钮提交
+     * 手机号绑定提交
      * @param user
-     * @param code
      * @return
      */
-    @PostMapping("/login/createByPhone/{code}")
-    public CommonResult createUserByPhone(@RequestBody User user,@PathVariable("code") int code){
+    @PostMapping("/login/createUser")
+    public CommonResult createUser(@RequestBody User user){
         CommonResult commonResult = null;
-        if(code==SmsUtils.getCode()) {
-            iUserService.insertUserService(user);
+        int i = iUserService.insertUserService(user);
+        if(i>0) {
             System.out.println("注册用户：" + user);
-            commonResult = new CommonResult(200, "新建用户插入数据库成功");
+            commonResult = new CommonResult(200, "新建用户成功", user);
         }
-        /*if(code==3578) {
-            iUserService.insertUserService(user);
-            System.out.println("注册用户：" + user);
-            commonResult = new CommonResult(200, "新建用户插入数据库成功");
-        }*/
         else {
-            commonResult = new CommonResult(401,"验证码错误");
+            commonResult = new CommonResult(400, "新建用户失败", user);
         }
         return commonResult;
     }
@@ -68,7 +70,7 @@ public class UserLoginController {
      * 微信授权注册
      * @param userJson
      * @return
-     */
+     *//*
     @PostMapping("/login/createByWeChat")
     public CommonResult createUserByWeChat(@RequestBody String userJson){
         User user = null;
@@ -78,7 +80,7 @@ public class UserLoginController {
         System.out.println("注册用户："+user);
         CommonResult commonResult = new CommonResult(200,"新建用户插入数据库成功");
         return commonResult;
-    }
+    }*/
 
     /**
      * 修改密码可能会用到
@@ -88,25 +90,30 @@ public class UserLoginController {
     @PostMapping("/login/update")
     public CommonResult updateUser(@RequestBody User user){
         iUserService.updateUserService(user);
-        System.out.println("修改用户名或密码为："+user);
+        System.out.println("修改用户名信息为："+user);
         CommonResult commonResult = new CommonResult(201,"用户修改成功");
         return commonResult;
     }
 
     /**
-     * 按用户名查询，可用于测试
-     * @param username
+     * 查看用户有没有绑定手机号
+     * @param openId
      * @return
      */
-    @GetMapping("/login/select/{username}")
-    public CommonResult selectUser(@PathVariable("username") String username){
+    @GetMapping("/login/select/{openId}")
+    public CommonResult selectUser(@PathVariable("openId") String openId){
         CommonResult commonResult = null;
-        User user = iUserService.selectUserByNameService(username);
-        commonResult = new CommonResult(202,"查询用户成功",user);
+        User user = iUserService.selectUserOpenIdService(openId);
+        if(user==null){
+            commonResult = new CommonResult(403,"该用户没有绑定手机号");
+        }
+        else {
+            commonResult = new CommonResult(202, "该用户已完成手机号绑定", user);
+        }
         return commonResult;
     }
 
-    @PostMapping("/login/signIn")
+    /*@PostMapping("/login/signIn")
     public CommonResult signIn(@RequestBody User user){
         CommonResult commonResult = null;
         User userByTel = iUserService.selectUserByTel(user.getTel());
@@ -117,5 +124,5 @@ public class UserLoginController {
             commonResult = new CommonResult(400,"手机号或密码不正确",null);
         }
         return commonResult;
-    }
+    }*/
 }

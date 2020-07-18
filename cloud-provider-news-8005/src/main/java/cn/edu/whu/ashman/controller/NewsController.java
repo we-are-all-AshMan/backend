@@ -42,10 +42,13 @@ public class NewsController {
     public CommonResult refreshNews(){
         CommonResult commonResult = null;
         int i = newsApply.saveNews();
-        if(i>0)
-        commonResult = new CommonResult(222,"拉取新闻成功",i);
-        else if(i==0){
-            commonResult = new CommonResult(255,"今日新闻已经拉取过",i);
+        if(i==0)
+        commonResult = new CommonResult(222,"今日首次拉取新闻成功",i);
+        else if(i==20){
+            commonResult = new CommonResult(255,"当前新闻已更新到最新",i);
+        }
+        else if(i==10){
+            commonResult = new CommonResult(256,"当前新闻已是最新，不需要更新",i);
         }
         else commonResult = new CommonResult(422,"拉取新闻失败",i);
         return commonResult;
@@ -54,10 +57,13 @@ public class NewsController {
     public CommonResult refreshDescNation(){
         CommonResult commonResult = null;
         int i = newsApply.saveDescNation();
-        if(i>0)
-            commonResult = new CommonResult(223,"拉取国内疫情成功",i);
-        else if(i==0){
-            commonResult = new CommonResult(256,"今日国内疫情数据已经拉取过",i);
+        if(i==0)
+            commonResult = new CommonResult(223,"今日首次拉取国内疫情成功",i);
+        else if(i==20){
+            commonResult = new CommonResult(256,"更新今日国内疫情数据成功",i);
+        }
+        else if(i==10){
+            commonResult = new CommonResult(266,"今日国内疫情数据已是最新",i);
         }
         else commonResult = new CommonResult(423,"拉取国内疫情失败",i);
         return commonResult;
@@ -66,10 +72,13 @@ public class NewsController {
     public CommonResult refreshForeign(){
         CommonResult commonResult = null;
         int i = newsApply.saveDescForeign();
-        if(i>0)
-            commonResult = new CommonResult(224,"拉取外国疫情成功",i);
-        else if(i==0){
-            commonResult = new CommonResult(257,"今日外国疫情数据已经拉取过",i);
+        if(i==0)
+            commonResult = new CommonResult(224,"今日首次拉取外国疫情成功",i);
+        else if(i==20){
+            commonResult = new CommonResult(257,"更新今日外国疫情数据成功",i);
+        }
+        else if(i==10){
+            commonResult = new CommonResult(267,"今日外国疫情数据已是最新",i);
         }
         else commonResult = new CommonResult(424,"拉取外国疫情失败",i);
         return commonResult;
@@ -78,10 +87,12 @@ public class NewsController {
     public CommonResult refreshGlobal(){
         CommonResult commonResult = null;
         int i = newsApply.saveDescGlobal();
-        if(i>0)
-            commonResult = new CommonResult(225,"拉取全球疫情成功",i);
-        else if(i==0){
-            commonResult = new CommonResult(257,"今日全球疫情数据已经拉取过",i);
+        if(i==0) commonResult = new CommonResult(225,"今日首次拉取全球疫情成功",i);
+        else if(i==20){
+            commonResult = new CommonResult(258,"更新今日全球疫情数据成功",i);
+        }
+        else if(i==10){
+            commonResult = new CommonResult(268,"今日全球疫情数据已是最新",i);
         }
         else commonResult = new CommonResult(425,"拉取全球疫情失败",i);
         return commonResult;

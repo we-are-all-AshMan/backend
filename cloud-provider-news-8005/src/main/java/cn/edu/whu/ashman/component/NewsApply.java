@@ -18,7 +18,7 @@ public class NewsApply {
 
 
     /**
-     * 读取api并保存新闻进数据库
+     * 读取api并刷新新闻数据库
      */
     public int saveNews(){
         //NewsJsonExplainUtil newsJsonExplainUtil = new NewsJsonExplainUtil();
