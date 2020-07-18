@@ -8,49 +8,35 @@ package cn.edu.whu.ashman.entities;
  */
 
 public class User {
-    private int id;
-    private String userName;
-    private String password;
+    private Integer id;
     private String tel;
+    private String userName;
     private String openId;
-    private String unionId;
+    private String imageUrl;
 
     public User(){}
-    public User(String userName, String password, String tel, String openId, String unionId){
+    public User(String userName, String tel, String openId, String imageUrl){
         //通过手机短信验证码登录或者微信授权登录的用户字段填充有差异
         this.userName = userName;
-        this.password = password;
         this.openId = openId;
-        this.unionId = unionId;
         this.tel = tel;
-    }
-    public User(String password, String tel){
-        this.password = password;
-        this.tel = tel;
+        this.imageUrl = imageUrl;
     }
 
-    public int getId() {
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
-    }
-
-    public String getUserName() {
-        return userName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
     }
 
     public String getTel() {
@@ -61,6 +47,14 @@ public class User {
         this.tel = tel;
     }
 
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
     public String getOpenId() {
         return openId;
     }
@@ -69,23 +63,14 @@ public class User {
         this.openId = openId;
     }
 
-    public String getUnionId() {
-        return unionId;
-    }
-
-    public void setUnionId(String unionId) {
-        this.unionId = unionId;
-    }
-
     @Override
     public String toString() {
         return "User{" +
                 "id=" + id +
-                ", userName='" + userName + '\'' +
-                ", password='" + password + '\'' +
                 ", tel='" + tel + '\'' +
+                ", userName='" + userName + '\'' +
                 ", openId='" + openId + '\'' +
-                ", unionId='" + unionId + '\'' +
+                ", imageUrl='" + imageUrl + '\'' +
                 '}';
     }
 }

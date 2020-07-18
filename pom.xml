@@ -16,10 +16,10 @@
     <module>cloud-config-nacos-client-3333</module>
     <module>cloud-consumer-news-88</module>
     <module>cloud-imageurl-service-5555</module>
-      <module>cloud-provider-identity-8008</module>
-      <module>cloud-consumer-identity-89</module>
-      <module>cloud-provider-socialSecurityCard-8010</module>
-      <module>cloud-consumer-socialSecurityCard-81</module>
+    <module>cloud-provider-identity-8008</module>
+    <module>cloud-consumer-identity-89</module>
+    <module>cloud-provider-etc-9001</module>
+      <module>cloud-consumer-etc-90</module>
   </modules>
   <packaging>pom</packaging>
 
