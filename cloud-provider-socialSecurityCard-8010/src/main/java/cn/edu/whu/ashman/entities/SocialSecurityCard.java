@@ -14,6 +14,7 @@ public class SocialSecurityCard {
     private String socialSecurityCardNumber;
     private Integer state;
 
+    public SocialSecurityCard(){}
     /**
      *
      * @param openId
@@ -21,14 +22,6 @@ public class SocialSecurityCard {
     public SocialSecurityCard(String openId) {
         this.state = 0;
         this.openId = openId;
-    }
-
-    public SocialSecurityCard(String openId, String name, String socialSecurityNumber, String socialSecurityCardNumber, Integer state) {
-        this.openId = openId;
-        this.name = name;
-        this.socialSecurityNumber = socialSecurityNumber;
-        this.socialSecurityCardNumber = socialSecurityCardNumber;
-        this.state = state;
     }
 
     public String getOpenId() {
