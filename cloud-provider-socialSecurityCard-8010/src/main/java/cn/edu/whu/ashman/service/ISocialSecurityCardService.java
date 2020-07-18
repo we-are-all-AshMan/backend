@@ -20,4 +20,5 @@ public interface ISocialSecurityCardService {
 
     Collection<SocialSecurityCard> getAllSocialSecurityCards();
 
+    int delete(String openId);
 }

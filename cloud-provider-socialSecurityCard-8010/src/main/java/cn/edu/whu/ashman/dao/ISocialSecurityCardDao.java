@@ -6,10 +6,7 @@ package cn.edu.whu.ashman.dao;
  */
 
 import cn.edu.whu.ashman.entities.SocialSecurityCard;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.Update;
+import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
 
 import java.util.Collection;
@@ -63,4 +60,7 @@ public interface ISocialSecurityCardDao {
      */
     @Select("select * from socialSecurityCards")
     Collection<SocialSecurityCard> getAllSocialSecurityCards();
+
+    @Delete("delete from socialSecurityCard where openId=#{openId}")
+    int delete(String openId);
 }

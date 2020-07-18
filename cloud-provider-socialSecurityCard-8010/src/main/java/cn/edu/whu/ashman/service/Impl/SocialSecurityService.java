@@ -40,4 +40,9 @@ public class SocialSecurityService implements ISocialSecurityCardService {
     public Collection<SocialSecurityCard> getAllSocialSecurityCards() {
         return iSocialSecurityCardDao.getAllSocialSecurityCards();
     }
+
+    @Override
+    public int delete(String openId) {
+        return iSocialSecurityCardDao.delete(openId);
+    }
 }

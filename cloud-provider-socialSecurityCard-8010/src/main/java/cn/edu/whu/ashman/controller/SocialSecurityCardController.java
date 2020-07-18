@@ -28,7 +28,7 @@ public class SocialSecurityCardController {
      * @return
      */
     @GetMapping("/socialSecurityCard/getSocialSecurityCardByOpenId/{openId}")
-    public CommonResult getIdentityByOpenId(@PathVariable("openId") String openId) {
+    public CommonResult getSocialSecurityCardByOpenId(@PathVariable("openId") String openId) {
         CommonResult commonResult = null;
         SocialSecurityCard socialSecurityCard = iSocialSecurityCardService.getSocialSecurityCardByOpenId(openId);
         try {
@@ -58,7 +58,7 @@ public class SocialSecurityCardController {
      * @return
      */
     @PostMapping("/socialSecurityCard/create")
-    public CommonResult createIdentity(@RequestBody SocialSecurityCard socialSecurityCard) {
+    public CommonResult createSocialSecurityCard(@RequestBody SocialSecurityCard socialSecurityCard) {
         CommonResult commonResult = null;
         socialSecurityCard.setState(3);
         try {
@@ -79,7 +79,7 @@ public class SocialSecurityCardController {
      * @return
      */
     @GetMapping("/socialSecurityCard/getAll")
-    public CommonResult getAllIdentity() {
+    public CommonResult getAllSocialSecurityCard() {
         CommonResult commonResult = null;
         try {
             Collection<SocialSecurityCard> socialSecurityCards = iSocialSecurityCardService.getAllSocialSecurityCards();
@@ -129,6 +129,45 @@ public class SocialSecurityCardController {
             }
         } catch (Exception e) {
             commonResult = new CommonResult(303, "服务器异常，未能成功发送验证码");
+        }
+        return commonResult;
+    }
+
+    /**
+     * 审核通过
+     * @param socialSecurityCard
+     * @return
+     */
+    @PostMapping("/socialSecurityCard/update")
+    public CommonResult update(@RequestBody SocialSecurityCard socialSecurityCard) {
+        CommonResult commonResult = null;
+        socialSecurityCard.setState(4);
+        try {
+            int update = iSocialSecurityCardService.updateSocialSecurityCard(socialSecurityCard);
+            if (update > 0) {
+                commonResult = new CommonResult(309, "社保卡激活申请通过", socialSecurityCard);
+            } else {
+                commonResult = new CommonResult(304, "提交失败");
+            }
+        } catch (Exception e) {
+            commonResult = new CommonResult(303, "服务器异常");
+        }
+        return commonResult;
+    }
+
+    /**
+     * 注销社保卡激活信息
+     * @param openId
+     * @return
+     */
+    @GetMapping("/socialSecurityCard/delete/{openId}")
+    public CommonResult delete(@PathVariable String openId) {
+        CommonResult commonResult = null;
+        try {
+            iSocialSecurityCardService.delete(openId);
+            commonResult = new CommonResult(310, "成功注销该用户社保卡激活信息");
+        } catch (Exception e) {
+            commonResult = new CommonResult(303, "服务器异常，加载失败");
         }
         return commonResult;
     }

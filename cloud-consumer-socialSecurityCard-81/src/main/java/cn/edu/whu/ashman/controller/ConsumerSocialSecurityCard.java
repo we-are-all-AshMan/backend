@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 import cn.edu.whu.ashman.entities.SocialSecurityCard;
@@ -24,18 +25,18 @@ public class ConsumerSocialSecurityCard {
     private String SERVER_URL;
 
     @GetMapping("/consumer/socialSecurityCard/getSocialSecurityCardByOpenId/{openId}")
-    public CommonResult getIdentityByOpenId(@PathVariable("openId")String openId){
+    public CommonResult getSocialSecurityCardByOpenId(@PathVariable("openId")String openId){
         return restTemplate.getForObject(SERVER_URL+"/socialSecurityCard/getSocialSecurityCardByOpenId/"+openId,CommonResult.class);
     }
 
 
     @GetMapping("/consumer/socialSecurityCard/create")
-    public CommonResult createIdentity(SocialSecurityCard socialSecurityCard){
+    public CommonResult createSocialSecurityCard(SocialSecurityCard socialSecurityCard){
         return restTemplate.postForObject(SERVER_URL+"/socialSecurityCard/create",socialSecurityCard,CommonResult.class);
     }
 
     @GetMapping("/consumer/socialSecurityCard/getAll")
-    public CommonResult getAllIdentity(){
+    public CommonResult getAllSocialSecurityCard(){
         return restTemplate.getForObject(SERVER_URL+"/socialSecurityCard/getAll",CommonResult.class);
     }
 
@@ -47,5 +48,16 @@ public class ConsumerSocialSecurityCard {
     @GetMapping("/consumer/socialSecurityCard/sendMessage/{tel}")
     public CommonResult sendCode(@PathVariable String tel){
         return restTemplate.getForObject(SERVER_URL+"/socialSecurityCard/sendMessage/"+tel,CommonResult.class);
+    }
+
+    @GetMapping("/consumer/socialSecurityCard/update")
+    public CommonResult update(@RequestBody SocialSecurityCard socialSecurityCard){
+        return restTemplate.postForObject(SERVER_URL+"/socialSecurityCard/update",socialSecurityCard,CommonResult.class);
+    }
+
+    @GetMapping("/consumer/socailSecurityCard/delete/{openId}")
+    public CommonResult delete(@PathVariable String openId){
+        return restTemplate.getForObject(SERVER_URL+"/socialSecurityCard/delete/"+openId,CommonResult.class);
+
     }
 }
