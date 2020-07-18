@@ -10,6 +10,8 @@
     <file url="file://$PROJECT_DIR$/cloud-consumer-login-85/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consumer-news-88/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consumer-news-88/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer-socialSecurityCard-81/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer-socialSecurityCard-81/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-imageurl-service-5555/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-imageurl-service-5555/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-aiRobot-8004/src/main/java" charset="UTF-8" />
@@ -22,6 +24,8 @@
     <file url="file://$PROJECT_DIR$/cloud-provider-login-8001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-news-8005/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-news-8005/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-socialSecurityCard-8010/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-socialSecurityCard-8010/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

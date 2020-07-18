@@ -15,12 +15,15 @@
         <module name="cloud-config-nacos-client-3333" />
         <module name="cloud-provider-login-8001" />
         <module name="cloud-imageurl-service-5555" />
+        <module name="cloud-consumer-socialSecurityCard-81" />
         <module name="cloud-provider-news-8005" />
         <module name="cloud-provider-identity-8008" />
+        <module name="cloud-provider-socialSecurityCard-8010" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-provider-imageurl-5555" target="1.8" />
+      <module name="cloud-publicSentiment-8006" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
