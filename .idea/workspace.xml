@@ -19,65 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c52c4896-293e-4704-9ed2-f98c91428a85" name="Default Changelist" comment="初步实现 问答机器人的框架">
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/cn/edu/whu/ashman/entities/ETC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-etc-90/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-etc-90/src/main/java/cn/edu/whu/ashman/ConsumerETCMain90.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-etc-90/src/main/java/cn/edu/whu/ashman/config/RestTemplateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-etc-90/src/main/java/cn/edu/whu/ashman/controller/ConsumerEtcController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-etc-90/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-etc-90/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-etc-9001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-etc-9001/src/main/java/cn/edu/whu/ashman/ETCMain9001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-etc-9001/src/main/java/cn/edu/whu/ashman/controller/ETCController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-etc-9001/src/main/java/cn/edu/whu/ashman/dao/IETCDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-etc-9001/src/main/java/cn/edu/whu/ashman/entities/ETC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-etc-9001/src/main/java/cn/edu/whu/ashman/service/IETCService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-etc-9001/src/main/java/cn/edu/whu/ashman/service/impl/ETCService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-etc-9001/src/main/java/cn/edu/whu/ashman/util/SmsUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-etc-9001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api-commons/src/main/java/cn/edu/whu/ashman/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/cn/edu/whu/ashman/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/classes/cn/edu/whu/ashman/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/target/classes/cn/edu/whu/ashman/entities/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/cloud-api-commons-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/target/cloud-api-commons-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-nacos-client-3333/target/cloud-config-nacos-client-3333-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-nacos-client-3333/target/cloud-config-nacos-client-3333-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-nacos-client-3333/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-nacos-client-3333/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-identity-89/target/cloud-consumer-identity-89-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-identity-89/target/cloud-consumer-identity-89-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-identity-89/target/cloud-consumer-identity-89-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-identity-89/target/cloud-consumer-identity-89-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-identity-89/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-identity-89/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-login-85/src/main/java/cn/edu/whu/ashman/controller/ConsumerUserLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-login-85/src/main/java/cn/edu/whu/ashman/controller/ConsumerUserLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-login-85/target/cloud-consumer-login-85-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-login-85/target/cloud-consumer-login-85-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-login-85/target/cloud-consumer-login-85-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-login-85/target/cloud-consumer-login-85-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-login-85/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-login-85/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-news-88/target/cloud-consumer-news-88-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-news-88/target/cloud-consumer-news-88-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-news-88/target/cloud-consumer-news-88-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-news-88/target/cloud-consumer-news-88-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-news-88/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-news-88/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-imageurl-service-5555/target/cloud-imageurl-service-5555-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-imageurl-service-5555/target/cloud-imageurl-service-5555-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-imageurl-service-5555/target/cloud-imageurl-service-5555-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-imageurl-service-5555/target/cloud-imageurl-service-5555-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-imageurl-service-5555/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-imageurl-service-5555/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-imageurl-service-5555/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-imageurl-service-5555/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-imageurl-service-5555/target/test-classes/cn/edu/whu/ashman/COSClientTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/cloud-provider-aiRobot-8004-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-aiRobot-8004/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-identity-8008/src/main/java/cn/edu/whu/ashman/controller/IdentityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-identity-8008/src/main/java/cn/edu/whu/ashman/controller/IdentityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-identity-8008/src/main/java/cn/edu/whu/ashman/entities/Identity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-identity-8008/src/main/java/cn/edu/whu/ashman/entities/Identity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-identity-8008/target/classes/cn/edu/whu/ashman/controller/IdentityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-identity-8008/target/classes/cn/edu/whu/ashman/controller/IdentityController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-identity-8008/target/classes/cn/edu/whu/ashman/entities/Identity.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-identity-8008/target/classes/cn/edu/whu/ashman/entities/Identity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-identity-8008/target/cloud-provider-identity-8008-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-identity-8008/target/cloud-provider-identity-8008-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-identity-8008/target/cloud-provider-identity-8008-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-identity-8008/target/cloud-provider-identity-8008-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-identity-8008/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-identity-8008/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/controller/UserLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/src/main/java/cn/edu/whu/ashman/controller/UserLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/cloud-provider-login-8001-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/target/cloud-provider-login-8001-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/cloud-provider-login-8001-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/target/cloud-provider-login-8001-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-login-8001/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-login-8001/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/cloud-provider-news-8005-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/cloud-provider-news-8005-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/cloud-provider-news-8005-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/cloud-provider-news-8005-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-news-8005/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-news-8005/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c52c4896-293e-4704-9ed2-f98c91428a85" name="Default Changelist" comment="社保卡模块加了两个url" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +46,6 @@
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -138,22 +79,22 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\gitForIdea\back\cloud-provider-aiRobot-8004\src\main\resources\static\Bots" />
-      <recent name="D:\gitForIdea\back\cloud-provider-aiRobot-8004\src\main\resources\static" />
-      <recent name="D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.edu.whu.ashman.entities" />
-      <recent name="cn.edu.whu.ashman.util" />
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\391-WHU\AIGOV\backend\cloud-imageurl-service-5555" />
       <recent name="D:\391-WHU\AIGOV\backend\cloud-provider-imageurl-5525" />
       <recent name="D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java" />
       <recent name="D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004" />
       <recent name="D:\gitForIdea\AIGOV\cloud-provider-aiRobot-8002" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.edu.whu.ashman.entities" />
+      <recent name="cn.edu.whu.ashman.util" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\gitForIdea\back\cloud-provider-aiRobot-8004\src\main\resources\static\Bots" />
+      <recent name="D:\gitForIdea\back\cloud-provider-aiRobot-8004\src\main\resources\static" />
+      <recent name="D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -323,28 +264,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -414,13 +333,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -559,18 +477,22 @@
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594902493880" />
     <state x="487" y="127" width="996" height="707" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1594897384865" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1594881632918">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1595065613410">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1594881632918" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1595065613410" />
     <state x="565" y="195" key="chooseDestDirectoryDialog" timestamp="1594394624680">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="565" y="195" key="chooseDestDirectoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1594394624680" />
-    <state x="459" y="204" key="git4idea.merge.GitPullDialog" timestamp="1594474248824">
+    <state x="459" y="204" key="git4idea.merge.GitPullDialog" timestamp="1595065635852">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="459" y="204" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1594474248824" />
+    <state x="459" y="204" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1595065635852" />
+    <state x="561" y="278" key="git4idea.rebase.GitRebaseDialog" timestamp="1595065398475">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="561" y="278" key="git4idea.rebase.GitRebaseDialog/0.0.1536.834@0.0.1536.834" timestamp="1595065398475" />
     <state x="348" y="111" key="new project wizard" timestamp="1595041412328">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
