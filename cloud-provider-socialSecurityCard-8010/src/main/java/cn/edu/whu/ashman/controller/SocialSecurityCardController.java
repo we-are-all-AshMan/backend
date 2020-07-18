@@ -47,6 +47,7 @@ public class SocialSecurityCardController {
                 commonResult = new CommonResult(304, "发生错误", socialSecurityCard);
             }
         } catch (Exception e) {
+            e.printStackTrace();
             commonResult = new CommonResult(303, "服务器异常");
         }
         return commonResult;
@@ -61,6 +62,7 @@ public class SocialSecurityCardController {
     public CommonResult createSocialSecurityCard(@RequestBody SocialSecurityCard socialSecurityCard) {
         CommonResult commonResult = null;
         socialSecurityCard.setState(3);
+        System.out.println(socialSecurityCard);
         try {
             int update = iSocialSecurityCardService.updateSocialSecurityCard(socialSecurityCard);
             if (update > 0) {
@@ -69,6 +71,7 @@ public class SocialSecurityCardController {
                 commonResult = new CommonResult(304, "提交失败");
             }
         } catch (Exception e) {
+            e.printStackTrace();
             commonResult = new CommonResult(303, "服务器异常");
         }
         return commonResult;
@@ -85,6 +88,7 @@ public class SocialSecurityCardController {
             Collection<SocialSecurityCard> socialSecurityCards = iSocialSecurityCardService.getAllSocialSecurityCards();
             commonResult = new CommonResult(310, "成功加载所有社保卡信息", socialSecurityCards);
         } catch (Exception e) {
+            e.printStackTrace();
             commonResult = new CommonResult(303, "服务器异常，加载失败");
         }
         return commonResult;
@@ -102,6 +106,7 @@ public class SocialSecurityCardController {
         try {
             socialSecurityCards = iSocialSecurityCardService.getSocialSecurityCardsByState(state);
         } catch (Exception e) {
+            e.printStackTrace();
             return new CommonResult(303, "服务器异常，加载社保卡信息失败");
         }
         if (state == 3)
@@ -128,6 +133,7 @@ public class SocialSecurityCardController {
                 commonResult = new CommonResult(311, "成功发送验证码:", SmsUtils.getCode());
             }
         } catch (Exception e) {
+            e.printStackTrace();
             commonResult = new CommonResult(303, "服务器异常，未能成功发送验证码");
         }
         return commonResult;
@@ -150,6 +156,7 @@ public class SocialSecurityCardController {
                 commonResult = new CommonResult(304, "提交失败");
             }
         } catch (Exception e) {
+            e.printStackTrace();
             commonResult = new CommonResult(303, "服务器异常");
         }
         return commonResult;
@@ -167,6 +174,7 @@ public class SocialSecurityCardController {
             iSocialSecurityCardService.delete(openId);
             commonResult = new CommonResult(310, "成功注销该用户社保卡激活信息");
         } catch (Exception e) {
+            e.printStackTrace();
             commonResult = new CommonResult(303, "服务器异常，加载失败");
         }
         return commonResult;
