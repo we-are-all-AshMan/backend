@@ -15,6 +15,8 @@
         <module name="cloud-config-nacos-client-3333" />
         <module name="cloud-provider-login-8001" />
         <module name="cloud-imageurl-service-5555" />
+        <module name="cloud-consumer-etc-90" />
+        <module name="cloud-provider-etc-9001" />
         <module name="cloud-provider-news-8005" />
         <module name="cloud-provider-identity-8008" />
       </profile>

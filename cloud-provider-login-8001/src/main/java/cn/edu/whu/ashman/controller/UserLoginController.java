@@ -83,7 +83,7 @@ public class UserLoginController {
     }*/
 
     /**
-     * 修改密码可能会用到
+     * 修改信息可能会用到
      * @param user
      * @return
      */

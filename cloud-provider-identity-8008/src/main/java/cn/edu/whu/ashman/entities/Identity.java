@@ -1,10 +1,6 @@
 package cn.edu.whu.ashman.entities;
 
-import io.micrometer.core.instrument.Meter;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
-
-import javax.imageio.ImageIO;
 
 /**
  * 电子身份证实体类

@@ -1,0 +1,5 @@
+cn\edu\whu\ashman\entities\Administrator.class
+cn\edu\whu\ashman\entities\User.class
+cn\edu\whu\ashman\entities\ETC.class
+cn\edu\whu\ashman\entities\CommonResult.class
+cn\edu\whu\ashman\entities\Identity.class
