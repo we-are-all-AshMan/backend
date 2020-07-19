@@ -8,9 +8,6 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * @author Zhuyuhan
  * @date 2020-07-11 22:51

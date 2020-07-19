@@ -1,9 +1,7 @@
 package cn.edu.whu.ashman.Service;
 
 import cn.edu.whu.ashman.entities.DescGlobal;
-import org.springframework.stereotype.Service;
 
-import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 

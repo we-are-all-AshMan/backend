@@ -1,8 +1,8 @@
 package cn.edu.whu.ashman.Service.impl;
 
+import cn.edu.whu.ashman.entities.DescNation;
 import cn.edu.whu.ashman.Service.IDescNationService;
 import cn.edu.whu.ashman.dao.IDescNationDao;
-import cn.edu.whu.ashman.entities.DescNation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

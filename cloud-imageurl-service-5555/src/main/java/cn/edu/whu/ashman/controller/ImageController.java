@@ -1,9 +1,7 @@
 package cn.edu.whu.ashman.controller;
 
 import cn.edu.whu.ashman.config.COSClientConfig;
-import cn.edu.whu.ashman.entities.CommonResult;
 import cn.edu.whu.ashman.util.COSUtil;
-import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;

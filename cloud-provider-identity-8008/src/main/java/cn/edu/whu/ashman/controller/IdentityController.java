@@ -1,9 +1,9 @@
 package cn.edu.whu.ashman.controller;
 
-import cn.edu.whu.ashman.entities.CommonResult;
 import cn.edu.whu.ashman.entities.Identity;
-import cn.edu.whu.ashman.service.IIdentityService;
 import cn.edu.whu.ashman.util.SmsUtils;
+import cn.edu.whu.ashman.entities.CommonResult;
+import cn.edu.whu.ashman.service.IIdentityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

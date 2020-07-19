@@ -1,13 +1,11 @@
 package cn.edu.whu.ashman.controller;
 
 import cn.edu.whu.ashman.entities.CommonResult;
-import cn.edu.whu.ashman.entities.Identity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 import cn.edu.whu.ashman.entities.SocialSecurityCard;

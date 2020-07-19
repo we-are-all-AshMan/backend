@@ -1,8 +1,8 @@
 package cn.edu.whu.ashman.service.impl;
 
+import cn.edu.whu.ashman.service.IUserService;
 import cn.edu.whu.ashman.dao.IUserDao;
 import cn.edu.whu.ashman.entities.User;
-import cn.edu.whu.ashman.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

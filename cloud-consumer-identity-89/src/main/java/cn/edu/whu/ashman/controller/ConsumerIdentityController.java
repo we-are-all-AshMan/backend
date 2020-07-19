@@ -8,9 +8,6 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.ArrayList;
-import java.util.Collection;
-
 /**
  * @author Zhuyuhan
  * @date 2020-07-17 17:35

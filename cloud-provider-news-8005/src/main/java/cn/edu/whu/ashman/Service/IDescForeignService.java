@@ -1,11 +1,6 @@
 package cn.edu.whu.ashman.Service;
 
 import cn.edu.whu.ashman.entities.DescForeign;
-import cn.edu.whu.ashman.entities.DescNation;
-import org.apache.ibatis.annotations.Select;
-import org.springframework.stereotype.Service;
-
-import java.util.Collection;
 
 /**
  * Created by Zhu yuhan

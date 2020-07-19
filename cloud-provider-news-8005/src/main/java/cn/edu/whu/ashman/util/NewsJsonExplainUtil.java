@@ -1,18 +1,16 @@
 package cn.edu.whu.ashman.util;
 
 import cn.edu.whu.ashman.Service.IDescForeignService;
-import cn.edu.whu.ashman.Service.IDescGlobalService;
 import cn.edu.whu.ashman.Service.IDescNationService;
 import cn.edu.whu.ashman.Service.INewsService;
 import cn.edu.whu.ashman.entities.DescForeign;
 import cn.edu.whu.ashman.entities.DescGlobal;
 import cn.edu.whu.ashman.entities.DescNation;
 import cn.edu.whu.ashman.entities.News;
-import com.google.gson.JsonObject;
+import cn.edu.whu.ashman.Service.IDescGlobalService;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
