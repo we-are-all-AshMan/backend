@@ -16,12 +16,12 @@
         <module name="cloud-provider-etc-9001" />
         <module name="cloud-api-commons" />
         <module name="cloud-config-nacos-client-3333" />
+        <module name="cloud-consumer-policy-83" />
         <module name="cloud-consumer-login-85" />
         <module name="cloud-provider-aiRobot-8004" />
         <module name="cloud-provider-socialSecurityCard-8010" />
         <module name="cloud-provider-identity-8008" />
         <module name="cloud-consumer-etc-90" />
-        <module name="cloud-consumer-policy-83" />
         <module name="cloud-consumer-identity-89" />
         <module name="cloud-consumer-socialSecurityCard-81" />
       </profile>

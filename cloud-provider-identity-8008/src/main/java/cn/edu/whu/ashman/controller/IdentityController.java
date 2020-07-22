@@ -106,4 +106,19 @@ public class IdentityController {
         }
         return commonResult;
     }
+
+    @PostMapping("/identity/updateState")
+    public CommonResult updateState(@RequestBody Identity identity){
+        CommonResult commonResult = null;
+        identity.setState(4);
+        int update = iIdentityService.updateState(identity);
+        if(update>0){
+            commonResult = new CommonResult(200,"成功审核电子身份证申请",identity);
+        }
+        else {
+            commonResult = new CommonResult(400,"审核失败");
+        }
+        return commonResult;
+    }
+
 }

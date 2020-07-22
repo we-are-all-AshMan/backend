@@ -40,4 +40,9 @@ public class IdentityService implements IIdentityService {
     public Collection<Identity> selectAll() {
         return iIdentityDao.selectAll();
     }
+
+    @Override
+    public int updateState(Identity identity) {
+        return iIdentityDao.updateState(identity);
+    }
 }

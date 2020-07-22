@@ -19,4 +19,6 @@ public interface IIdentityService {
     Collection<Identity> selectByState(Integer state);
 
     Collection<Identity> selectAll();
+
+    int updateState(Identity identity);
 }

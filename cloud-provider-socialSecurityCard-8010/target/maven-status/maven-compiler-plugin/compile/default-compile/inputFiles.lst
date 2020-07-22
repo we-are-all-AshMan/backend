@@ -1,7 +1,7 @@
-D:\gitForIdea\back\cloud-provider-socialSecurityCard-8010\src\main\java\cn\edu\whu\ashman\dao\ISocialSecurityCardDao.java
-D:\gitForIdea\back\cloud-provider-socialSecurityCard-8010\src\main\java\cn\edu\whu\ashman\SocialSecurityCardMain8010.java
-D:\gitForIdea\back\cloud-provider-socialSecurityCard-8010\src\main\java\cn\edu\whu\ashman\util\SmsUtils.java
-D:\gitForIdea\back\cloud-provider-socialSecurityCard-8010\src\main\java\cn\edu\whu\ashman\controller\SocialSecurityCardController.java
-D:\gitForIdea\back\cloud-provider-socialSecurityCard-8010\src\main\java\cn\edu\whu\ashman\service\ISocialSecurityCardService.java
-D:\gitForIdea\back\cloud-provider-socialSecurityCard-8010\src\main\java\cn\edu\whu\ashman\entities\SocialSecurityCard.java
-D:\gitForIdea\back\cloud-provider-socialSecurityCard-8010\src\main\java\cn\edu\whu\ashman\service\Impl\SocialSecurityService.java
+D:\391-WHU\AIGOV\backend\cloud-provider-socialSecurityCard-8010\src\main\java\cn\edu\whu\ashman\SocialSecurityCardMain8010.java
+D:\391-WHU\AIGOV\backend\cloud-provider-socialSecurityCard-8010\src\main\java\cn\edu\whu\ashman\service\Impl\SocialSecurityService.java
+D:\391-WHU\AIGOV\backend\cloud-provider-socialSecurityCard-8010\src\main\java\cn\edu\whu\ashman\service\ISocialSecurityCardService.java
+D:\391-WHU\AIGOV\backend\cloud-provider-socialSecurityCard-8010\src\main\java\cn\edu\whu\ashman\controller\SocialSecurityCardController.java
+D:\391-WHU\AIGOV\backend\cloud-provider-socialSecurityCard-8010\src\main\java\cn\edu\whu\ashman\dao\ISocialSecurityCardDao.java
+D:\391-WHU\AIGOV\backend\cloud-provider-socialSecurityCard-8010\src\main\java\cn\edu\whu\ashman\entities\SocialSecurityCard.java
+D:\391-WHU\AIGOV\backend\cloud-provider-socialSecurityCard-8010\src\main\java\cn\edu\whu\ashman\util\SmsUtils.java
