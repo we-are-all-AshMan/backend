@@ -103,9 +103,8 @@ public class PolicyController {
     @GetMapping("/policy/getPolicyByTitle/{title}")
     public CommonResult getPolicyByTitle(@PathVariable String title) {
         CommonResult commonResult = null;
-        Policy policy = null;
         try {
-            policy = iPolicyService.getPolicyByTitle(title);
+            Policy policy = iPolicyService.getPolicyByTitle(title);
             if (policy == null) {
                 commonResult = new CommonResult(304,"查无此政策");
             } else {
@@ -126,9 +125,8 @@ public class PolicyController {
     @GetMapping("/policy/getSimilarTitle/{message}")
     public CommonResult getSimilarTitle(@PathVariable String message){
         CommonResult commonResult = null;
-        List<String> titles = null;
         try {
-            titles = iPolicyService.getSimilarTitle(message);
+            Collection<String> titles = iPolicyService.getSimilarTitle(message);
             commonResult = new CommonResult(310, "成功返回相似的政策标题", titles);
         } catch (Exception e) {
             e.printStackTrace();

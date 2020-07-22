@@ -1,6 +1,7 @@
 package cn.edu.whu.ashman.service;
 
 import cn.edu.whu.ashman.entities.Policy;
+import org.apache.ibatis.annotations.Select;
 
 import java.util.Collection;
 import java.util.List;
@@ -23,5 +24,5 @@ public interface IPolicyService {
 
     List<String> getPolicyByTag(String tag);
 
-    List<String> getSimilarTitle(String message);
+    Collection<String> getSimilarTitle(String title);
 }

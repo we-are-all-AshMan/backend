@@ -31,7 +31,7 @@ public interface IPolicyDao {
      * 查询所有
      * @return
      */
-    @Select("select * from policies")
+    @Select("select * from policies order by publishDate desc")
     Collection<Policy> selectAllPolicies();
 
     /**
@@ -39,7 +39,7 @@ public interface IPolicyDao {
      * @param curPage
      * @return
      */
-    @Select("select * from policies limit #{curPage},10")
+    @Select("select * from policies order by publishDate desc limit #{curPage},10")
     Collection<Policy> selectPoliciesByPage(int curPage);
 
     /**
@@ -55,7 +55,7 @@ public interface IPolicyDao {
      * 获取所有政策标题
      * @return
      */
-    @Select("select title from policies")
+    @Select("select title from policies order by publishDate desc")
     List<String> getAllTitleOfPolicy();
 
     /**
@@ -63,13 +63,16 @@ public interface IPolicyDao {
      * @param title
      * @return
      */
-    @Select("select * from policies where title=#{title}")
+    @Select("select * from policies where title=#{title} order by publishDate desc")
     Policy getPolicyByTitle(String title);
+
+    @Select("select title from policies where locate(#{title},title)>0 order by publishDate desc")
+    Collection<String> getSimilarTitle(String title);
 
     /**
      * 获取包含指定标签的政策
      * @return
      */
-    @Select("select title from policies where locate(#{tag},tag)>0")
+    @Select("select title from policies where locate(#{tag},tag)>0 order by publishDate desc")
     List<String> getPolicyByTag(String tag);
 }

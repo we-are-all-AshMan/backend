@@ -8,7 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-consumer-news-88" />
-        <module name="cloud-provider-login-8001" />
+        <module name="cloud-provider-appointment-8013" />
         <module name="cloud-imageurl-service-5555" />
         <module name="cloud-provider-policy-8012" />
         <module name="cloud-provider-policy-8011" />
@@ -16,18 +16,26 @@
         <module name="cloud-provider-etc-9001" />
         <module name="cloud-api-commons" />
         <module name="cloud-config-nacos-client-3333" />
+        <module name="cloud-provider-login-8001" />
+        <module name="cloud-consumer-finalAppointment-94" />
+        <module name="cloud-consumer-policy-83" />
         <module name="cloud-consumer-login-85" />
         <module name="cloud-provider-aiRobot-8004" />
         <module name="cloud-provider-socialSecurityCard-8010" />
         <module name="cloud-provider-identity-8008" />
+        <module name="cloud-consumer-meeting-96" />
         <module name="cloud-consumer-etc-90" />
-        <module name="cloud-consumer-policy-83" />
+        <module name="cloud-provider-meeting-8014" />
         <module name="cloud-consumer-identity-89" />
         <module name="cloud-consumer-socialSecurityCard-81" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud-consumer-appointment-84" target="1.8" />
+      <module name="cloud-consumer-appointment-86" target="1.8" />
+      <module name="cloud-consumer-appointment-92" target="1.8" />
       <module name="cloud-consumer-policy-82" target="1.8" />
+      <module name="cloud-consumer-policy-83 (1)" target="1.8" />
       <module name="cloud-provider-imageurl-5555" target="1.8" />
       <module name="cloud-provider-policy-8011" target="1.8" />
       <module name="cloud-publicSentiment-8006" target="1.8" />

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/cloud-consumer-finalAppointment-94/cloud-consumer-finalAppointment-94.iml" filepath="$PROJECT_DIR$/cloud-consumer-finalAppointment-94/cloud-consumer-finalAppointment-94.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud-consumer-meeting-96/cloud-consumer-meeting-96.iml" filepath="$PROJECT_DIR$/cloud-consumer-meeting-96/cloud-consumer-meeting-96.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-aiRobot-8002/cloud-provider-aiRobot-8002.iml" filepath="$PROJECT_DIR$/cloud-provider-aiRobot-8002/cloud-provider-aiRobot-8002.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud-provider-appointment-8013/cloud-provider-appointment-8013.iml" filepath="$PROJECT_DIR$/cloud-provider-appointment-8013/cloud-provider-appointment-8013.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud-provider-meeting-8014/cloud-provider-meeting-8014.iml" filepath="$PROJECT_DIR$/cloud-provider-meeting-8014/cloud-provider-meeting-8014.iml" />
     </modules>
   </component>
 </project>

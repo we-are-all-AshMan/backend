@@ -1,5 +1,7 @@
 D:\gitForIdea\back\cloud-api-commons\src\main\java\cn\edu\whu\ashman\entities\User.java
 D:\gitForIdea\back\cloud-api-commons\src\main\java\cn\edu\whu\ashman\entities\Identity.java
+D:\gitForIdea\back\cloud-api-commons\src\main\java\cn\edu\whu\ashman\entities\Appointment.java
+D:\gitForIdea\back\cloud-api-commons\src\main\java\cn\edu\whu\ashman\entities\Meeting.java
 D:\gitForIdea\back\cloud-api-commons\src\main\java\cn\edu\whu\ashman\entities\SocialSecurityCard.java
 D:\gitForIdea\back\cloud-api-commons\src\main\java\cn\edu\whu\ashman\entities\Administrator.java
 D:\gitForIdea\back\cloud-api-commons\src\main\java\cn\edu\whu\ashman\entities\ETC.java

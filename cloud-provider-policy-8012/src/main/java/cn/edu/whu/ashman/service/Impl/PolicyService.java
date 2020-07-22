@@ -53,7 +53,7 @@ public class PolicyService implements IPolicyService {
     }
 
     @Override
-    public List<String> getSimilarTitle(String message) {
-        return similar.getSimilarTitle(message);
+    public Collection<String> getSimilarTitle(String message) {
+        return iPolicyDao.getSimilarTitle(message);
     }
 }
