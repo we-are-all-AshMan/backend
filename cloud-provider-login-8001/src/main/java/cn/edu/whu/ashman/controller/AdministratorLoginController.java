@@ -32,7 +32,7 @@ public class AdministratorLoginController {
         CommonResult commonResult = null;
         //发验证码
         SmsUtils.shortMesssageText(phoneNumber);
-        commonResult = new CommonResult(299,"成功发送验证码");
+        commonResult = new CommonResult(299,"成功发送验证码",SmsUtils.getCode());
         return commonResult;
     }
 
