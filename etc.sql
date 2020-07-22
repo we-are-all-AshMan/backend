@@ -6,6 +6,6 @@ tel char(11),
 province char(20),
 city char(20),
 address TEXT,
-openId char(10),
+openId char TEXT,
 state int
 );
