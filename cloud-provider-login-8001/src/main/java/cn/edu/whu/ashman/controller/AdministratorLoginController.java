@@ -4,7 +4,6 @@ package cn.edu.whu.ashman.controller;
 import cn.edu.whu.ashman.entities.Administrator;
 import cn.edu.whu.ashman.entities.CommonResult;
 import cn.edu.whu.ashman.service.IAdministratorService;
-import cn.edu.whu.ashman.service.impl.AdministratorService;
 import cn.edu.whu.ashman.util.SmsUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

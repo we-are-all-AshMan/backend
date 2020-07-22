@@ -1,12 +1,10 @@
 package cn.edu.whu.ashman.Service.impl;
 
-import cn.edu.whu.ashman.Service.IDescForeignService;
 import cn.edu.whu.ashman.dao.IDescForeignDao;
 import cn.edu.whu.ashman.entities.DescForeign;
+import cn.edu.whu.ashman.Service.IDescForeignService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.Collection;
 
 /**
  * @author Zhuyuhan

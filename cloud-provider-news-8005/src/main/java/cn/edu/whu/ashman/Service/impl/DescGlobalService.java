@@ -1,9 +1,8 @@
 package cn.edu.whu.ashman.Service.impl;
 
+import cn.edu.whu.ashman.entities.DescGlobal;
 import cn.edu.whu.ashman.Service.IDescGlobalService;
 import cn.edu.whu.ashman.dao.IDescGlobalDao;
-import cn.edu.whu.ashman.entities.DescGlobal;
-import cn.edu.whu.ashman.entities.DescNation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

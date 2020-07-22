@@ -1,9 +1,7 @@
 package cn.edu.whu.ashman.component;
 
 import cn.edu.whu.ashman.util.NewsJsonExplainUtil;
-import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 /**
  * @author Zhuyuhan

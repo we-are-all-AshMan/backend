@@ -1,13 +1,11 @@
 package cn.edu.whu.ashman.Service.impl;
 
 import cn.edu.whu.ashman.Service.INewsService;
-import cn.edu.whu.ashman.dao.INewsDao;
 import cn.edu.whu.ashman.entities.News;
+import cn.edu.whu.ashman.dao.INewsDao;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.PostConstruct;
 import java.util.Collection;
 
 /**

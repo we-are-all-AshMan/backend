@@ -1,7 +1,5 @@
 package cn.edu.whu.ashman.entities;
 
-import java.util.Date;
-
 /**
  * @Author LiuWeiFan
  * @create 2020/7/15 15:26

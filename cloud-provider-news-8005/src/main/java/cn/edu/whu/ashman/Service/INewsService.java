@@ -1,6 +1,7 @@
 package cn.edu.whu.ashman.Service;
 
 import cn.edu.whu.ashman.entities.News;
+
 import java.util.Collection;
 
 /**

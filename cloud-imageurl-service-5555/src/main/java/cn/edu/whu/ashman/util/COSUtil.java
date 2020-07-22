@@ -1,6 +1,5 @@
 package cn.edu.whu.ashman.util;
 
-import cn.edu.whu.ashman.config.COSClientConfig;
 import com.qcloud.cos.COSClient;
 import com.qcloud.cos.http.HttpMethodName;
 import com.qcloud.cos.model.Bucket;

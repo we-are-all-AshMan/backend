@@ -1,7 +1,6 @@
 package cn.edu.whu.ashman.dao;
 
 import cn.edu.whu.ashman.entities.DescNation;
-import cn.edu.whu.ashman.entities.News;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
 

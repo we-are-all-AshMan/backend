@@ -5,12 +5,9 @@ import cn.edu.whu.ashman.entities.CommonResult;
 import cn.edu.whu.ashman.entities.User;
 import cn.edu.whu.ashman.service.IUserService;
 import cn.edu.whu.ashman.util.SmsUtils;
-import cn.edu.whu.ashman.util.WeChatLoginJsonUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.Map;
 
 /**
  * 登录控制类

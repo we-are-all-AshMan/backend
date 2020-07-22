@@ -1,9 +1,8 @@
 package cn.edu.whu.ashman.service.impl;
 
-import cn.edu.whu.ashman.dao.IETCDao;
 import cn.edu.whu.ashman.entities.ETC;
+import cn.edu.whu.ashman.dao.IETCDao;
 import cn.edu.whu.ashman.service.IETCService;
-import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

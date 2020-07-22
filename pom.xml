@@ -22,6 +22,8 @@
     <module>cloud-consumer-etc-90</module>
     <module>cloud-consumer-socialSecurityCard-81</module>
     <module>cloud-provider-socialSecurityCard-8010</module>
+    <module>cloud-provider-policy-8012</module>
+    <module>cloud-consumer-policy-83</module>
   </modules>
   <packaging>pom</packaging>
 
