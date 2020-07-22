@@ -36,6 +36,11 @@ public class ConsumerIdentityController {
         return restTemplate.postForObject(SERVER_URL+"/identity/create",identity,CommonResult.class);
     }
 
+    @GetMapping("/consumer/identity/updateState")
+    public CommonResult updateState(Identity identity){
+        return restTemplate.postForObject(SERVER_URL+"/identity/updateState",identity,CommonResult.class);
+    }
+
     @GetMapping("/consumer/identity/getAll")
     public CommonResult getAllIdentity(){
         return restTemplate.getForObject(SERVER_URL+"/identity/getAll",CommonResult.class);

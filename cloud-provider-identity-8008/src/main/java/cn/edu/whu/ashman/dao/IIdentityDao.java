@@ -43,4 +43,7 @@ public interface IIdentityDao {
 
       @Select("select * from identities")
       Collection<Identity> selectAll();
+
+      @Update("update identities set state=#{state} where openId=#{openId}")
+      int updateState(Identity identity);
 }
