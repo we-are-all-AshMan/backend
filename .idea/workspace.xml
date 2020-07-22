@@ -567,11 +567,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1594901660013" />
-    <state x="167" y="0" key="#Project_Structure" timestamp="1595131168014">
+    <state x="167" y="0" key="#Project_Structure" timestamp="1595402913897">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1594978284293" />
-    <state x="167" y="0" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1595131168014" />
+    <state x="167" y="0" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1595402913897" />
     <state x="499" y="172" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1594439861130">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -688,6 +688,10 @@
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594902493880" />
     <state x="487" y="127" width="996" height="707" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1595161091665" />
+    <state x="407" y="121" key="VCS.ChangeListViewerDialog" timestamp="1595403086332">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="407" y="121" key="VCS.ChangeListViewerDialog/0.0.1536.834@0.0.1536.834" timestamp="1595403086332" />
     <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1595075099559">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -700,14 +704,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="459" y="204" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1595075077531" />
-    <state x="621" y="315" key="git4idea.ui.GitStashDialog" timestamp="1595074999450">
+    <state x="621" y="315" key="git4idea.ui.GitStashDialog" timestamp="1595403107641">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="621" y="315" key="git4idea.ui.GitStashDialog/0.0.1536.834@0.0.1536.834" timestamp="1595074999450" />
-    <state x="361" y="264" key="git4idea.ui.GitUnstashDialog" timestamp="1595125303486">
+    <state x="621" y="315" key="git4idea.ui.GitStashDialog/0.0.1536.834@0.0.1536.834" timestamp="1595403107641" />
+    <state x="361" y="264" key="git4idea.ui.GitUnstashDialog" timestamp="1595403162017">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="264" key="git4idea.ui.GitUnstashDialog/0.0.1536.834@0.0.1536.834" timestamp="1595125303486" />
+    <state x="361" y="264" key="git4idea.ui.GitUnstashDialog/0.0.1536.834@0.0.1536.834" timestamp="1595403162017" />
     <state x="356" y="64" key="new project wizard" timestamp="1595165354886">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

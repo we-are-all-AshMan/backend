@@ -1,0 +1,7 @@
+cn\edu\whu\ashman\controller\PolicyController.class
+cn\edu\whu\ashman\dao\IPolicyDao.class
+cn\edu\whu\ashman\entities\Policy.class
+cn\edu\whu\ashman\service\IPolicyService.class
+cn\edu\whu\ashman\service\Impl\PolicyService.class
+cn\edu\whu\ashman\util\Similar.class
+cn\edu\whu\ashman\PolicyMain8012.class
