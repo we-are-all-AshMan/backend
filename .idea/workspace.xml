@@ -19,7 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c52c4896-293e-4704-9ed2-f98c91428a85" name="Default Changelist" comment="社保卡模块,debug,最终版" />
+    <list default="true" id="c52c4896-293e-4704-9ed2-f98c91428a85" name="Default Changelist" comment="社保卡模块,debug,最终版">
+      <change beforePath="$PROJECT_DIR$/cloud-provider-policy-8012/target/classes/cn/edu/whu/ashman/dao/IPolicyDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-policy-8012/target/classes/cn/edu/whu/ashman/dao/IPolicyDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-policy-8012/target/cloud-provider-policy-8012-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-policy-8012/target/cloud-provider-policy-8012-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-policy-8012/target/cloud-provider-policy-8012-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-policy-8012/target/cloud-provider-policy-8012-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-policy-8012/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-policy-8012/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-policy-8012/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-policy-8012/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-policy-8012/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-socialSecurityCard-8010/src/main/java/cn/edu/whu/ashman/controller/SocialSecurityCardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-socialSecurityCard-8010/src/main/java/cn/edu/whu/ashman/controller/SocialSecurityCardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-socialSecurityCard-8010/src/main/java/cn/edu/whu/ashman/dao/ISocialSecurityCardDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-socialSecurityCard-8010/src/main/java/cn/edu/whu/ashman/dao/ISocialSecurityCardDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-socialSecurityCard-8010/src/main/java/cn/edu/whu/ashman/service/ISocialSecurityCardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-socialSecurityCard-8010/src/main/java/cn/edu/whu/ashman/service/ISocialSecurityCardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-socialSecurityCard-8010/src/main/java/cn/edu/whu/ashman/service/Impl/SocialSecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-socialSecurityCard-8010/src/main/java/cn/edu/whu/ashman/service/Impl/SocialSecurityService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,13 +50,14 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\maven\3.6.3\repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/3.6.3/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="D:\maven\3.6.3\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="localRepository" value="D:\391-WHU\J2EE\maven-repository\MavenRepository" />
+        <option name="mavenHome" value="C:/Program Files/Java/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\Program Files\Java\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -79,22 +91,22 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\gitForIdea\back\cloud-provider-aiRobot-8004\src\main\resources\static\Bots" />
-      <recent name="D:\gitForIdea\back\cloud-provider-aiRobot-8004\src\main\resources\static" />
-      <recent name="D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.edu.whu.ashman.entities" />
-      <recent name="cn.edu.whu.ashman.util" />
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\391-WHU\AIGOV\backend\cloud-imageurl-service-5555" />
       <recent name="D:\391-WHU\AIGOV\backend\cloud-provider-imageurl-5525" />
       <recent name="D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004\src\main\java" />
       <recent name="D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004" />
       <recent name="D:\gitForIdea\AIGOV\cloud-provider-aiRobot-8002" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.edu.whu.ashman.entities" />
+      <recent name="cn.edu.whu.ashman.util" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\gitForIdea\back\cloud-provider-aiRobot-8004\src\main\resources\static\Bots" />
+      <recent name="D:\gitForIdea\back\cloud-provider-aiRobot-8004\src\main\resources\static" />
+      <recent name="D:\391-WHU\AIGOV\backend\cloud-provider-aiRobot-8004" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -144,6 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppointmentMain8013" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-appointment-8013" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.AppointmentMain8013" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="COSUrlMain5555" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-imageurl-service-5555" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.COSUrlMain5555" />
@@ -158,6 +177,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConsumerFinalAppointmentMain94" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-finalAppointment-94" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.ConsumerFinalAppointmentMain94" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConsumerIdentityMain89" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumer-identity-89" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.ConsumerIdentityMain89" />
@@ -168,6 +194,13 @@
     <configuration name="ConsumerLoginMain85" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumer-login-85" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.ConsumerLoginMain85" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerMeetingMain96" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-meeting-96" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.ConsumerMeetingMain96" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -240,6 +273,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MeetingMain8014" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-meeting-8014" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.MeetingMain8014" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NewsMain8005" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-news-8005" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.whu.ashman.NewsMain8005" />
@@ -284,6 +324,23 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -324,6 +381,10 @@
       <workItem from="1595121142981" duration="20972000" />
       <workItem from="1595159483404" duration="1543000" />
       <workItem from="1595161069977" duration="5734000" />
+      <workItem from="1595416711770" duration="1025000" />
+      <workItem from="1595420318376" duration="2075000" />
+      <workItem from="1595426255421" duration="664000" />
+      <workItem from="1595470559401" duration="541000" />
     </task>
     <task id="LOCAL-00001" summary="初步问答机器人框架">
       <created>1594386612963</created>
@@ -357,19 +418,20 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -406,10 +468,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="0" y="145" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1594448654638" />
-    <state x="791" y="147" key="#com.intellij.ide.util.MemberChooser" timestamp="1595152986175">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1595471056315">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595050227350" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595471056315" />
     <state x="791" y="147" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1595152986175" />
     <state x="520" y="195" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1594490360604">
       <screen x="0" y="0" width="1536" height="824" />
@@ -435,50 +497,50 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="157" y="51" width="1242" height="834" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1594474574778" />
-    <state x="549" y="169" key="FileChooserDialogImpl" timestamp="1595124841853">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1595416768221">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594902489913" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595416768221" />
     <state x="549" y="169" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1595124841853" />
-    <state width="1153" height="213" key="GridCell.Tab.0.bottom" timestamp="1595166736771">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1055" height="368" key="GridCell.Tab.0.bottom" timestamp="1595424388975">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="260" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595059994709" />
+    <state width="1055" height="368" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595424388975" />
     <state width="1153" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595166736771" />
-    <state width="1153" height="213" key="GridCell.Tab.0.center" timestamp="1595166736771">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1055" height="368" key="GridCell.Tab.0.center" timestamp="1595424388975">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="260" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595059994708" />
+    <state width="1055" height="368" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595424388975" />
     <state width="1153" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1595166736771" />
-    <state width="1153" height="213" key="GridCell.Tab.0.left" timestamp="1595166736771">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1055" height="368" key="GridCell.Tab.0.left" timestamp="1595424388975">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="260" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595059994708" />
+    <state width="1055" height="368" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595424388975" />
     <state width="1153" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1595166736771" />
-    <state width="1153" height="213" key="GridCell.Tab.0.right" timestamp="1595166736771">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1055" height="368" key="GridCell.Tab.0.right" timestamp="1595424388975">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="260" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595059994708" />
+    <state width="1055" height="368" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595424388975" />
     <state width="1153" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1595166736771" />
-    <state width="1153" height="213" key="GridCell.Tab.1.bottom" timestamp="1595166736771">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1055" height="368" key="GridCell.Tab.1.bottom" timestamp="1595424388976">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1055" height="295" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595050751376" />
+    <state width="1055" height="368" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595424388976" />
     <state width="1153" height="213" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595166736771" />
-    <state width="1153" height="213" key="GridCell.Tab.1.center" timestamp="1595166736771">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1055" height="368" key="GridCell.Tab.1.center" timestamp="1595424388975">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1055" height="295" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595050751376" />
+    <state width="1055" height="368" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595424388975" />
     <state width="1153" height="213" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1595166736771" />
-    <state width="1153" height="213" key="GridCell.Tab.1.left" timestamp="1595166736771">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1055" height="368" key="GridCell.Tab.1.left" timestamp="1595424388975">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1055" height="295" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595050751376" />
+    <state width="1055" height="368" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595424388975" />
     <state width="1153" height="213" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1595166736771" />
-    <state width="1153" height="213" key="GridCell.Tab.1.right" timestamp="1595166736771">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1055" height="368" key="GridCell.Tab.1.right" timestamp="1595424388976">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1055" height="295" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595050751376" />
+    <state width="1055" height="368" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595424388976" />
     <state width="1153" height="213" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1595166736771" />
     <state width="1055" height="353" key="GridCell.Tab.2.bottom" timestamp="1594977558221">
       <screen x="0" y="0" width="1536" height="824" />
@@ -509,10 +571,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="408" y="121" key="NewModule_or_Project.wizard/0.0.1536.834@0.0.1536.834" timestamp="1594371123062" />
-    <state x="487" y="127" width="996" height="707" key="SettingsEditor" timestamp="1595161091665">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="270" y="0" width="996" height="707" key="SettingsEditor" timestamp="1595416774264">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594902493880" />
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595416774264" />
     <state x="487" y="127" width="996" height="707" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1595161091665" />
     <state x="407" y="121" key="VCS.ChangeListViewerDialog" timestamp="1595403086332">
       <screen x="0" y="0" width="1536" height="834" />

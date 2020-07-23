@@ -147,7 +147,7 @@ public class SocialSecurityCardController {
         CommonResult commonResult = null;
         socialSecurityCard.setState(4);
         try {
-            int update = iSocialSecurityCardService.updateSocialSecurityCard(socialSecurityCard);
+            int update = iSocialSecurityCardService.updateState(socialSecurityCard);
             if (update > 0) {
                 commonResult = new CommonResult(309, "社保卡激活申请通过", socialSecurityCard);
             } else {

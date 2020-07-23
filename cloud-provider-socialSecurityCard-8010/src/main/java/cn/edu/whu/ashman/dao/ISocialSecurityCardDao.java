@@ -63,4 +63,7 @@ public interface ISocialSecurityCardDao {
 
     @Delete("delete from socialSecurityCards where openId=#{openId}")
     int delete(String openId);
+
+    @Update("update socialSecurityCards set state=#{state} where openId=#{openId}")
+    int updateState(SocialSecurityCard socialSecurityCard);
 }

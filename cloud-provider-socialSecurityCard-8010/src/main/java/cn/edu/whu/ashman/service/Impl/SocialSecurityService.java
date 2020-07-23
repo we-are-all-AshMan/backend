@@ -45,4 +45,10 @@ public class SocialSecurityService implements ISocialSecurityCardService {
     public int delete(String openId) {
         return iSocialSecurityCardDao.delete(openId);
     }
+
+
+    @Override
+    public int updateState(SocialSecurityCard socialSecurityCard) {
+        return iSocialSecurityCardDao.updateState(socialSecurityCard);
+    }
 }
