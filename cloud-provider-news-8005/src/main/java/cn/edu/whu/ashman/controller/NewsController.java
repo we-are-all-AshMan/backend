@@ -184,4 +184,21 @@ public class NewsController {
         }
         return commonResult;
     }
+    @GetMapping("/news/delete/{id}")
+    public CommonResult deleteNews(@PathVariable("id")String id){
+        CommonResult commonResult = null;
+        try{
+            int delete = iNewsService.delete(id);
+            if(delete>0) {
+                commonResult = new CommonResult(264,"删除新闻成功");
+            }
+            else {
+                commonResult = new CommonResult(222,"删除失败");
+            }
+        }
+        catch (Exception e){
+            return new CommonResult(444,"删除操作异常");
+        }
+        return commonResult;
+    }
 }

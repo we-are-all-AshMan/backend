@@ -51,6 +51,11 @@ public class ConsumerNewsController {
         return restTemplate.getForObject(serverURL+"/news/getNewsByDate/"+date,CommonResult.class);
     }
 
+    @GetMapping("/consumer/news/delete/{id}")
+    public CommonResult deleteNews(@PathVariable("id")String id){
+        return restTemplate.getForObject(serverURL+"/news/delete/"+id,CommonResult.class);
+    }
+
     @GetMapping("/consumer/news/getAllDescNation/{date}")
     public CommonResult getAllDescNation(@PathVariable("date") String date){
         return restTemplate.getForObject(serverURL+"/news/getAllDescNation/"+date,CommonResult.class);

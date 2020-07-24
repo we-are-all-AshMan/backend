@@ -1,6 +1,6 @@
-D:\gitForIdea\back\cloud-provider-appointment-8013\src\main\java\cn\edu\whu\ashman\controller\AppointmentController.java
-D:\gitForIdea\back\cloud-provider-appointment-8013\src\main\java\cn\edu\whu\ashman\service\IAppointmentService.java
-D:\gitForIdea\back\cloud-provider-appointment-8013\src\main\java\cn\edu\whu\ashman\entites\Appointment.java
-D:\gitForIdea\back\cloud-provider-appointment-8013\src\main\java\cn\edu\whu\ashman\service\Impl\AppointmentService.java
-D:\gitForIdea\back\cloud-provider-appointment-8013\src\main\java\cn\edu\whu\ashman\dao\IAppointmentDao.java
-D:\gitForIdea\back\cloud-provider-appointment-8013\src\main\java\cn\edu\whu\ashman\AppointmentMain8013.java
+D:\391-WHU\AIGOV\backend\cloud-provider-appointment-8013\src\main\java\cn\edu\whu\ashman\service\IAppointmentService.java
+D:\391-WHU\AIGOV\backend\cloud-provider-appointment-8013\src\main\java\cn\edu\whu\ashman\entites\Appointment.java
+D:\391-WHU\AIGOV\backend\cloud-provider-appointment-8013\src\main\java\cn\edu\whu\ashman\controller\AppointmentController.java
+D:\391-WHU\AIGOV\backend\cloud-provider-appointment-8013\src\main\java\cn\edu\whu\ashman\AppointmentMain8013.java
+D:\391-WHU\AIGOV\backend\cloud-provider-appointment-8013\src\main\java\cn\edu\whu\ashman\service\Impl\AppointmentService.java
+D:\391-WHU\AIGOV\backend\cloud-provider-appointment-8013\src\main\java\cn\edu\whu\ashman\dao\IAppointmentDao.java
