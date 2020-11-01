@@ -1,6 +1,0 @@
-cn\edu\whu\ashman\controller\MeetingController.class
-cn\edu\whu\ashman\entites\Meeting.class
-cn\edu\whu\ashman\service\IMeetingService.class
-cn\edu\whu\ashman\MeetingMain8014.class
-cn\edu\whu\ashman\dao\IMeetingDao.class
-cn\edu\whu\ashman\service\Impl\MeetingService.class

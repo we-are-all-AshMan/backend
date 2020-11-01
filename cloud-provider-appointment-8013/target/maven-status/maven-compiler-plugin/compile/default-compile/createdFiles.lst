@@ -1,6 +1,0 @@
-cn\edu\whu\ashman\entites\Appointment.class
-cn\edu\whu\ashman\service\Impl\AppointmentService.class
-cn\edu\whu\ashman\AppointmentMain8013.class
-cn\edu\whu\ashman\controller\AppointmentController.class
-cn\edu\whu\ashman\service\IAppointmentService.class
-cn\edu\whu\ashman\dao\IAppointmentDao.class

@@ -17,16 +17,16 @@ import java.util.List;
 /**
  * @author Zhuyuhan
  * @date 2020-07-16 11:06
- */
-public class COSUtil {
-    @Autowired
-    private COSClient cosClient;
-    @Value("${bucketName}")
-    private String bucketName;
-    @Value("${bucketLocation}")
-    private String bucketLocation;
+            */
+        public class COSUtil {
+            @Autowired
+            private COSClient cosClient;
+            @Value("${bucketName}")
+            private String bucketName;
+            @Value("${bucketLocation}")
+            private String bucketLocation;
 
-    public void getBucketList(){
+            public void getBucketList(){
         List<Bucket> buckets = cosClient.listBuckets();
         for (Bucket bucketElement : buckets) {
             String bucketName = bucketElement.getName();
